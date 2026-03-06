@@ -26,10 +26,11 @@ function ApiKeyModal({ current, onSave, onClose }) {
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-box" onClick={e => e.stopPropagation()}>
         <div className="section-label">SETTINGS</div>
-        <h2 className="modal-title">Anthropic API Key</h2>
+        <h2 className="modal-title">Google Gemini API Key</h2>
         <p className="modal-desc">
-          Stored only in your browser's localStorage. Never sent anywhere except
-          directly to api.anthropic.com.
+          Free key — no credit card required. Get yours at{' '}
+          <strong>aistudio.google.com/apikey</strong>.
+          Stored only in your browser. Never shared.
         </p>
         <input
           type="password"
@@ -37,7 +38,7 @@ function ApiKeyModal({ current, onSave, onClose }) {
           value={value}
           onChange={e => setValue(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder="sk-ant-api03-..."
+          placeholder="AIzaSy..."
           autoFocus
         />
         <div className="modal-actions">
@@ -95,9 +96,9 @@ export default function App() {
         {!apiKey && (
           <div className="api-banner">
             <span>
-              AI features require an Anthropic API key.{' '}
+              AI features require a free Google Gemini API key.{' '}
               <button className="api-banner-link" onClick={() => setShowApiModal(true)}>
-                Set key →
+                Get one free →
               </button>
             </span>
           </div>

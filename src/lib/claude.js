@@ -1,8 +1,8 @@
-// Claude API client — browser-side direct calls
-// Model specified in the build brief
+// Google Gemini API client — free tier, no credit card required
+// Get a free key at: aistudio.google.com/apikey
 
-const MODEL = 'claude-sonnet-4-20250514'
-const API_URL = 'https://api.anthropic.com/v1/messages'
+const MODEL = 'gemini-2.0-flash'
+const BASE_URL = 'https://generativelanguage.googleapis.com/v1beta/models'
 const MAX_CONTEXT_CHUNKS = 8
 
 const SYSTEM_CORE = `You are a legal research assistant for a civil procedure study app.
@@ -21,7 +21,7 @@ STRICT RULES:
 
 function buildSystemPrompt(chunks, extra = '') {
   if (!chunks || chunks.length === 0) {
-    return SYSTEM_CORE + '\n\nNOTE: No source excerpts loaded. Inform the user and suggest refreshing.' + extra
+    return SYSTEM_CORE + '\n\nNOTE: No source excerpts loaded. Inform the user.' + extra
   }
 
   const excerpts = chunks
@@ -32,18 +32,25 @@ function buildSystemPrompt(chunks, extra = '') {
   return `${SYSTEM_CORE}\n\nSOURCE EXCERPTS:\n${excerpts}${extra}`
 }
 
-function getHeaders(apiKey) {
-  return {
-    'Content-Type': 'application/json',
-    'x-api-key': apiKey,
-    'anthropic-version': '2023-06-01',
-    'anthropic-dangerous-direct-browser-access': 'true',
+function checkApiKey(apiKey) {
+  if (!apiKey || !apiKey.trim()) {
+    throw new Error('No API key set. Click "API Key" in the navigation to add your free Gemini key.')
   }
 }
 
-function checkApiKey(apiKey) {
-  if (!apiKey || !apiKey.trim()) {
-    throw new Error('No API key set. Click "API Key" in the navigation to add yours.')
+// Build a Gemini-format request body
+function buildBody(userContent, chunks, maxTokens, jsonMode = false) {
+  return {
+    systemInstruction: {
+      parts: [{ text: buildSystemPrompt(chunks, jsonMode ? '\n\nIMPORTANT: Output valid JSON only. No markdown, no explanation — raw JSON.' : '') }]
+    },
+    contents: [
+      { role: 'user', parts: [{ text: userContent }] }
+    ],
+    generationConfig: {
+      maxOutputTokens: maxTokens,
+      ...(jsonMode ? { responseMimeType: 'application/json' } : {}),
+    },
   }
 }
 
@@ -52,21 +59,18 @@ function checkApiKey(apiKey) {
 export async function askQuestion(question, chunks, apiKey, onChunk) {
   checkApiKey(apiKey)
 
-  const resp = await fetch(API_URL, {
+  const url = `${BASE_URL}/${MODEL}:streamGenerateContent?alt=sse&key=${apiKey}`
+
+  const resp = await fetch(url, {
     method: 'POST',
-    headers: getHeaders(apiKey),
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 1200,
-      stream: true,
-      system: buildSystemPrompt(chunks),
-      messages: [{ role: 'user', content: question }],
-    }),
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(buildBody(question, chunks, 1200)),
   })
 
   if (!resp.ok) {
     const err = await resp.json().catch(() => ({}))
-    throw new Error(err?.error?.message || `API error ${resp.status}`)
+    const msg = err?.error?.message || `Gemini API error ${resp.status}`
+    throw new Error(msg)
   }
 
   const reader = resp.body.getReader()
@@ -85,13 +89,14 @@ export async function askQuestion(question, chunks, apiKey, onChunk) {
     for (const line of lines) {
       if (!line.startsWith('data: ')) continue
       const raw = line.slice(6).trim()
-      if (raw === '[DONE]') continue
+      if (!raw || raw === '[DONE]') continue
 
       try {
         const ev = JSON.parse(raw)
-        if (ev.type === 'content_block_delta' && ev.delta?.type === 'text_delta') {
-          fullText += ev.delta.text
-          onChunk?.(ev.delta.text, fullText)
+        const chunk = ev.candidates?.[0]?.content?.parts?.[0]?.text ?? ''
+        if (chunk) {
+          fullText += chunk
+          onChunk?.(chunk, fullText)
         }
       } catch {
         // malformed SSE line — skip
@@ -104,31 +109,26 @@ export async function askQuestion(question, chunks, apiKey, onChunk) {
 
 // ─── JSON-mode helper ────────────────────────────────────────────────────────
 
-async function callClaudeJSON(userPrompt, chunks, apiKey, maxTokens = 2500) {
+async function callGeminiJSON(userPrompt, chunks, apiKey, maxTokens = 2500) {
   checkApiKey(apiKey)
 
-  const systemExtra = '\n\nIMPORTANT: You must respond with valid JSON only. No markdown fences, no explanation — only the raw JSON.'
+  const url = `${BASE_URL}/${MODEL}:generateContent?key=${apiKey}`
 
-  const resp = await fetch(API_URL, {
+  const resp = await fetch(url, {
     method: 'POST',
-    headers: getHeaders(apiKey),
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: maxTokens,
-      system: buildSystemPrompt(chunks, systemExtra),
-      messages: [{ role: 'user', content: userPrompt }],
-    }),
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(buildBody(userPrompt, chunks, maxTokens, true)),
   })
 
   if (!resp.ok) {
     const err = await resp.json().catch(() => ({}))
-    throw new Error(err?.error?.message || `API error ${resp.status}`)
+    throw new Error(err?.error?.message || `Gemini API error ${resp.status}`)
   }
 
   const data = await resp.json()
-  const raw = data.content?.[0]?.text?.trim() ?? ''
+  const raw = data.candidates?.[0]?.content?.parts?.[0]?.text?.trim() ?? ''
 
-  // Strip accidental markdown fences if present
+  // Strip accidental markdown fences
   const cleaned = raw
     .replace(/^```json\s*/i, '')
     .replace(/^```\s*/i, '')
@@ -162,7 +162,7 @@ Respond with a JSON array of exactly ${count} objects:
 
 Every item must have all five fields. Output only the JSON array.`
 
-  return callClaudeJSON(prompt, chunks, apiKey)
+  return callGeminiJSON(prompt, chunks, apiKey)
 }
 
 // ─── Quiz ────────────────────────────────────────────────────────────────────
@@ -174,25 +174,24 @@ export async function generateQuiz(topic, sourceFilter, count, chunks, apiKey) {
 
   const prompt = `Generate exactly ${count} multiple-choice questions about: "${topic}".
 ${sourceNote}
-Use ONLY the provided source excerpts. Make distractors plausible but clearly wrong per the sources.
+Use ONLY the provided source excerpts.
 
 Respond with a JSON array of exactly ${count} objects:
 [
   {
-    "question": "Under FRCP Rule 4(m), a defendant must be served within how many days after the complaint is filed?",
+    "question": "Under FRCP Rule 4(m), a defendant must be served within how many days?",
     "options": ["60 days", "90 days", "120 days", "180 days"],
     "correct": 1,
-    "explanation": "FRCP Rule 4(m) states: 'If a defendant is not served within 90 days after the complaint is filed, the court... must dismiss the action.'",
+    "explanation": "FRCP Rule 4(m) states a defendant must be served within 90 days after the complaint is filed.",
     "rule": "FRCP Rule 4(m)",
     "source": "FRCP",
     "provider": "Cornell LII"
   }
 ]
 
-Rules: "correct" is the zero-based index (0–3) of the correct option. All items need all fields.
-Output only the JSON array.`
+"correct" is the zero-based index (0–3) of the correct answer. Output only the JSON array.`
 
-  return callClaudeJSON(prompt, chunks, apiKey)
+  return callGeminiJSON(prompt, chunks, apiKey)
 }
 
 // ─── Fact Sheet ──────────────────────────────────────────────────────────────
@@ -205,25 +204,17 @@ Respond with a JSON object:
 {
   "title": "Service of Process",
   "frcp_points": [
-    {"label": "Time Limit", "value": "90 days after filing the complaint", "rule": "FRCP Rule 4(m)"},
-    {"label": "Methods", "value": "Personal delivery, dwelling service, agent", "rule": "FRCP Rule 4(e)"}
+    {"label": "Time Limit", "value": "90 days after filing", "rule": "FRCP Rule 4(m)"}
   ],
   "cplr_points": [
-    {"label": "Time Limit", "value": "120 days after filing", "rule": "CPLR § 306-b"},
-    {"label": "Methods", "value": "Personal delivery, deliver-and-mail, nail-and-mail", "rule": "CPLR § 308"}
+    {"label": "Time Limit", "value": "120 days after filing", "rule": "CPLR § 306-b"}
   ],
-  "key_difference": "New York provides 30 more days to serve and includes the nail-and-mail method (CPLR § 308(4)) which has no federal equivalent.",
-  "frcp_sources": ["FRCP Rule 4(m)", "FRCP Rule 4(e)"],
-  "cplr_sources": ["CPLR § 306-b", "CPLR § 308"]
+  "key_difference": "New York provides 30 more days to serve.",
+  "frcp_sources": ["FRCP Rule 4(m)"],
+  "cplr_sources": ["CPLR § 306-b"]
 }
 
-Rules:
-- 3–6 comparison points per jurisdiction
-- key_difference highlights the most important practical distinction
-- Only include facts from the provided excerpts
-- If information for one jurisdiction isn't in the excerpts, note "Not found in loaded sources" for that point
+Include 3–6 points per side. Output only the JSON object.`
 
-Output only the JSON object.`
-
-  return callClaudeJSON(prompt, chunks, apiKey, 2000)
+  return callGeminiJSON(prompt, chunks, apiKey, 2000)
 }
