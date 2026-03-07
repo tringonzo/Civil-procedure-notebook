@@ -1,8 +1,8 @@
-// Google Gemini API client — free tier, no credit card required
-// Get a free key at: aistudio.google.com/apikey
+// Anthropic Claude API client — browser-side direct calls
+// Get a free key (no credit card) at: console.anthropic.com
 
-const MODEL = 'gemini-2.0-flash'
-const BASE_URL = 'https://generativelanguage.googleapis.com/v1beta/models'
+const MODEL = 'claude-sonnet-4-20250514'
+const API_URL = 'https://api.anthropic.com/v1/messages'
 const MAX_CONTEXT_CHUNKS = 8
 
 const SYSTEM_CORE = `You are a legal research assistant for a civil procedure study app.
@@ -32,25 +32,18 @@ function buildSystemPrompt(chunks, extra = '') {
   return `${SYSTEM_CORE}\n\nSOURCE EXCERPTS:\n${excerpts}${extra}`
 }
 
-function checkApiKey(apiKey) {
-  if (!apiKey || !apiKey.trim()) {
-    throw new Error('No API key set. Click "API Key" in the navigation to add your free Gemini key.')
+function getHeaders(apiKey) {
+  return {
+    'Content-Type': 'application/json',
+    'x-api-key': apiKey,
+    'anthropic-version': '2023-06-01',
+    'anthropic-dangerous-direct-browser-access': 'true',
   }
 }
 
-// Build a Gemini-format request body
-function buildBody(userContent, chunks, maxTokens, jsonMode = false) {
-  return {
-    systemInstruction: {
-      parts: [{ text: buildSystemPrompt(chunks, jsonMode ? '\n\nIMPORTANT: Output valid JSON only. No markdown, no explanation — raw JSON.' : '') }]
-    },
-    contents: [
-      { role: 'user', parts: [{ text: userContent }] }
-    ],
-    generationConfig: {
-      maxOutputTokens: maxTokens,
-      ...(jsonMode ? { responseMimeType: 'application/json' } : {}),
-    },
+function checkApiKey(apiKey) {
+  if (!apiKey || !apiKey.trim()) {
+    throw new Error('No API key set. Click "API Key" in the navigation to add yours.')
   }
 }
 
@@ -59,18 +52,21 @@ function buildBody(userContent, chunks, maxTokens, jsonMode = false) {
 export async function askQuestion(question, chunks, apiKey, onChunk) {
   checkApiKey(apiKey)
 
-  const url = `${BASE_URL}/${MODEL}:streamGenerateContent?alt=sse&key=${apiKey}`
-
-  const resp = await fetch(url, {
+  const resp = await fetch(API_URL, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(buildBody(question, chunks, 1200)),
+    headers: getHeaders(apiKey),
+    body: JSON.stringify({
+      model: MODEL,
+      max_tokens: 1200,
+      stream: true,
+      system: buildSystemPrompt(chunks),
+      messages: [{ role: 'user', content: question }],
+    }),
   })
 
   if (!resp.ok) {
     const err = await resp.json().catch(() => ({}))
-    const msg = err?.error?.message || `Gemini API error ${resp.status}`
-    throw new Error(msg)
+    throw new Error(err?.error?.message || `API error ${resp.status}`)
   }
 
   const reader = resp.body.getReader()
@@ -89,14 +85,13 @@ export async function askQuestion(question, chunks, apiKey, onChunk) {
     for (const line of lines) {
       if (!line.startsWith('data: ')) continue
       const raw = line.slice(6).trim()
-      if (!raw || raw === '[DONE]') continue
+      if (raw === '[DONE]') continue
 
       try {
         const ev = JSON.parse(raw)
-        const chunk = ev.candidates?.[0]?.content?.parts?.[0]?.text ?? ''
-        if (chunk) {
-          fullText += chunk
-          onChunk?.(chunk, fullText)
+        if (ev.type === 'content_block_delta' && ev.delta?.type === 'text_delta') {
+          fullText += ev.delta.text
+          onChunk?.(ev.delta.text, fullText)
         }
       } catch {
         // malformed SSE line — skip
@@ -109,26 +104,28 @@ export async function askQuestion(question, chunks, apiKey, onChunk) {
 
 // ─── JSON-mode helper ────────────────────────────────────────────────────────
 
-async function callGeminiJSON(userPrompt, chunks, apiKey, maxTokens = 2500) {
+async function callClaudeJSON(userPrompt, chunks, apiKey, maxTokens = 2500) {
   checkApiKey(apiKey)
 
-  const url = `${BASE_URL}/${MODEL}:generateContent?key=${apiKey}`
-
-  const resp = await fetch(url, {
+  const resp = await fetch(API_URL, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(buildBody(userPrompt, chunks, maxTokens, true)),
+    headers: getHeaders(apiKey),
+    body: JSON.stringify({
+      model: MODEL,
+      max_tokens: maxTokens,
+      system: buildSystemPrompt(chunks, '\n\nIMPORTANT: Respond with valid JSON only. No markdown fences, no explanation — only raw JSON.'),
+      messages: [{ role: 'user', content: userPrompt }],
+    }),
   })
 
   if (!resp.ok) {
     const err = await resp.json().catch(() => ({}))
-    throw new Error(err?.error?.message || `Gemini API error ${resp.status}`)
+    throw new Error(err?.error?.message || `API error ${resp.status}`)
   }
 
   const data = await resp.json()
-  const raw = data.candidates?.[0]?.content?.parts?.[0]?.text?.trim() ?? ''
+  const raw = data.content?.[0]?.text?.trim() ?? ''
 
-  // Strip accidental markdown fences
   const cleaned = raw
     .replace(/^```json\s*/i, '')
     .replace(/^```\s*/i, '')
@@ -162,7 +159,7 @@ Respond with a JSON array of exactly ${count} objects:
 
 Every item must have all five fields. Output only the JSON array.`
 
-  return callGeminiJSON(prompt, chunks, apiKey)
+  return callClaudeJSON(prompt, chunks, apiKey)
 }
 
 // ─── Quiz ────────────────────────────────────────────────────────────────────
@@ -174,7 +171,7 @@ export async function generateQuiz(topic, sourceFilter, count, chunks, apiKey) {
 
   const prompt = `Generate exactly ${count} multiple-choice questions about: "${topic}".
 ${sourceNote}
-Use ONLY the provided source excerpts.
+Use ONLY the provided source excerpts. Make distractors plausible but clearly wrong per the sources.
 
 Respond with a JSON array of exactly ${count} objects:
 [
@@ -191,7 +188,7 @@ Respond with a JSON array of exactly ${count} objects:
 
 "correct" is the zero-based index (0–3) of the correct answer. Output only the JSON array.`
 
-  return callGeminiJSON(prompt, chunks, apiKey)
+  return callClaudeJSON(prompt, chunks, apiKey)
 }
 
 // ─── Fact Sheet ──────────────────────────────────────────────────────────────
@@ -216,5 +213,5 @@ Respond with a JSON object:
 
 Include 3–6 points per side. Output only the JSON object.`
 
-  return callGeminiJSON(prompt, chunks, apiKey, 2000)
+  return callClaudeJSON(prompt, chunks, apiKey, 2000)
 }
