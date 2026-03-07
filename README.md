@@ -2,7 +2,7 @@
 
 A RAG-powered legal study tool for **FRCP** (Federal Rules of Civil Procedure) and **CPLR** (New York Civil Practice Law and Rules).
 
-Built with React + Vite. Deployed on GitHub Pages. All AI answers are strictly grounded in the loaded sources — Claude never invents rule numbers or case names.
+Built with React + Vite. Deployed on GitHub Pages. All AI answers are strictly grounded in the loaded sources — the model never invents rule numbers or case names.
 
 ---
 
@@ -87,7 +87,7 @@ src/
 ├── lib/
 │   ├── fetcher.js    # Fetch + chunk + cache source URLs
 │   ├── search.js     # Keyword search across chunks
-│   └── claude.js     # All Claude API calls (streaming + JSON)
+│   └── claude.js     # All AI API calls (streaming + JSON)
 ├── components/
 │   ├── Nav.jsx
 │   ├── SourceStatus.jsx
@@ -100,7 +100,7 @@ src/
     └── FactSheets/
 ```
 
-**RAG flow:** On load → fetch both URLs via CORS proxy → strip HTML → chunk into ~500-word segments with 50-word overlap → cache in localStorage. On any AI request → keyword-rank chunks by relevance → inject top 8 into Claude's system prompt → Claude answers only from those excerpts.
+**RAG flow:** On load → fetch both URLs via CORS proxy → strip HTML → chunk into ~500-word segments with 50-word overlap → cache in localStorage. On any AI request → keyword-rank chunks by relevance → inject top 8 into the system prompt → the model answers only from those excerpts.
 
 ---
 
@@ -113,6 +113,3 @@ Note: The fetcher loads the top-level index page of each source. For deeper cove
 
 ---
 
-## Brand
-
-Visual design follows the **Datos Clave** brand system — cream background, teal primary, editorial typography.
