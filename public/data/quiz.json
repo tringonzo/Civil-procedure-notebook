@@ -1,0 +1,752 @@
+[
+  {
+    "id": 1,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "question": "Under the mail service system established by H.R. 7154 amending FRCP Rule 4, if a defendant does not return the acknowledgment form within 20 days of mailing, what must the plaintiff do?",
+    "choices": {
+      "A": "The action is automatically dismissed without prejudice",
+      "B": "The plaintiff must effect service through some other method provided for in the Rules",
+      "C": "The court will order the defendant to pay costs and deem service complete",
+      "D": "The plaintiff must re-mail the notice and acknowledgment form by certified mail"
+    },
+    "correct": "B",
+    "explanation": "Under the mail service system in H.R. 7154 amending Rule 4, if the acknowledgment is not returned within 20 days of mailing, then service must be effected through some other means provided for in the Rules. The system requires actual notice, and if the acknowledgment is not returned, another authorized method of service is required.",
+    "citation": "FRCP Rule 4(c)(2)(C)(ii)"
+  },
+  {
+    "id": 2,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 4 as amended by H.R. 7154, what is the time limit within which a summons and complaint must be served after the filing of the complaint?",
+    "choices": {
+      "A": "60 days",
+      "B": "90 days",
+      "C": "120 days",
+      "D": "180 days"
+    },
+    "correct": "C",
+    "explanation": "H.R. 7154 adopted a policy requiring that if a summons and complaint have not been served within 120 days of the filing of the complaint and the plaintiff fails to show good cause for not completing service within that time, the court must dismiss the action as to the unserved defendant.",
+    "citation": "FRCP Rule 4(j)"
+  },
+  {
+    "id": 3,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 4 as amended by H.R. 7154, if a court raises dismissal for failure to serve on its own motion, what procedural protection is afforded to the plaintiff?",
+    "choices": {
+      "A": "The plaintiff is automatically granted a 30-day extension",
+      "B": "The court must provide notice to the plaintiff before dismissing",
+      "C": "The Marshals Service must attempt service before dismissal is ordered",
+      "D": "The plaintiff must be given an opportunity to post bond to secure future service"
+    },
+    "correct": "B",
+    "explanation": "H.R. 7154 ensures that a plaintiff will be notified of an attempt to dismiss the action. If dismissal for failure to serve is raised by the court upon its own motion, the legislation requires that the court provide notice to the plaintiff before dismissing.",
+    "citation": "FRCP Rule 4(j)"
+  },
+  {
+    "id": 4,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 4 as amended by H.R. 7154, who is generally responsible for serving the summons and complaint?",
+    "choices": {
+      "A": "The United States Marshals Service in all cases",
+      "B": "The clerk of the court upon filing of the complaint",
+      "C": "The plaintiff or the plaintiff's attorney, who shall be responsible for prompt service",
+      "D": "A process server appointed exclusively by the court"
+    },
+    "correct": "C",
+    "explanation": "Rule 4(a) as amended provides that the summons be delivered to the plaintiff or the plaintiff's attorney, who shall be responsible for prompt service of the summons and complaint, reducing the role of the Marshals Service in routine civil cases.",
+    "citation": "FRCP Rule 4(a)"
+  },
+  {
+    "id": 5,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 4(c)(2)(A), which person may serve a summons and complaint under the general rule established by H.R. 7154?",
+    "choices": {
+      "A": "Any adult, including a party to the action, so long as they are over 21",
+      "B": "Only a United States Marshal or specially appointed officer of the court",
+      "C": "Someone who is at least 18 years old and not a party to the action",
+      "D": "Any person over 18, including parties, if approved by the court"
+    },
+    "correct": "C",
+    "explanation": "New Rule 4(c)(2)(A) sets forth the general rule that summonses and complaints shall be served by someone who is at least 18 years old and not a party to the action or proceeding.",
+    "citation": "FRCP Rule 4(c)(2)(A)"
+  },
+  {
+    "id": 6,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 4 as amended by H.R. 7154, in which circumstance is the United States Marshals Service still required to serve a summons and complaint?",
+    "choices": {
+      "A": "When the defendant is a corporation with its principal place of business outside the state",
+      "B": "When the plaintiff is proceeding in forma pauperis or is a seaman authorized under 28 U.S.C. 1916",
+      "C": "Whenever the defendant resides more than 100 miles from the courthouse",
+      "D": "When the amount in controversy exceeds $75,000"
+    },
+    "correct": "B",
+    "explanation": "Rule 4(c)(2)(B)(i) requires the Marshals Service (or someone specially appointed by the court) to serve summonses and complaints on behalf of a party proceeding in forma pauperis or a seaman authorized to proceed under 28 U.S.C. 1916.",
+    "citation": "FRCP Rule 4(c)(2)(B)(i)"
+  },
+  {
+    "id": 7,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "question": "Under the CPLR, personal service upon a natural person within New York State is governed by which section, and what is the primary method of personal service?",
+    "choices": {
+      "A": "CPLR § 308(1): delivering the summons personally to the person to be served",
+      "B": "CPLR § 310: delivering the summons to any adult member of the defendant's household",
+      "C": "CPLR § 312-a: mailing the summons by first-class mail with a return receipt form",
+      "D": "CPLR § 311: delivering the summons to a managing or general agent of the defendant"
+    },
+    "correct": "A",
+    "explanation": "CPLR § 308(1) provides that personal service upon a natural person shall be made by delivering the summons personally to the person to be served. This is the primary and most direct method of personal service in New York.",
+    "citation": "CPLR § 308(1)"
+  },
+  {
+    "id": 8,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "question": "Under CPLR § 308(4), when may the 'nail and mail' method of service be used upon a natural person?",
+    "choices": {
+      "A": "At any time the plaintiff chooses as an alternative to personal delivery",
+      "B": "Only when service by certified mail has failed at least once",
+      "C": "When service under CPLR § 308(1) and (2) cannot be made with due diligence",
+      "D": "Only when the defendant is a non-domiciliary of New York State"
+    },
+    "correct": "C",
+    "explanation": "CPLR § 308(4) permits the 'nail and mail' method — affixing the summons to the door of the defendant's actual place of business, dwelling, or usual place of abode and mailing a copy — only when service under subdivisions (1) and (2) cannot be made with due diligence.",
+    "citation": "CPLR § 308(4)"
+  },
+  {
+    "id": 9,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "question": "Under CPLR § 311, how is personal service properly made upon a domestic corporation?",
+    "choices": {
+      "A": "By mailing the summons by certified mail to the corporation's registered address",
+      "B": "By delivering the summons to an officer, director, managing or general agent, cashier, or assistant cashier, or to any other agent authorized by appointment or by law to receive service",
+      "C": "By delivering the summons to any employee found at the corporation's principal office",
+      "D": "By filing the summons with the New York Secretary of State only"
+    },
+    "correct": "B",
+    "explanation": "CPLR § 311(a)(1) provides that personal service upon a domestic or foreign corporation shall be made by delivering the summons to an officer, director, managing or general agent, cashier or assistant cashier, or any other agent authorized by appointment or by law to receive service.",
+    "citation": "CPLR § 311(a)(1)"
+  },
+  {
+    "id": 10,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "question": "Under CPLR § 308(2), the 'leave and mail' method of service upon a natural person requires the plaintiff to mail a copy of the summons to the defendant within how many days after leaving the summons with a person of suitable age and discretion?",
+    "choices": {
+      "A": "5 days",
+      "B": "10 days",
+      "C": "20 days",
+      "D": "30 days"
+    },
+    "correct": "C",
+    "explanation": "Under CPLR § 308(2), service may be made by delivering the summons to a person of suitable age and discretion at the defendant's actual place of business, dwelling, or usual place of abode, and by mailing the summons to the defendant's last known residence or actual place of business within 20 days of such delivery.",
+    "citation": "CPLR § 308(2)"
+  },
+  {
+    "id": 11,
+    "topic": "Pleading and Motions",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 12, if a court denies a defendant's motion to dismiss for failure to state a claim, within how many days must the defendant serve a responsive pleading?",
+    "choices": {
+      "A": "7 days after notice of the court's action",
+      "B": "14 days after notice of the court's action",
+      "C": "21 days after notice of the court's action",
+      "D": "30 days after notice of the court's action"
+    },
+    "correct": "B",
+    "explanation": "Under FRCP Rule 12(a)(4)(A), if the court denies a motion or postpones its disposition until trial, the responsive pleading must be served within 14 days after notice of the court's action.",
+    "citation": "FRCP Rule 12(a)(4)(A)"
+  },
+  {
+    "id": 12,
+    "topic": "Pleading and Motions",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 12(h), which of the following defenses is NOT waived if omitted from an initial Rule 12 motion?",
+    "choices": {
+      "A": "Lack of personal jurisdiction",
+      "B": "Improper venue",
+      "C": "Failure to state a claim upon which relief can be granted",
+      "D": "Insufficient service of process"
+    },
+    "correct": "C",
+    "explanation": "Under FRCP Rule 12(h)(2), the defense of failure to state a claim upon which relief can be granted is not waived if omitted from an initial Rule 12 motion. It may be raised in any pleading allowed under Rule 7(a), by a motion under Rule 12(c), or at trial. By contrast, defenses under Rule 12(b)(2)-(5), including personal jurisdiction, venue, and service of process, are waived if omitted from an initial Rule 12 motion.",
+    "citation": "FRCP Rule 12(h)(2)"
+  },
+  {
+    "id": 13,
+    "topic": "Pleading and Motions",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 12(d), if matters outside the pleadings are presented to the court on a Rule 12(b)(6) motion and not excluded by the court, the motion must be treated as which of the following?",
+    "choices": {
+      "A": "A motion for judgment on the pleadings under Rule 12(c)",
+      "B": "A motion for a more definite statement under Rule 12(e)",
+      "C": "A motion for summary judgment under Rule 56",
+      "D": "A motion to strike under Rule 12(f)"
+    },
+    "correct": "C",
+    "explanation": "Under FRCP Rule 12(d), if on a motion under Rule 12(b)(6) or 12(c), matters outside the pleadings are presented to and not excluded by the court, the motion must be treated as one for summary judgment under Rule 56, and all parties must be given a reasonable opportunity to present all pertinent material.",
+    "citation": "FRCP Rule 12(d)"
+  },
+  {
+    "id": 14,
+    "topic": "Pleading and Motions",
+    "source": "FRCP",
+    "question": "The United States is sued in its official capacity. Under FRCP Rule 12(a)(2), within how many days after service on the United States attorney must it serve an answer?",
+    "choices": {
+      "A": "21 days",
+      "B": "30 days",
+      "C": "60 days",
+      "D": "90 days"
+    },
+    "correct": "C",
+    "explanation": "Under FRCP Rule 12(a)(2), the United States, a United States agency, or a United States officer or employee sued only in an official capacity must serve an answer to a complaint, counterclaim, or crossclaim within 60 days after service on the United States attorney.",
+    "citation": "FRCP Rule 12(a)(2)"
+  },
+  {
+    "id": 15,
+    "topic": "Pleading and Motions",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 12(g)(2), a party that has already made a Rule 12 motion is generally prohibited from making a subsequent Rule 12 motion raising a defense that was available but omitted from the earlier motion. Which rule provides exceptions to this limitation?",
+    "choices": {
+      "A": "Rule 12(h)(1) and Rule 12(h)(2)",
+      "B": "Rule 12(h)(2) and Rule 12(h)(3)",
+      "C": "Rule 12(b)(6) and Rule 12(c)",
+      "D": "Rule 12(e) and Rule 12(f)"
+    },
+    "correct": "B",
+    "explanation": "Under FRCP Rule 12(g)(2), except as provided in Rule 12(h)(2) or (3), a party that makes a motion under Rule 12 must not make another motion raising a defense or objection that was available but omitted from its earlier motion. Rule 12(h)(2) allows failure to state a claim, failure to join a Rule 19(b) party, and failure to state a legal defense to be raised later, and Rule 12(h)(3) addresses lack of subject-matter jurisdiction.",
+    "citation": "FRCP Rule 12(g)(2)"
+  },
+  {
+    "id": 16,
+    "topic": "Pleading and Motions",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 12(f), within how many days after being served with a pleading may a party move to strike matter from that pleading, assuming no response to the pleading is allowed?",
+    "choices": {
+      "A": "7 days",
+      "B": "14 days",
+      "C": "21 days",
+      "D": "28 days"
+    },
+    "correct": "C",
+    "explanation": "Under FRCP Rule 12(f)(2), a party may move to strike matter from a pleading either before responding to the pleading or, if a response is not allowed, within 21 days after being served with the pleading.",
+    "citation": "FRCP Rule 12(f)(2)"
+  },
+  {
+    "id": 17,
+    "topic": "Pleading and Motions",
+    "source": "CPLR",
+    "question": "Under the CPLR, a defendant who fails to appear or answer may be subject to a default judgment. Under CPLR § 3012(a), within how many days after service of the complaint must a defendant serve an answer where the complaint was served with the summons?",
+    "choices": {
+      "A": "10 days",
+      "B": "20 days",
+      "C": "30 days",
+      "D": "45 days"
+    },
+    "correct": "B",
+    "explanation": "Under CPLR § 3012(a), where the complaint is served with the summons, the defendant must serve an answer within 20 days after service is complete. This is the standard answer period in New York state practice.",
+    "citation": "CPLR § 3012(a)"
+  },
+  {
+    "id": 18,
+    "topic": "Pleading and Motions",
+    "source": "CPLR",
+    "question": "Under CPLR § 3211(a), a party may move to dismiss a cause of action on multiple grounds. Which of the following is a proper ground for a motion to dismiss under CPLR § 3211(a)?",
+    "choices": {
+      "A": "The opposing party has failed to respond to discovery requests",
+      "B": "The cause of action may not be maintained because the statute of limitations has expired",
+      "C": "The opposing party has failed to appear at a preliminary conference",
+      "D": "The pleading contains redundant and immaterial matter"
+    },
+    "correct": "B",
+    "explanation": "Under CPLR § 3211(a)(5), a party may move to dismiss a cause of action on the ground that the cause of action may not be maintained because of the statute of limitations. CPLR § 3211(a) provides numerous grounds for dismissal, including lack of jurisdiction, prior pending action, payment, release, res judicata, and statute of limitations, among others. Failure to respond to discovery and failure to appear at conferences are addressed by other CPLR provisions.",
+    "citation": "CPLR § 3211(a)(5)"
+  },
+  {
+    "id": 19,
+    "topic": "Pleading and Motions",
+    "source": "CPLR",
+    "question": "Under CPLR § 3013, pleadings must be sufficiently particular to give the court and parties notice of the transactions intended to be proved. When alleging fraud under CPLR § 3016(b), what heightened pleading requirement applies?",
+    "choices": {
+      "A": "The plaintiff must attach supporting affidavits from expert witnesses at the pleading stage",
+      "B": "The circumstances constituting the wrong must be stated in detail",
+      "C": "The plaintiff must plead special damages with specificity but need not detail the fraudulent conduct",
+      "D": "The plaintiff must include a verified complaint signed by the attorney of record"
+    },
+    "correct": "B",
+    "explanation": "Under CPLR § 3016(b), where a cause of action is based upon fraud, misrepresentation, false pretense, false promise, or mistake, the circumstances constituting the wrong shall be stated in detail. This is a heightened pleading standard compared to the general notice pleading requirements of CPLR § 3013.",
+    "citation": "CPLR § 3016(b)"
+  },
+  {
+    "id": 20,
+    "topic": "Pleading and Motions",
+    "source": "CPLR",
+    "question": "Under CPLR § 3211(e), if a defendant moves to dismiss on the ground of lack of personal jurisdiction under CPLR § 3211(a)(8), but fails to include that defense in a pre-answer motion or in the answer, what is the consequence?",
+    "choices": {
+      "A": "The court must dismiss the action sua sponte because jurisdiction cannot be waived",
+      "B": "The defense is waived and the defendant is deemed to have consented to personal jurisdiction",
+      "C": "The defendant may raise the defense at any time during trial",
+      "D": "The defendant may raise the defense in a post-trial motion to set aside the verdict"
+    },
+    "correct": "B",
+    "explanation": "Under CPLR § 3211(e), certain objections and defenses, including lack of personal jurisdiction under CPLR § 3211(a)(8), are waived if the defendant does not raise them either by motion before service of the responsive pleading or in the responsive pleading itself. Unlike subject matter jurisdiction, personal jurisdiction can be waived under the CPLR by failing to timely assert it.",
+    "citation": "CPLR § 3211(e)"
+  },
+  {
+    "id": 21,
+    "topic": "Discovery Rules",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 26(g), what is the primary purpose of requiring an attorney to sign each discovery request, response, or objection?",
+    "choices": {
+      "A": "To certify that the attorney has made a reasonable inquiry and that the discovery request, response, or objection is consistent with the rules and not interposed for improper purposes",
+      "B": "To certify the truthfulness of the client's factual responses to a discovery request",
+      "C": "To guarantee that all privileged communications have been disclosed to the court",
+      "D": "To confirm that the attorney has personally verified all documents produced in discovery"
+    },
+    "correct": "A",
+    "explanation": "Rule 26(g) imposes an affirmative duty to engage in pretrial discovery responsibly. The signature is a certification that the attorney has made a reasonable inquiry into the factual basis of the request, response, or objection, and that it is consistent with the rules. It does NOT require the attorney to certify the truthfulness of the client's factual responses.",
+    "citation": "FRCP Rule 26(g)"
+  },
+  {
+    "id": 22,
+    "topic": "Discovery Rules",
+    "source": "FRCP",
+    "question": "According to the Advisory Committee Notes to FRCP Rule 26, which of the following best describes the standard for satisfying the 'reasonable inquiry' duty under Rule 26(g)?",
+    "choices": {
+      "A": "A subjective standard based on the attorney's good faith belief at the time of signing",
+      "B": "An objective standard similar to the one imposed by Rule 11, where the investigation and conclusions drawn are reasonable under the circumstances",
+      "C": "A strict liability standard that holds attorneys responsible for any inaccuracies in discovery responses",
+      "D": "A preponderance of the evidence standard requiring the attorney to prove the accuracy of all disclosures"
+    },
+    "correct": "B",
+    "explanation": "The Advisory Committee Notes state that the duty to make a 'reasonable inquiry' is satisfied if the investigation undertaken by the attorney and the conclusions drawn therefrom are reasonable under the circumstances. It is an objective standard similar to the one imposed by Rule 11.",
+    "citation": "FRCP Rule 26(g)"
+  },
+  {
+    "id": 23,
+    "topic": "Discovery Rules",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 26(b)(1), which of the following factors is explicitly considered when determining whether discovery is disproportionate to the individual lawsuit?",
+    "choices": {
+      "A": "The number of attorneys representing each party",
+      "B": "The nature and complexity of the case, the importance of the issues at stake, and the financial limitations of a litigant",
+      "C": "The geographic location of the parties and witnesses",
+      "D": "The length of time the case has been pending in court"
+    },
+    "correct": "B",
+    "explanation": "Rule 26(b)(1)(iii) addresses discovery that is disproportionate to the individual lawsuit as measured by the nature and complexity of the case, the importance of the issues at stake, the financial limitations of a litigant, and the significance of the substantive issues. These factors guide courts in limiting disproportionate discovery.",
+    "citation": "FRCP Rule 26(b)(1)"
+  },
+  {
+    "id": 24,
+    "topic": "Discovery Rules",
+    "source": "FRCP",
+    "question": "According to the Advisory Committee Notes on FRCP Rule 26, what is the proper procedure when a discovery dispute is relatively narrow in scope and a party seeks a discovery conference?",
+    "choices": {
+      "A": "The court must hold a discovery conference within 21 days of the request",
+      "B": "The court may refer counsel to Rules 26(c) or 37(a), as narrow disputes should be resolved under those rules rather than by a conference",
+      "C": "The parties must first attempt mediation before requesting a conference from the court",
+      "D": "The court must consolidate the dispute with the next scheduled pretrial conference under Rule 16"
+    },
+    "correct": "B",
+    "explanation": "The Advisory Committee Notes state that a relatively narrow discovery dispute should be resolved by resort to Rules 26(c) or 37(a). If a request for a conference appears to be grounded in such a narrow dispute, the court may refer counsel to those rules rather than holding a discovery conference.",
+    "citation": "FRCP Rule 26(f)"
+  },
+  {
+    "id": 25,
+    "topic": "Discovery Rules",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 26(g), if an attorney fails to meet the certification standards required by the rule, what must the court do?",
+    "choices": {
+      "A": "Issue a warning to the attorney before imposing any sanctions",
+      "B": "Dismiss the case as a sanction for the attorney's failure",
+      "C": "Impose appropriate sanctions, as the rule mandates that sanctions be imposed on attorneys who fail to meet the established standards",
+      "D": "Report the attorney to the state bar association for disciplinary action"
+    },
+    "correct": "C",
+    "explanation": "The Advisory Committee Notes state that Rule 26(g) makes explicit the authority judges have to impose appropriate sanctions and requires them to use it. The new rule mandates that sanctions be imposed on attorneys who fail to meet the standards established in Rule 26(g). The nature of the sanction is a matter of judicial discretion.",
+    "citation": "FRCP Rule 26(g)"
+  },
+  {
+    "id": 26,
+    "topic": "Discovery Rules",
+    "source": "CPLR",
+    "question": "Under CPLR § 3101(a), what is the general scope of discovery to which a party is entitled in New York state court?",
+    "choices": {
+      "A": "Full disclosure of all evidence that is admissible at trial",
+      "B": "Full disclosure of all matter material and necessary in the prosecution or defense of an action",
+      "C": "Disclosure limited to documents and records only, excluding oral depositions",
+      "D": "Disclosure of all facts known to the opposing party, excluding expert opinions"
+    },
+    "correct": "B",
+    "explanation": "CPLR § 3101(a) provides that there shall be full disclosure of all matter material and necessary in the prosecution or defense of an action. New York courts have interpreted 'material and necessary' liberally to require disclosure of any facts bearing on the controversy.",
+    "citation": "CPLR § 3101(a)"
+  },
+  {
+    "id": 27,
+    "topic": "Discovery Rules",
+    "source": "CPLR",
+    "question": "Under CPLR § 3120, a party seeking to compel the production of documents and electronically stored information from another party must do which of the following?",
+    "choices": {
+      "A": "Obtain prior court approval before serving any document request",
+      "B": "Serve a notice identifying the items to be produced with reasonable particularity, without the need for prior court order",
+      "C": "File a motion in court and obtain a court order before any document request can be served",
+      "D": "Serve the document request only after the completion of all depositions in the case"
+    },
+    "correct": "B",
+    "explanation": "CPLR § 3120 allows a party to serve a notice on another party to produce and permit inspection of designated documents and electronically stored information. No prior court order is required to serve such a notice; the requesting party simply identifies the items with reasonable particularity.",
+    "citation": "CPLR § 3120"
+  },
+  {
+    "id": 28,
+    "topic": "Discovery Rules",
+    "source": "CPLR",
+    "question": "Under CPLR § 3103, which of the following accurately describes a court's authority to issue a protective order in a discovery dispute?",
+    "choices": {
+      "A": "A court may only issue a protective order after the opposing party has already responded to all discovery demands",
+      "B": "A court may deny, limit, condition, or regulate the use of any disclosure device to prevent unreasonable annoyance, expense, embarrassment, disadvantage, or other prejudice",
+      "C": "A court may only issue a protective order if the party seeking protection demonstrates actual harm from the disclosure",
+      "D": "A court may issue a protective order only with respect to depositions, not written discovery demands"
+    },
+    "correct": "B",
+    "explanation": "CPLR § 3103(a) grants the court broad authority to make a protective order denying, limiting, conditioning, or regulating the use of any disclosure device. The purpose is to prevent unreasonable annoyance, expense, embarrassment, disadvantage, or other prejudice to any person or the courts.",
+    "citation": "CPLR § 3103"
+  },
+  {
+    "id": 29,
+    "topic": "Discovery Rules",
+    "source": "CPLR",
+    "question": "Under CPLR § 3126, what is the most severe sanction a court may impose upon a party who refuses to obey an order for disclosure or willfully fails to disclose information which the court finds ought to have been disclosed?",
+    "choices": {
+      "A": "The court may only impose a monetary fine not to exceed $1,000",
+      "B": "The court may strike the pleadings or parts thereof, or render a judgment by default against the disobedient party",
+      "C": "The court may only preclude the disobedient party from introducing evidence at trial",
+      "D": "The court may refer the matter to the state bar association for attorney discipline"
+    },
+    "correct": "B",
+    "explanation": "CPLR § 3126 authorizes the court to impose a range of sanctions for failure to comply with disclosure orders, including striking pleadings, dismissing the action, or rendering a judgment by default. These represent the most severe sanctions available under the statute for willful non-compliance.",
+    "citation": "CPLR § 3126"
+  },
+  {
+    "id": 30,
+    "topic": "Discovery Rules",
+    "source": "CPLR",
+    "question": "Under CPLR § 3101(d), when is a party required to disclose information about expert witnesses in New York state court litigation?",
+    "choices": {
+      "A": "Expert witness information must be disclosed automatically within 30 days of the filing of the complaint",
+      "B": "Upon request, each party must identify each expert witness it expects to call at trial, disclosing the subject matter and substance of the facts and opinions on which the expert is expected to testify",
+      "C": "Expert witness disclosures are only required if the expert has authored a report that will be introduced at trial",
+      "D": "Expert witness information is entirely protected as attorney work product and need never be disclosed"
+    },
+    "correct": "B",
+    "explanation": "CPLR § 3101(d)(1)(i) requires that upon request, each party must identify each person whom the party expects to call as an expert witness at trial, and must disclose in reasonable detail the subject matter on which each expert is expected to testify, the substance of the facts and opinions on which each expert is expected to testify, the qualifications of each expert witness, and a summary of the grounds for each expert's opinion.",
+    "citation": "CPLR § 3101(d)"
+  },
+  {
+    "id": 31,
+    "topic": "Judgment and Trial",
+    "source": "FRCP",
+    "question": "Under the 2009 amendments to FRCP Rule 56, when may a party move for summary judgment?",
+    "choices": {
+      "A": "At any time, even as early as the commencement of the action",
+      "B": "Only after the pleading in answer has been served",
+      "C": "No earlier than 20 days after the commencement of the action",
+      "D": "Only after the close of all discovery"
+    },
+    "correct": "A",
+    "explanation": "The 2009 amendment to Rule 56 consolidated and revised the timing provisions, allowing a party to move for summary judgment at any time, even as early as the commencement of the action. The rule sets a presumptive deadline at 30 days after the close of all discovery, but does not restrict the earliest point at which a motion may be filed.",
+    "citation": "FRCP Rule 56"
+  },
+  {
+    "id": 32,
+    "topic": "Judgment and Trial",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 56, what is the legal significance of a partial summary judgment entered under subdivision (d)?",
+    "choices": {
+      "A": "It is a final judgment and immediately appealable as of right",
+      "B": "It is not a final judgment and is therefore generally not appealable unless a specific statute permits interlocutory appeal",
+      "C": "It terminates the entire action and requires entry of a final judgment",
+      "D": "It is treated as a directed verdict and is automatically appealable"
+    },
+    "correct": "B",
+    "explanation": "The Advisory Committee Notes to the 1946 amendment clarify that a partial summary judgment under Rule 56(d) is not a final judgment. It is a pretrial adjudication that certain issues shall be deemed established for trial, akin to a preliminary order under Rule 16. Because interlocutory appeals are generally not allowed except where specifically provided by statute, a partial summary judgment is not immediately appealable.",
+    "citation": "FRCP Rule 56(d)"
+  },
+  {
+    "id": 33,
+    "topic": "Judgment and Trial",
+    "source": "FRCP",
+    "question": "According to the 1963 amendment to FRCP Rule 56(e), when a moving party presents sufficient evidentiary matter showing no genuine issue of material fact exists, what must the opposing party do to defeat the motion?",
+    "choices": {
+      "A": "Simply rest on the well-pleaded averments of the pleadings, which are sufficient to create a genuine issue",
+      "B": "File a cross-motion for summary judgment within 14 days",
+      "C": "Produce evidentiary matter establishing that a genuine issue for trial exists, and may not rest solely on pleading averments",
+      "D": "Request a continuance and await the court's sua sponte denial of the motion"
+    },
+    "correct": "C",
+    "explanation": "The 1963 amendment to Rule 56(e) was specifically designed to overcome the Third Circuit doctrine that allowed a party to rest on well-pleaded averments of the pleadings to defeat an otherwise justified summary judgment motion. The amendment requires the adverse party to produce evidentiary matter showing a genuine issue for trial, because the purpose of summary judgment is to pierce the pleadings and assess the proof.",
+    "citation": "FRCP Rule 56(e)"
+  },
+  {
+    "id": 34,
+    "topic": "Judgment and Trial",
+    "source": "FRCP",
+    "question": "The 2010 amendment to FRCP Rule 56(a) changed the standard language for granting summary judgment. Which of the following correctly reflects the standard under the amended rule?",
+    "choices": {
+      "A": "Summary judgment shall be rendered when there is no dispute of any fact, material or otherwise",
+      "B": "Summary judgment should be granted when the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law",
+      "C": "Summary judgment must be denied whenever the opposing party presents any evidentiary matter, regardless of its weight",
+      "D": "Summary judgment shall be granted only after a full evidentiary hearing has been conducted by the court"
+    },
+    "correct": "B",
+    "explanation": "The 2010 amendment to Rule 56(a) preserved the longstanding standard that summary judgment is appropriate when there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law. The 2007 amendment replaced 'shall' with 'should' to acknowledge the court's limited discretion to deny summary judgment even when the standard is technically met, consistent with Kennedy v. Silas Mason Co.",
+    "citation": "FRCP Rule 56(a)"
+  },
+  {
+    "id": 35,
+    "topic": "Judgment and Trial",
+    "source": "FRCP",
+    "question": "Under the 1963 amendment to FRCP Rule 56(c), which type of material was added as something that may be considered on a motion for summary judgment because it had been inadvertently omitted from the original rule?",
+    "choices": {
+      "A": "Deposition transcripts",
+      "B": "Answers to interrogatories",
+      "C": "Expert witness affidavits",
+      "D": "Requests for admission"
+    },
+    "correct": "B",
+    "explanation": "The 1963 amendment to Rule 56(c) added 'answers to interrogatories' to the list of materials that may be considered on a motion for summary judgment. The Advisory Committee Notes confirm that the phrase had been inadvertently omitted from the original rule, though courts had generally reached by interpretation the result that interrogatory answers were permissible supporting materials.",
+    "citation": "FRCP Rule 56(c)"
+  },
+  {
+    "id": 36,
+    "topic": "Judgment and Trial",
+    "source": "CPLR",
+    "question": "Under CPLR § 3212, a motion for summary judgment must be made no later than how many days after the filing of the note of issue, unless the court sets a different deadline?",
+    "choices": {
+      "A": "30 days",
+      "B": "60 days",
+      "C": "120 days",
+      "D": "90 days"
+    },
+    "correct": "C",
+    "explanation": "CPLR § 3212(a) provides that a motion for summary judgment shall be made no later than one hundred twenty (120) days after the filing of the note of issue, except with leave of court on good cause shown. This deadline may be shortened or lengthened by court order.",
+    "citation": "CPLR § 3212(a)"
+  },
+  {
+    "id": 37,
+    "topic": "Judgment and Trial",
+    "source": "CPLR",
+    "question": "Under CPLR § 4401, a motion for judgment as a matter of law (formerly known as a motion to dismiss) may be made at what point during a jury trial?",
+    "choices": {
+      "A": "Only after all parties have rested and the jury has begun deliberations",
+      "B": "At the close of the opposing party's evidence or at any time on the basis that the opposing party has not established a prima facie case",
+      "C": "Only before the jury is empaneled",
+      "D": "Only after the jury returns a verdict, as a post-trial motion"
+    },
+    "correct": "B",
+    "explanation": "CPLR § 4401 permits any party to move for judgment as a matter of law after the close of the evidence presented by an opposing party, or at any time on the ground that the opposing party has not established a prima facie case. The court may grant such motion when it determines that, by no rational process, the trier of the facts could find for the moving party's opponent.",
+    "citation": "CPLR § 4401"
+  },
+  {
+    "id": 38,
+    "topic": "Judgment and Trial",
+    "source": "CPLR",
+    "question": "Under CPLR § 4404, a motion to set aside a verdict and for a new trial on the ground that the verdict is contrary to the weight of the evidence must be made within how many days after the verdict?",
+    "choices": {
+      "A": "15 days",
+      "B": "60 days",
+      "C": "30 days",
+      "D": "The motion must be made before the jury is discharged"
+    },
+    "correct": "C",
+    "explanation": "CPLR § 4404(a) provides that a motion to set aside a verdict or for a new trial may be made upon the minutes within thirty (30) days after the verdict, or if a verdict was not reached, within thirty (30) days after the trial. This includes motions on grounds that the verdict is contrary to the weight of the evidence or in the interest of justice.",
+    "citation": "CPLR § 4404(a)"
+  },
+  {
+    "id": 39,
+    "topic": "Judgment and Trial",
+    "source": "CPLR",
+    "question": "Under CPLR § 3213, a motion for summary judgment in lieu of complaint is available when an action is based upon what type of instrument?",
+    "choices": {
+      "A": "Any written contract for the sale of goods valued over $500",
+      "B": "An instrument for the payment of money only, or a judgment",
+      "C": "A negotiable instrument only, excluding foreign judgments",
+      "D": "Any liquidated claim, including accounts stated and open accounts"
+    },
+    "correct": "B",
+    "explanation": "CPLR § 3213 provides that when an action is based upon an instrument for the payment of money only, or upon any judgment, the plaintiff may serve with the summons a notice of motion for summary judgment in lieu of complaint. This device allows for expedited judgment without the need to file a full complaint in qualifying cases.",
+    "citation": "CPLR § 3213"
+  },
+  {
+    "id": 40,
+    "topic": "Judgment and Trial",
+    "source": "CPLR",
+    "question": "Under CPLR § 4536, when a party challenges the authenticity of a writing, comparison of a disputed writing with a writing proved to be genuine may be made by whom?",
+    "choices": {
+      "A": "Only by a certified forensic document examiner retained as an expert witness",
+      "B": "By expert witnesses and the trier of fact, using the proved genuine writing as a standard",
+      "C": "Only by the court outside the presence of the jury",
+      "D": "Only by the party who introduced the questioned document into evidence"
+    },
+    "correct": "B",
+    "explanation": "CPLR § 4536 provides that comparison of a disputed writing with any writing proved to the satisfaction of the court to be genuine shall be permitted to be made by witnesses, and such writings and the evidence of witnesses respecting them may be submitted to the court and jury as evidence of the genuineness or otherwise of the writing in dispute. Both experts and the trier of fact may make this comparison.",
+    "citation": "CPLR § 4536"
+  },
+  {
+    "id": 41,
+    "topic": "Parties and Class Actions",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 23(h), who may object to a class counsel's motion for attorney fees?",
+    "choices": {
+      "A": "Any class member and any party from whom payment is sought",
+      "B": "Any party to the litigation, including nonsettling defendants",
+      "C": "Only named class representatives",
+      "D": "Only the defendant who agreed to the settlement"
+    },
+    "correct": "A",
+    "explanation": "Rule 23(h)(2) provides that a class member and any party from whom payment is sought may object to the fee motion. Other parties, such as nonsettling defendants, may not object because they lack a sufficient interest in the amount the court awards.",
+    "citation": "FRCP Rule 23(h)(2)"
+  },
+  {
+    "id": 42,
+    "topic": "Parties and Class Actions",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 23(h), when a class action fee motion is filed in a case subject to court review of a proposed settlement, when should the initial fee motion be filed at the latest?",
+    "choices": {
+      "A": "Within 14 days after judgment is entered",
+      "B": "In time for inclusion of information about the motion in the notice to the class about the proposed settlement",
+      "C": "After the settlement has been finally approved by the court",
+      "D": "At least 30 days before the fairness hearing"
+    },
+    "correct": "B",
+    "explanation": "The advisory committee notes to Rule 23(h) state that for motions by class counsel in cases subject to court review of a proposed settlement under Rule 23(e), it is important to require the filing of at least the initial motion in time for inclusion of information about the motion in the notice to the class about the proposed settlement.",
+    "citation": "FRCP Rule 23(h)(1)"
+  },
+  {
+    "id": 43,
+    "topic": "Parties and Class Actions",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 23(h), notice of class counsel's motion for attorney fees must be directed to whom?",
+    "choices": {
+      "A": "Only the named parties and their counsel",
+      "B": "The class in a reasonable manner",
+      "C": "Only class members who filed claims",
+      "D": "Only class members who objected to the settlement"
+    },
+    "correct": "B",
+    "explanation": "Rule 23(h)(1) requires that besides service of the motion on all parties, notice of class counsel's motion for attorney fees must be 'directed to the class in a reasonable manner,' because members of the class have an interest in the arrangements for payment of class counsel whether payment comes from the class fund or is made directly by another party.",
+    "citation": "FRCP Rule 23(h)(1)"
+  },
+  {
+    "id": 44,
+    "topic": "Parties and Class Actions",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 23(c)(2)(B), as amended in 2018, which method of providing notice to class members in a (b)(3) action does the rule now prefer?",
+    "choices": {
+      "A": "First class mail exclusively",
+      "B": "Electronic mail exclusively",
+      "C": "Publication in a newspaper of general circulation",
+      "D": "No single method is preferred; courts should use the means most likely to be effective"
+    },
+    "correct": "D",
+    "explanation": "The 2018 amendment to Rule 23(c)(2)(B) removed any preference for a single method of notice. Rather than preferring first-class mail or electronic methods, the amended rule relies on courts and counsel to focus on the means or combination of means most likely to be effective in the case before the court.",
+    "citation": "FRCP Rule 23(c)(2)(B)"
+  },
+  {
+    "id": 45,
+    "topic": "Parties and Class Actions",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 23(g)(2), when there is more than one applicant for class counsel, what standard must the court apply?",
+    "choices": {
+      "A": "The court must appoint the applicant with the most years of litigation experience",
+      "B": "The court must appoint the applicant best able to represent the interests of the class",
+      "C": "The court must hold an evidentiary hearing and allow class members to vote",
+      "D": "The court must determine that the applicant is able to fairly and adequately represent class interests"
+    },
+    "correct": "B",
+    "explanation": "Rule 23(g)(2) provides that when there is more than one applicant for class counsel, the court must appoint the applicant best able to represent the interests of the class. When there is only one applicant, the lower standard of determining that the applicant is able to fairly and adequately represent class interests applies.",
+    "citation": "FRCP Rule 23(g)(2)"
+  },
+  {
+    "id": 46,
+    "topic": "Parties and Class Actions",
+    "source": "FRCP",
+    "question": "Under FRCP Rule 23(h)(3), what does the court absolutely require after considering a fee motion, regardless of whether there are formal objections?",
+    "choices": {
+      "A": "A formal evidentiary hearing open to all class members",
+      "B": "Referral to a special master before issuing a ruling",
+      "C": "Findings and conclusions under Rule 52(a)",
+      "D": "A written opinion published on the court's public docket"
+    },
+    "correct": "C",
+    "explanation": "Rule 23(h)(3) states that whether or not there are formal objections, the court must determine whether a fee award is justified and, if so, set a reasonable fee. While a formal hearing is not required in all cases, the rule does require findings and conclusions under Rule 52(a).",
+    "citation": "FRCP Rule 23(h)(3)"
+  },
+  {
+    "id": 47,
+    "topic": "Parties and Class Actions",
+    "source": "CPLR",
+    "question": "Under CPLR § 901(a), which of the following is NOT one of the prerequisites that must be satisfied before a class action may be maintained in New York?",
+    "choices": {
+      "A": "The claims or defenses of the representative parties are typical of the claims or defenses of the class",
+      "B": "The class is so numerous that joinder of all members is impracticable",
+      "C": "All class members must have identical damages",
+      "D": "The representative parties will fairly and adequately protect the interests of the class"
+    },
+    "correct": "C",
+    "explanation": "CPLR § 901(a) lists five prerequisites for a class action: numerosity, common questions of law or fact, typicality, adequate representation, and that a class action is superior to other methods. There is no requirement that all class members have identical damages; indeed, individual damages may vary among class members.",
+    "citation": "CPLR § 901(a)"
+  },
+  {
+    "id": 48,
+    "topic": "Parties and Class Actions",
+    "source": "CPLR",
+    "question": "Under CPLR § 902, within what time period after commencement of a class action must a motion for class certification be made?",
+    "choices": {
+      "A": "Within 30 days of filing the complaint",
+      "B": "Within 60 days of the close of discovery",
+      "C": "Within 60 days after the time to serve a responsive pleading has expired",
+      "D": "Within 90 days after the defendant's answer is served"
+    },
+    "correct": "C",
+    "explanation": "CPLR § 902 provides that within 60 days after the time to serve a responsive pleading has expired, the plaintiff shall move for an order to determine whether the action is to be maintained as a class action. The court may alter this period on its own motion or on motion of any party.",
+    "citation": "CPLR § 902"
+  },
+  {
+    "id": 49,
+    "topic": "Parties and Class Actions",
+    "source": "CPLR",
+    "question": "Under CPLR § 901(b), which type of claim is explicitly prohibited from being maintained as a class action in New York unless the statute creating or imposing the penalty specifically authorizes the recovery thereof in a class action?",
+    "choices": {
+      "A": "Claims for personal injury damages",
+      "B": "Claims seeking a penalty or minimum measure of recovery created or imposed by statute",
+      "C": "Claims for breach of contract where damages are uncertain",
+      "D": "Claims for injunctive relief on behalf of a defined group"
+    },
+    "correct": "B",
+    "explanation": "CPLR § 901(b) provides that unless a statute creating or imposing a penalty, or a minimum measure of recovery specifically authorizes the recovery thereof in a class action, an action to recover a penalty, or minimum measure of recovery created or imposed by statute may not be maintained as a class action.",
+    "citation": "CPLR § 901(b)"
+  },
+  {
+    "id": 50,
+    "topic": "Parties and Class Actions",
+    "source": "CPLR",
+    "question": "Under CPLR § 908, a class action may not be dismissed, discontinued, or compromised without the approval of which authority, and what must accompany that approval?",
+    "choices": {
+      "A": "The approval of a majority of class members by written consent, with notice to the court",
+      "B": "The approval of the court, on such terms as the court deems proper, with notice to class members in such manner as the court directs",
+      "C": "The approval of the Attorney General of New York, after a public comment period of 30 days",
+      "D": "The approval of the court only, without any required notice to class members"
+    },
+    "correct": "B",
+    "explanation": "CPLR § 908 provides that a class action shall not be dismissed, discontinued, or compromised without the approval of the court. Notice of the proposed dismissal, discontinuance, or compromise shall be given to all members of the class in such manner as the court directs.",
+    "citation": "CPLR § 908"
+  }
+]

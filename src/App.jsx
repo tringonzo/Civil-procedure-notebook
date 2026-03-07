@@ -36,7 +36,7 @@ export default function App() {
         <footer className="app-footer">
           <div className="footer-inner">
             <p className="footer-body">
-              All content sourced from FRCP (Cornell LII) and CPLR (Justia)
+              All content sourced from FRCP (Cornell LII) and CPLR (NY Senate)
             </p>
             {meta && (
               <p className="footer-mono">Generated {meta.generated_date}</p>

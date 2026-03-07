@@ -26,7 +26,7 @@ function FlipCard({ card, flipped, onFlip }) {
             <CitationBadge
               rule={card.rule_number}
               source={card.source}
-              provider={card.source === 'FRCP' ? 'Cornell LII' : 'Justia'}
+              provider={card.source === 'FRCP' ? 'Cornell LII' : 'NY Senate'}
             />
           </div>
         </div>

@@ -75,7 +75,7 @@ function QuizQuestion({ question, index, total, onAnswer }) {
                 <CitationBadge
                   rule={question.citation}
                   source={question.source}
-                  provider={question.source === 'FRCP' ? 'Cornell LII' : 'Justia'}
+                  provider={question.source === 'FRCP' ? 'Cornell LII' : 'NY Senate'}
                 />
               </div>
             )}
@@ -124,7 +124,7 @@ function ScoreScreen({ score, total, onRestart, onNewQuiz }) {
         <button className="btn-ghost" onClick={onNewQuiz}>New Quiz</button>
       </div>
       <p className="footer-body" style={{ marginTop: '1.5rem', fontSize: '0.8rem' }}>
-        ✓ All questions sourced from FRCP (Cornell LII) and CPLR (Justia)
+        ✓ All questions sourced from FRCP (Cornell LII) and CPLR (NY Senate)
       </p>
     </div>
   )

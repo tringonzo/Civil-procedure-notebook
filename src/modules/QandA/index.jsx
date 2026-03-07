@@ -19,7 +19,7 @@ const SOURCE_FILTERS = [
 function ResultCard({ chunk, terms }) {
   const excerpt = getExcerpt(chunk.text, terms, 500)
   const highlighted = highlightText(excerpt, terms)
-  const provider = chunk.source === 'FRCP' ? 'Cornell LII' : 'Justia'
+  const provider = chunk.source === 'FRCP' ? 'Cornell LII' : 'NY Senate'
 
   return (
     <div className="search-result-card">
@@ -178,7 +178,7 @@ export default function QandA() {
                 <ResultCard key={chunk.id || i} chunk={chunk} terms={terms} />
               ))}
               <div className="qa-warning" style={{ marginTop: '1rem' }}>
-                ⚠ Results are raw source text from FRCP (Cornell LII) and CPLR (Justia).
+                ⚠ Results are raw source text from FRCP (Cornell LII) and CPLR (NY Senate).
               </div>
             </>
           )}

@@ -12,7 +12,7 @@ const SOURCE_FILTERS = [
 function ResultCard({ chunk, terms }) {
   const excerpt = getExcerpt(chunk.text, terms, 400)
   const highlighted = highlightText(excerpt, terms)
-  const provider = chunk.source === 'FRCP' ? 'Cornell LII' : 'Justia'
+  const provider = chunk.source === 'FRCP' ? 'Cornell LII' : 'NY Senate'
 
   return (
     <div className="search-result-card">

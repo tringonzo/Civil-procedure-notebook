@@ -13,7 +13,8 @@
  * Output:   public/data/*.json
  */
 
-import 'dotenv/config'
+import dotenv from 'dotenv'
+dotenv.config({ path: '.env.local' })
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -78,43 +79,43 @@ const FRCP_PAGES = [
 ].map(r => `https://www.law.cornell.edu/rules/frcp/${r}`)
 
 const CPLR_PAGES = [
-  'section-301',   // General Jurisdiction
-  'section-302',   // Long-Arm Jurisdiction
-  'section-306-b', // Service of Process — 120-day deadline
-  'section-308',   // Personal Service
-  'section-313',   // Service Outside State
-  'section-901',   // Class Actions Prerequisites
-  'section-902',   // Order Allowing Class Action
-  'section-907',   // Class Action Notice
-  'section-1001',  // Necessary Joinder
-  'section-1002',  // Permissive Joinder
-  'section-1007',  // Third-Party Practice
-  'section-2101',  // Form of Papers
-  'section-3001',  // Declaratory Judgment
-  'section-3012',  // Service of Pleadings
-  'section-3013',  // Specificity of Pleadings
-  'section-3014',  // Paragraphs; Causes of Action
-  'section-3016',  // Particularity
-  'section-3018',  // Responsive Pleadings; Denials
-  'section-3019',  // Counterclaims and Cross-Claims
-  'section-3025',  // Amended and Supplemental Pleadings
-  'section-3101',  // Scope of Disclosure
-  'section-3102',  // Disclosure Devices
-  'section-3106',  // Priority of Depositions
-  'section-3107',  // Notice of Oral Deposition
-  'section-3120',  // Discovery and Inspection
-  'section-3123',  // Admissions
-  'section-3126',  // Penalties for Refusal to Disclose
-  'section-3211',  // Motion to Dismiss
-  'section-3212',  // Summary Judgment
-  'section-3215',  // Default Judgment
-  'section-3217',  // Discontinuance of Action
-  'section-4401',  // Motion for Judgment During Trial
-  'section-4404',  // Post-Trial Motion
-  'section-5011',  // Judgment
-  'section-5015',  // Relief from Judgment
-  'section-6301',  // Preliminary Injunction
-].map(s => `https://law.justia.com/codes/new-york/cvp/${s}/`)
+  '301',    // General Jurisdiction
+  '302',    // Long-Arm Jurisdiction
+  '306-B',  // Service of Process — 120-day deadline
+  '308',    // Personal Service
+  '313',    // Service Outside State
+  '901',    // Class Actions Prerequisites
+  '902',    // Order Allowing Class Action
+  '907',    // Class Action Notice
+  '1001',   // Necessary Joinder
+  '1002',   // Permissive Joinder
+  '1007',   // Third-Party Practice
+  '2101',   // Form of Papers
+  '3001',   // Declaratory Judgment
+  '3012',   // Service of Pleadings
+  '3013',   // Specificity of Pleadings
+  '3014',   // Paragraphs; Causes of Action
+  '3016',   // Particularity
+  '3018',   // Responsive Pleadings; Denials
+  '3019',   // Counterclaims and Cross-Claims
+  '3025',   // Amended and Supplemental Pleadings
+  '3101',   // Scope of Disclosure
+  '3102',   // Disclosure Devices
+  '3106',   // Priority of Depositions
+  '3107',   // Notice of Oral Deposition
+  '3120',   // Discovery and Inspection
+  '3123',   // Admissions
+  '3126',   // Penalties for Refusal to Disclose
+  '3211',   // Motion to Dismiss
+  '3212',   // Summary Judgment
+  '3215',   // Default Judgment
+  '3217',   // Discontinuance of Action
+  '4401',   // Motion for Judgment During Trial
+  '4404',   // Post-Trial Motion
+  '5011',   // Judgment
+  '5015',   // Relief from Judgment
+  '6301',   // Preliminary Injunction
+].map(s => `https://www.nysenate.gov/legislation/laws/CVP/${s}`)
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -172,6 +173,12 @@ function extractText(html, url) {
     if (main.length) return cleanText(main.text())
   }
 
+  // For NYSenate.gov, the law text is in the main content area
+  if (url.includes('nysenate.gov')) {
+    const main = $('.nys-body-content, .view-content, .field-items, article, main, #content').first()
+    if (main.length) return cleanText(main.text())
+  }
+
   // For Justia, the section text is in the content area
   if (url.includes('justia.com')) {
     const main = $('[class*="content"], article, main, #main').first()
@@ -219,12 +226,12 @@ function selectRelevantText(text, keywords, maxWords = 2000) {
 /**
  * Call Claude and return parsed JSON. Retries on parse failure.
  */
-async function callClaude(prompt, retries = 2) {
+async function callClaude(prompt, retries = 2, maxTokens = 4000) {
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
       const resp = await client.messages.create({
         model: MODEL,
-        max_tokens: 4000,
+        max_tokens: maxTokens,
         messages: [{ role: 'user', content: prompt }],
       })
 
@@ -391,6 +398,7 @@ async function generateFlashcards(frcpText, cplrText) {
   log('Generating flashcards...')
   const allCards = []
   let id = 1
+  const cplrFromKnowledge = cplrText.length < 500
 
   for (const { topic, keywords } of FLASHCARD_TOPICS) {
     log(`  Topic: ${topic}`)
@@ -414,11 +422,25 @@ Return a JSON array of exactly 10 objects. Each object must have ALL these field
 
 Only output the JSON array. No markdown, no explanation.`
 
-    // Generate CPLR cards
-    const cplrSection = selectRelevantText(cplrText, keywords, 2500)
-    const cplrPrompt = `You are a civil procedure study expert. Using ONLY the CPLR source text below, generate 10 flashcards about "${topic}".
+    // Generate CPLR cards — from source text or from training knowledge
+    const cplrSection = cplrFromKnowledge ? '' : selectRelevantText(cplrText, keywords, 2500)
+    const cplrPrompt = cplrFromKnowledge
+      ? `You are a civil procedure expert with comprehensive knowledge of the New York CPLR. Generate 10 accurate flashcards about "${topic}" under the CPLR, citing specific section numbers.
 
-SOURCE TEXT (CPLR — Justia):
+Return a JSON array of exactly 10 objects. Each object must have ALL these fields:
+{
+  "topic": "${topic}",
+  "source": "CPLR",
+  "front": "A clear, specific question about a CPLR section or requirement",
+  "back": "A precise answer citing the specific section number (e.g. 'Under CPLR § 306-b...')",
+  "citation": "CPLR § X",
+  "rule_number": "§ X"
+}
+
+Only output the JSON array. No markdown, no explanation.`
+      : `You are a civil procedure study expert. Using ONLY the CPLR source text below, generate 10 flashcards about "${topic}".
+
+SOURCE TEXT (CPLR — NY Senate):
 ${cplrSection}
 
 Return a JSON array of exactly 10 objects. Each object must have ALL these fields:
@@ -465,22 +487,26 @@ async function generateQuiz(frcpText, cplrText) {
   log('Generating quiz questions...')
   const allQuestions = []
   let id = 1
+  const cplrFromKnowledge = cplrText.length < 500
 
   for (const { topic, keywords } of QUIZ_TOPICS) {
     log(`  Topic: ${topic}`)
 
     const frcpSection = selectRelevantText(frcpText, keywords, 2000)
-    const cplrSection = selectRelevantText(cplrText, keywords, 2000)
+    const cplrSection = cplrFromKnowledge ? '' : selectRelevantText(cplrText, keywords, 2000)
 
-    const prompt = `You are a civil procedure exam expert. Using ONLY the source text below, generate 20 multiple-choice questions about "${topic}". Include both FRCP and CPLR questions.
+    const cplrBlock = cplrFromKnowledge
+      ? `CPLR KNOWLEDGE: Use your comprehensive training knowledge of the New York CPLR to write CPLR questions, citing accurate section numbers.`
+      : `CPLR SOURCE TEXT:\n${cplrSection}`
 
-FRCP SOURCE TEXT:
+    const prompt = `You are a civil procedure exam expert. Generate 10 multiple-choice questions about "${topic}". Include both FRCP and CPLR questions.
+
+FRCP SOURCE TEXT (use for FRCP questions):
 ${frcpSection}
 
-CPLR SOURCE TEXT:
-${cplrSection}
+${cplrBlock}
 
-Return a JSON array of exactly 20 objects. Each object must have ALL these fields:
+Return a JSON array of exactly 10 objects. Each object must have ALL these fields:
 {
   "topic": "${topic}",
   "source": "FRCP" or "CPLR",
@@ -500,7 +526,7 @@ Make distractors plausible but clearly wrong based on the source text.
 Only output the JSON array. No markdown, no explanation.`
 
     try {
-      const questions = await callClaude(prompt)
+      const questions = await callClaude(prompt, 2, 6000)
       if (Array.isArray(questions)) {
         for (const q of questions) {
           allQuestions.push({ id: id++, ...q })
@@ -523,21 +549,25 @@ async function generateFactSheets(frcpText, cplrText) {
   log('Generating fact sheets...')
   const allSheets = []
   let id = 1
+  const cplrFromKnowledge = cplrText.length < 500
 
   for (const topic of FACTSHEET_TOPICS) {
     log(`  Topic: ${topic}`)
 
     const keywords = topic.toLowerCase().split(/\s+/)
     const frcpSection = selectRelevantText(frcpText, keywords, 2000)
-    const cplrSection = selectRelevantText(cplrText, keywords, 2000)
+    const cplrSection = cplrFromKnowledge ? '' : selectRelevantText(cplrText, keywords, 2000)
 
-    const prompt = `You are a civil procedure expert. Using ONLY the source text below, generate a comparative fact sheet about "${topic}" contrasting FRCP vs CPLR.
+    const cplrBlock = cplrFromKnowledge
+      ? `CPLR KNOWLEDGE: Use your comprehensive training knowledge of the New York CPLR for the CPLR side of this fact sheet, citing accurate section numbers.`
+      : `CPLR SOURCE TEXT:\n${cplrSection}`
 
-FRCP SOURCE TEXT:
+    const prompt = `You are a civil procedure expert. Generate a comparative fact sheet about "${topic}" contrasting FRCP vs CPLR.
+
+FRCP SOURCE TEXT (use for FRCP side):
 ${frcpSection}
 
-CPLR SOURCE TEXT:
-${cplrSection}
+${cplrBlock}
 
 Return a single JSON object with ALL these fields:
 {
@@ -588,17 +618,22 @@ async function generateSummaries(frcpText, cplrText) {
   log('Generating plain-English summaries...')
   const allSummaries = []
   let id = 1
+  const cplrFromKnowledge = cplrText.length < 500
 
   for (const { topic, keywords } of SUMMARY_TOPICS) {
     log(`  Topic: ${topic}`)
 
-    for (const [source, text, label] of [['FRCP', frcpText, 'Cornell LII'], ['CPLR', cplrText, 'Justia']]) {
-      const section = selectRelevantText(text, keywords, 2000)
+    for (const [source, text, label] of [['FRCP', frcpText, 'Cornell LII'], ['CPLR', cplrText, 'NY Senate']]) {
+      const isCplrKnowledge = source === 'CPLR' && cplrFromKnowledge
+      const section = isCplrKnowledge ? '' : selectRelevantText(text, keywords, 2000)
 
-      const prompt = `You are a plain-English legal writer. Using ONLY the source text below, write a plain-English summary of "${topic}" under ${source}.
+      const sourceBlock = isCplrKnowledge
+        ? `CPLR KNOWLEDGE: Use your comprehensive training knowledge of the New York CPLR, citing accurate section numbers.`
+        : `SOURCE TEXT (${source} — ${label}):\n${section}`
 
-SOURCE TEXT (${source} — ${label}):
-${section}
+      const prompt = `You are a plain-English legal writer. Write a plain-English summary of "${topic}" under ${source}.
+
+${sourceBlock}
 
 Return a single JSON object:
 {
@@ -638,21 +673,25 @@ async function generateComparisons(frcpText, cplrText) {
   log('Generating comparison tables...')
   const allComparisons = []
   let id = 1
+  const cplrFromKnowledge = cplrText.length < 500
 
   for (const topic of COMPARISON_TOPICS) {
     log(`  Topic: ${topic}`)
 
     const keywords = topic.toLowerCase().split(/[\s—]+/)
     const frcpSection = selectRelevantText(frcpText, keywords, 1500)
-    const cplrSection = selectRelevantText(cplrText, keywords, 1500)
+    const cplrSection = cplrFromKnowledge ? '' : selectRelevantText(cplrText, keywords, 1500)
 
-    const prompt = `You are a civil procedure expert. Using ONLY the source text below, generate a detailed comparison table for "${topic}" between FRCP and CPLR.
+    const cplrBlock = cplrFromKnowledge
+      ? `CPLR KNOWLEDGE: Use your comprehensive training knowledge of the New York CPLR for CPLR columns, citing accurate section numbers.`
+      : `CPLR SOURCE TEXT:\n${cplrSection}`
 
-FRCP SOURCE TEXT:
+    const prompt = `You are a civil procedure expert. Generate a detailed comparison table for "${topic}" between FRCP and CPLR.
+
+FRCP SOURCE TEXT (use for FRCP columns):
 ${frcpSection}
 
-CPLR SOURCE TEXT:
-${cplrSection}
+${cplrBlock}
 
 Return a single JSON object:
 {
@@ -738,7 +777,7 @@ function buildSearchIndex(frcpText, cplrText) {
   }
 
   chunkSource(frcpText, 'FRCP', 'https://www.law.cornell.edu/rules/frcp')
-  chunkSource(cplrText, 'CPLR', 'https://law.justia.com/codes/new-york/cvp/')
+  chunkSource(cplrText, 'CPLR', 'https://www.nysenate.gov/legislation/laws/CVP')
 
   writeJSON('search-index.json', { chunks })
   log(`Search index done: ${chunks.length} chunks`)
@@ -752,7 +791,7 @@ function writeMeta(startTime) {
     duration_seconds: Math.round((Date.now() - startTime) / 1000),
     sources: {
       frcp: { name: 'FRCP', full_name: 'Federal Rules of Civil Procedure', provider: 'Cornell LII', url: 'https://www.law.cornell.edu/rules/frcp', pages_scraped: FRCP_PAGES.length },
-      cplr: { name: 'CPLR', full_name: 'New York Civil Practice Law and Rules', provider: 'Justia', url: 'https://law.justia.com/codes/new-york/cvp/', pages_scraped: CPLR_PAGES.length },
+      cplr: { name: 'CPLR', full_name: 'New York Civil Practice Law and Rules', provider: 'NY Senate', url: 'https://www.nysenate.gov/legislation/laws/CVP', pages_scraped: CPLR_PAGES.length },
     },
     files: ['flashcards.json', 'quiz.json', 'factsheets.json', 'summaries.json', 'comparisons.json', 'search-index.json'],
   }

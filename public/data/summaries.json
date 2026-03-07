@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "plain_english_summary": "Service of process is the formal procedure by which a defendant is officially notified that a lawsuit has been filed against them. Under the Federal Rules of Civil Procedure, this is primarily governed by Rule 4, which covers the summons — the legal document that tells a defendant they've been sued and must respond. The plaintiff is responsible for filling out the summons and making sure it gets delivered properly. Generally, any adult who is not a party to the case can serve process, and the U.S. Marshals Service is no longer required to handle service in most cases, though courts can still appoint them when necessary (such as in forma pauperis cases or when safety is a concern).\n\nOne of the most important practical aspects of Rule 4 is the concept of 'waiver of service,' which allows a plaintiff to simply mail the complaint to the defendant and ask them to waive formal service. If the defendant cooperates and returns the waiver, everyone saves time and money. If the defendant refuses without good reason, they can be required to pay the costs of formal service. Defendants generally have 60 days (or 90 days if located outside the U.S.) to respond to a complaint when they waive service. The rule also accommodates international service by recognizing treaties like the Hague Convention.\n\nTiming matters a great deal under Rule 4. A plaintiff must serve the defendant within 90 days of filing the complaint (formerly 120 days before 2015 amendments). If service is not completed in time and there is no good cause for the delay, the court can dismiss the case without prejudice. The tolling of statutes of limitations also intersects with service rules: in diversity cases, state law governs whether filing alone stops the clock or whether service is also required, while in federal question cases, filing the complaint generally tolls the statute of limitations under Rule 3.",
+    "key_rules": [
+      "A plaintiff must serve the summons and complaint on each defendant within 90 days of filing the complaint, or the court may dismiss the action without prejudice — FRCP Rule 4(m)",
+      "Any person who is at least 18 years old and not a party to the case may serve process; the U.S. Marshals Service is only required in limited cases such as in forma pauperis actions — FRCP Rule 4(c)(2); 28 U.S.C. §§1915, 1916",
+      "A plaintiff may request that a defendant waive formal service by mail; a defendant who refuses without good cause may be required to pay the costs of formal service — FRCP Rule 4(d)"
+    ],
+    "citations": [
+      "FRCP Rule 4",
+      "FRCP Rule 4(c)",
+      "FRCP Rule 4(d)",
+      "FRCP Rule 4(m)",
+      "FRCP Rule 3",
+      "FRCP Rule 4.1",
+      "FRCP Rule 45(c)"
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "plain_english_summary": "Service of process is the formal procedure by which a defendant is notified that a lawsuit has been filed against them. Under the CPLR, a plaintiff must properly serve the defendant with a summons and complaint (or summons with notice) within 120 days after the action is commenced by filing. If service is not completed within that window, the court may dismiss the action or, on a showing of good cause or in the interest of justice, grant an extension. Proper service is essential because it gives the court personal jurisdiction over the defendant — without it, any judgment the court enters may be void.",
+    "key_rules": [
+      "Personal service on an individual may be made by delivering the summons personally to the defendant (CPLR § 308(1)), by leaving it with a person of suitable age and discretion at the defendant's home or business and then mailing a copy (CPLR § 308(2)), or, if other methods are impractical, by 'nail and mail' — affixing a copy to the door and mailing (CPLR § 308(4)).",
+      "A plaintiff must serve the defendant within 120 days after the action is commenced by filing the summons with the court; failure to do so may result in dismissal unless the court extends the time for good cause shown or in the interest of justice (CPLR § 306-b).",
+      "Service on a corporation must be made by delivering the summons to an officer, director, managing or general agent, cashier, or assistant cashier, or to any other agent authorized to receive service (CPLR § 311(a)(1))."
+    ],
+    "citations": [
+      "CPLR § 306-b",
+      "CPLR § 308",
+      "CPLR § 308(1)",
+      "CPLR § 308(2)",
+      "CPLR § 308(4)",
+      "CPLR § 311",
+      "CPLR § 311(a)(1)",
+      "CPLR § 312-a",
+      "CPLR § 313",
+      "CPLR § 314",
+      "CPLR § 315"
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Pleadings and Motions to Dismiss",
+    "source": "FRCP",
+    "plain_english_summary": "Under the Federal Rules of Civil Procedure, a defendant generally has 21 days after being served with a complaint to file an answer. If the defendant waives formal service, that deadline extends to 60 days (or 90 days if the defendant is located outside the United States). The U.S. government and its agencies or officers get 60 days to respond. When a defendant files a pre-answer motion, like a motion to dismiss, the clock on their answer pauses until the court rules on that motion, after which they typically have 14 days to respond.\n\nInstead of answering right away, a defendant can file a motion to dismiss raising any of seven specific defenses: (1) lack of subject-matter jurisdiction, (2) lack of personal jurisdiction, (3) improper venue, (4) insufficient process, (5) insufficient service of process, (6) failure to state a claim upon which relief can be granted, and (7) failure to join a required party. The most important of these is the motion to dismiss for failure to state a claim under Rule 12(b)(6), which essentially argues that even if everything the plaintiff says is true, the law does not entitle them to any relief. If a court considers evidence outside the complaint on a 12(b)(6) motion, the motion automatically converts into a motion for summary judgment under Rule 56.\n\nDefendants must be strategic about when and how they raise these defenses. Defenses based on personal jurisdiction, venue, process, and service of process are considered waived if not raised in the first motion or responsive pleading a defendant files. Subject-matter jurisdiction, by contrast, can never be waived and can be raised at any point, even by the court itself. A court may also strike improper or scandalous material from pleadings, order a party to provide a clearer statement if a pleading is too vague to respond to, or grant judgment on the pleadings after both sides have filed their initial documents.",
+    "key_rules": [
+      "A defendant must serve an answer within 21 days after being served with the summons and complaint, or within 60/90 days if service was waived. (FRCP Rule 12(a)(1))",
+      "A defendant may move to dismiss on seven enumerated grounds instead of answering, but must do so before filing a responsive pleading; failure to include defenses of personal jurisdiction, venue, process, or service of process in that first motion results in waiver of those defenses. (FRCP Rules 12(b) and 12(h)(1))",
+      "If matters outside the pleadings are presented and not excluded on a Rule 12(b)(6) or 12(c) motion, the court must treat it as a motion for summary judgment under Rule 56, giving all parties a reasonable opportunity to present relevant material. (FRCP Rule 12(d))"
+    ],
+    "citations": [
+      "FRCP Rule 12(a)",
+      "FRCP Rule 12(b)",
+      "FRCP Rule 12(c)",
+      "FRCP Rule 12(d)",
+      "FRCP Rule 12(e)",
+      "FRCP Rule 12(f)",
+      "FRCP Rule 12(g)",
+      "FRCP Rule 12(h)",
+      "FRCP Rule 56"
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Pleadings and Motions to Dismiss",
+    "source": "CPLR",
+    "plain_english_summary": "Under the CPLR, pleadings are the formal written documents that define what a lawsuit is about. The plaintiff files a complaint laying out the facts and claims, and the defendant responds with an answer that admits or denies those allegations and raises any affirmative defenses. New York follows a 'notice pleading' standard, meaning a complaint just needs to give the defendant fair notice of the claim — it does not need to include every detail, but it must state the material facts supporting each cause of action. Certain claims, like fraud or mistake, require more specificity and must be pleaded with particularity. The defendant can also raise defenses before filing a full answer by making a pre-answer motion to dismiss.",
+    "key_rules": [
+      "A complaint must contain a plain and concise statement of the material facts, not the evidence, upon which the cause of action is based (CPLR § 3013).",
+      "A defendant may move to dismiss the complaint on grounds such as lack of jurisdiction, failure to state a cause of action, statute of limitations, or res judicata, among others listed in CPLR § 3211(a).",
+      "A motion to dismiss for failure to state a cause of action under CPLR § 3211(a)(7) is decided by accepting the plaintiff's allegations as true and determining whether they fit within a cognizable legal theory — the pleading is given every favorable inference."
+    ],
+    "citations": [
+      "CPLR § 3013",
+      "CPLR § 3014",
+      "CPLR § 3016",
+      "CPLR § 3211(a)",
+      "CPLR § 3211(a)(7)",
+      "CPLR § 3018",
+      "CPLR § 3012"
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Discovery Rules",
+    "source": "FRCP",
+    "plain_english_summary": "Discovery is the pre-trial process where both sides in a lawsuit share relevant information and evidence with each other. The core idea, established in Hickman v. Taylor (1947), is that both parties should have access to all relevant facts so the case can be decided fairly. The rules are designed to make discovery a tool for finding the truth — not a weapon lawyers use to overwhelm, delay, or financially exhaust the other side. Courts are encouraged to step in and actively manage discovery to keep it proportional to what the case actually needs, meaning the scope of discovery should match the size, complexity, and importance of the lawsuit.",
+    "key_rules": [
+      "Discovery must be proportional to the needs of the case — courts have authority to limit discovery that is redundant, excessive, or disproportionate to the amount or issues at stake. (FRCP Rule 26(b)(1))",
+      "Every discovery request, response, or objection must be signed by the attorney, certifying that a reasonable inquiry was made and that the request is legitimate, not made for harassment or delay. Violations can result in sanctions. (FRCP Rule 26(g))",
+      "Courts may hold discovery conferences to manage and prevent abuse of the discovery process, and may combine these with pretrial conferences under Rule 16. Frivolous requests for conferences may be stricken. (FRCP Rule 26(f))"
+    ],
+    "citations": [
+      "FRCP Rule 26(a)",
+      "FRCP Rule 26(b)(1)",
+      "FRCP Rule 26(c)",
+      "FRCP Rule 26(f)",
+      "FRCP Rule 26(g)",
+      "FRCP Rule 37"
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Discovery Rules",
+    "source": "CPLR",
+    "plain_english_summary": "Under the CPLR, discovery is the pre-trial process that allows parties in a lawsuit to obtain information and evidence from each other and from third parties. New York follows a broad disclosure standard — parties are entitled to discover any evidence that is 'material and necessary' to the prosecution or defense of their case, a standard interpreted liberally by courts to mean anything reasonably likely to help a party's position. The main discovery tools available include depositions (oral or written questions under oath), written interrogatories, demands for documents and other tangible items, physical and mental examinations, and requests for admissions. Parties are expected to cooperate in good faith, and the court can intervene when disputes arise.",
+    "key_rules": [
+      "The scope of disclosure is anything 'material and necessary' to the prosecution or defense of an action, interpreted liberally in favor of disclosure (CPLR § 3101(a))",
+      "A party may conduct a deposition of any person, including parties and non-parties, by oral examination or written questions, upon proper notice (CPLR § 3106)",
+      "Privileged matter — including attorney-client communications and attorney work product prepared solely for litigation — is protected from disclosure (CPLR § 3101(b) and § 3101(c))"
+    ],
+    "citations": [
+      "CPLR § 3101",
+      "CPLR § 3102",
+      "CPLR § 3106",
+      "CPLR § 3107",
+      "CPLR § 3111",
+      "CPLR § 3120",
+      "CPLR § 3121",
+      "CPLR § 3123",
+      "CPLR § 3124",
+      "CPLR § 3126"
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Summary Judgment and Default",
+    "source": "FRCP",
+    "plain_english_summary": "Summary judgment is a tool that allows a party to win a case—or part of a case—without going to trial. It is available when there is no genuine dispute about any important fact, meaning a trial would be unnecessary because the outcome is clear as a matter of law. Either side can file a motion for summary judgment at any time, though courts typically set a deadline around 30 days after the close of discovery. The party asking for summary judgment must show that the facts are not genuinely in dispute; the opposing party must then respond with real evidence—not just the allegations in their pleadings—to demonstrate that a trial is actually needed. Simply pointing to what you wrote in your complaint or answer is not enough to defeat a properly supported summary judgment motion.",
+    "key_rules": [
+      "A court should grant summary judgment when there is no genuine dispute as to any material fact and the moving party is entitled to judgment as a matter of law (FRCP Rule 56(a)).",
+      "The party opposing summary judgment cannot rely solely on its pleadings; it must present specific facts—through affidavits, depositions, interrogatory answers, or other evidence—showing a genuine issue for trial (FRCP Rule 56(e)).",
+      "A partial summary judgment resolves only certain issues or claims before trial and is not a final, appealable judgment; it functions as a pretrial order establishing that certain facts are no longer in dispute (FRCP Rule 56(d))."
+    ],
+    "citations": [
+      "FRCP Rule 56(a)",
+      "FRCP Rule 56(c)",
+      "FRCP Rule 56(d)",
+      "FRCP Rule 56(e)"
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Summary Judgment and Default",
+    "source": "CPLR",
+    "plain_english_summary": "Summary judgment under CPLR 3212 is a way to win a case before trial by showing there is no genuine dispute about any material fact. The party moving for summary judgment must file a motion with supporting affidavits, evidence, and a memorandum of law demonstrating that they are entitled to judgment as a matter of law. The opposing party then has the burden to come forward with admissible evidence showing that a real factual dispute exists — mere conclusions or speculation are not enough to defeat the motion. Courts will grant summary judgment only when the moving party has made a prima facie showing of entitlement, and the opponent has failed to raise a triable issue of fact. Importantly, a motion for summary judgment generally cannot be made before issue has been joined (i.e., before the defendant has served an answer), and it must typically be made no later than 120 days after the filing of the note of issue, unless the court sets a different deadline.",
+    "key_rules": [
+      "A motion for summary judgment must be supported by an affidavit, a copy of the pleadings, and other available proof; the motion may be made any time after issue is joined but no later than 120 days after filing the note of issue unless good cause is shown (CPLR § 3212(a)).",
+      "The court shall grant summary judgment upon any claim or defense when there is no triable issue of fact; supporting and opposing affidavits must be made by persons with personal knowledge and must set forth facts that would be admissible at trial (CPLR § 3212(b)).",
+      "A default judgment may be entered against a party who fails to appear or answer; the plaintiff must submit proof of service, the facts constituting the claim, and the defendant's default, and if the claim is for a sum certain, the clerk may enter judgment, otherwise the court must do so (CPLR § 3215)."
+    ],
+    "citations": [
+      "CPLR § 3212",
+      "CPLR § 3211",
+      "CPLR § 3215",
+      "CPLR § 3216",
+      "CPLR § 3213"
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Class Actions and Party Joinder",
+    "source": "FRCP",
+    "plain_english_summary": "Under Federal Rule of Civil Procedure 23, when a lawsuit is brought as a class action, the court plays an active role in overseeing how attorneys are paid and how class members are notified of important developments. When class counsel asks the court for attorney fees, they must file a formal motion, give notice to all class members in a reasonable way, and disclose any side agreements about fees — for example, if a settling party agreed not to oppose a fee request up to a certain dollar amount. The court's job is to make sure the overall fee award is fair to the lawyers and equitable for the class as a whole, and it must make written findings explaining its decision. Class members and parties who are being asked to pay fees have the right to object, and the court can allow limited discovery to help evaluate those objections.",
+    "key_rules": [
+      "Class counsel must seek attorney fees by motion under Rule 54(d)(2), and the court must direct when the motion is filed — ideally in time to include fee information in the notice sent to the class about any proposed settlement. (FRCP Rule 23(h)(1))",
+      "Notice of class counsel's fee motion must be directed to the class in a reasonable manner, and in settlement cases this notice should be combined with the Rule 23(e) settlement notice so class members can evaluate both at the same time. (FRCP Rule 23(h)(1); Rule 23(e))",
+      "Any class member or party from whom payment is sought may object to the fee motion; the court must then independently determine whether the fee is justified and set a reasonable amount, supported by findings and conclusions under Rule 52(a). (FRCP Rule 23(h)(2)-(3))"
+    ],
+    "citations": [
+      "FRCP Rule 23(h)",
+      "FRCP Rule 23(e)",
+      "FRCP Rule 54(d)(2)",
+      "FRCP Rule 52(a)"
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Class Actions and Party Joinder",
+    "source": "CPLR",
+    "plain_english_summary": "Under the CPLR, a class action allows one or more people to sue (or be sued) on behalf of a much larger group of people who all share a common legal claim. Rather than filing hundreds of individual lawsuits, the named plaintiffs represent everyone in the 'class.' To get a case certified as a class action under CPLR Article 9, the court must find that the class is so large that joining every member individually would be impractical (numerosity), that there are common questions of law or fact shared by all class members (commonality), that the named plaintiffs' claims are typical of the rest of the class (typicality), and that the named plaintiffs and their attorneys will fairly and adequately protect the interests of the entire class (adequacy of representation). If the court certifies the class, all absent class members are generally bound by the outcome, which is why the certification decision is so important.",
+    "key_rules": [
+      "A class action may be maintained only if the court finds the four prerequisites are met: numerosity, commonality, typicality, and adequacy of representation (CPLR § 901(a)).",
+      "The court must also find that a class action is superior to other available methods for the fair and efficient adjudication of the controversy, considering factors such as class members' interest in individual control, the extent of any litigation already begun, and the desirability of concentrating the claims in one forum (CPLR § 901(b)).",
+      "For party joinder generally, all persons who are necessary to a complete determination of the controversy must be joined as parties; a person is a necessary party if complete relief cannot be granted without them or if they claim an interest in the action such that proceeding without them may impair that interest or leave existing parties subject to inconsistent obligations (CPLR § 1001(a))."
+    ],
+    "citations": [
+      "CPLR § 901",
+      "CPLR § 902",
+      "CPLR § 903",
+      "CPLR § 904",
+      "CPLR § 906",
+      "CPLR § 1001",
+      "CPLR § 1002",
+      "CPLR § 1003"
+    ]
+  }
+]

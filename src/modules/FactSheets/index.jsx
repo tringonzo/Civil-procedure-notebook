@@ -79,7 +79,7 @@ function FactSheetDisplay({ sheet }) {
         )}
 
         <div className="fact-sources-row">
-          <span>✓ All facts sourced from FRCP (Cornell LII) and CPLR (Justia)</span>
+          <span>✓ All facts sourced from FRCP (Cornell LII) and CPLR (NY Senate)</span>
         </div>
       </div>
     </div>
