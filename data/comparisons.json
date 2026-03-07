@@ -1,0 +1,722 @@
+[
+  {
+    "id": 1,
+    "topic": "Service of Process — Time Limits",
+    "rows": [
+      {
+        "aspect": "Time limit to serve defendant after filing",
+        "frcp": "Plaintiff must serve the defendant within 90 days after the complaint is filed. If service is not made within that time, the court must dismiss the action without prejudice or order that service be made within a specified time.",
+        "cplr": "Plaintiff must serve the defendant within 120 days after filing the summons with or without complaint. Failure to timely serve results in dismissal unless the plaintiff shows good cause or the court exercises discretion to extend the time.",
+        "citation_frcp": "FRCP Rule 4(m)",
+        "citation_cplr": "CPLR § 306-b"
+      },
+      {
+        "aspect": "Extension of time to serve",
+        "frcp": "Court must extend time for service if the plaintiff shows good cause for failure to serve within the 90-day period. Courts may also grant discretionary extensions even absent good cause. No extension is available for service in a foreign country under Rule 4(m).",
+        "cplr": "Court may extend time for service upon good cause shown or in the interest of justice. The 'interest of justice' standard is broader than good cause and allows courts to consider factors such as the expiration of the statute of limitations, meritorious claims, and lack of prejudice to the defendant.",
+        "citation_frcp": "FRCP Rule 4(m)",
+        "citation_cplr": "CPLR § 306-b"
+      },
+      {
+        "aspect": "Applicability of time limit to foreign service",
+        "frcp": "The 90-day time limit expressly does not apply to service in a foreign country under Rule 4(f) or service on a foreign state under Rule 4(j)(1). Foreign service is exempt from the deadline given inherent difficulties of serving abroad.",
+        "cplr": "The 120-day period applies generally to all service, including foreign service, unless the court grants an extension. There is no blanket statutory exemption for foreign service, though courts may extend time in the interest of justice given the practical difficulties of serving abroad.",
+        "citation_frcp": "FRCP Rule 4(m)",
+        "citation_cplr": "CPLR § 306-b; CPLR § 313"
+      },
+      {
+        "aspect": "Commencement of action and statute of limitations tolling",
+        "frcp": "An action is commenced by filing the complaint with the court. The statute of limitations is tolled upon filing. The 90-day service period runs from the date of filing, but the statute of limitations clock stops at filing regardless of when service is effected.",
+        "cplr": "An action is commenced by filing the summons with or without the complaint. The statute of limitations is tolled upon filing. However, if the plaintiff fails to serve within 120 days and the action is dismissed, the toll may be lost, potentially time-barring the claim.",
+        "citation_frcp": "FRCP Rule 3; FRCP Rule 4(m)",
+        "citation_cplr": "CPLR § 203(c); CPLR § 304; CPLR § 306-b"
+      },
+      {
+        "aspect": "Consequences of failure to timely serve",
+        "frcp": "If the plaintiff fails to serve within 90 days and cannot show good cause, the court must dismiss the action without prejudice against the unserved defendant, or order service be completed within a specified time. Dismissal is without prejudice unless the statute of limitations has run.",
+        "cplr": "If the plaintiff fails to serve within 120 days, the court must dismiss the action unless it grants an extension. Because New York tolls the statute of limitations only upon filing, a dismissal for untimely service after the limitations period has expired may effectively bar refiling, making the dismissal functionally with prejudice.",
+        "citation_frcp": "FRCP Rule 4(m)",
+        "citation_cplr": "CPLR § 306-b; CPLR § 203"
+      },
+      {
+        "aspect": "Time limit for service by publication",
+        "frcp": "The FRCP does not contain a specific provision for service by publication as a general matter; publication is only permitted when authorized by state law applicable under Rule 4(e)(1) or by court order. No separate time limit for publication is specified in the federal rules.",
+        "cplr": "Service by publication must be made pursuant to a court order. The order directs publication in a specified newspaper for a set period, typically once a week for four consecutive weeks. Service is complete 28 days after first publication. The overall 120-day service deadline still applies unless extended by court order.",
+        "citation_frcp": "FRCP Rule 4(e)(1); FRCP Rule 4(m)",
+        "citation_cplr": "CPLR § 316; CPLR § 306-b"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Pleading Standards",
+    "rows": [
+      {
+        "aspect": "Amendment as of Right (Time Limit)",
+        "frcp": "A party may amend its pleading once as a matter of course: (A) within 21 days after serving it, or (B) if a responsive pleading is required, within 21 days after service of a responsive pleading or 21 days after service of a Rule 12(b), (e), or (f) motion, whichever is earlier.",
+        "cplr": "A party may amend a pleading once as of course within 20 days after service, or at any time before the period for responding expires, or within 20 days after service of a pleading responding to it. Once a responsive pleading has been served, amendment as of right is no longer available without leave of court or stipulation.",
+        "citation_frcp": "FRCP Rule 15(a)(1)",
+        "citation_cplr": "CPLR § 3025(a)"
+      },
+      {
+        "aspect": "Amendment by Leave of Court",
+        "frcp": "In all cases other than amendment as of course, a party may amend only with the opposing party's written consent or the court's leave. The court should freely give leave when justice so requires, applying a liberal standard.",
+        "cplr": "A party may amend a pleading at any time by leave of court or by stipulation of all parties. Leave shall be freely given upon such terms as may be just, including the granting of costs and continuances. The standard mirrors the federal liberal approach but courts may impose conditions such as costs.",
+        "citation_frcp": "FRCP Rule 15(a)(2)",
+        "citation_cplr": "CPLR § 3025(b)"
+      },
+      {
+        "aspect": "Relation Back of Amendments",
+        "frcp": "An amendment relates back to the date of the original pleading when: (A) applicable limitations law allows it; (B) the amendment arises out of the same conduct, transaction, or occurrence; or (C) the amendment changes a party, the new party received notice within the Rule 4(m) service period, and knew or should have known the action would have been brought against it but for a mistake in identity.",
+        "cplr": "An amendment relates back if the original pleading gave notice of the transactions or occurrences to be proved and the defense is not prejudiced. For adding or changing a party, relation back is permitted under a three-pronged test: (1) both claims arose out of the same transaction; (2) the new party is united in interest with the original defendant; and (3) the new party knew or should have known that but for a mistake, the action would have been brought against them.",
+        "citation_frcp": "FRCP Rule 15(c)(1)",
+        "citation_cplr": "CPLR § 203(f); Buran v. Coupal, 87 N.Y.2d 173 (1995)"
+      },
+      {
+        "aspect": "Supplemental Pleadings",
+        "frcp": "On motion and reasonable notice, the court may permit a party to serve a supplemental pleading setting out any transaction, occurrence, or event that happened after the date of the original pleading. The court may permit supplementation even if the original pleading is defective in stating a claim or defense.",
+        "cplr": "A party may serve a supplemental pleading setting forth transactions or occurrences or events which have happened since the date of the pleading sought to be supplemented. Permission of the court must be obtained by motion, and the court has discretion to allow supplementation on just terms.",
+        "citation_frcp": "FRCP Rule 15(d)",
+        "citation_cplr": "CPLR § 3025(d)"
+      },
+      {
+        "aspect": "Response Time to Amended Pleading",
+        "frcp": "Unless the court orders otherwise, any required response to an amended pleading must be served within the time remaining to respond to the original pleading or within 14 days after service of the amended pleading, whichever is later.",
+        "cplr": "A party has 20 days to respond to an amended or supplemental pleading unless the court orders otherwise. If the amended pleading raises new claims or materially changes the original, the responding party is entitled to the full 20-day period from service of the amended pleading.",
+        "citation_frcp": "FRCP Rule 15(a)(3)",
+        "citation_cplr": "CPLR § 3025(d); CPLR § 3012(a)"
+      },
+      {
+        "aspect": "Pleading Standard / Specificity Required",
+        "frcp": "Federal pleading requires a 'short and plain statement of the claim showing that the pleader is entitled to relief,' interpreted under the Twombly/Iqbal plausibility standard, requiring sufficient factual matter to state a claim that is plausible on its face and not merely speculative or conclusory.",
+        "cplr": "New York follows a notice pleading standard requiring a 'plain and concise statement' of material facts sufficient to give notice of the transactions or occurrences intended to be proved. New York expressly rejects the federal Twombly/Iqbal plausibility standard and does not require detailed factual allegations at the pleading stage.",
+        "citation_frcp": "FRCP Rule 8(a)(2); Bell Atlantic Corp. v. Twombly, 550 U.S. 544 (2007); Ashcroft v. Iqbal, 556 U.S. 662 (2009)",
+        "citation_cplr": "CPLR § 3013; Caniglia v. Chicago Tribune-New York News Syndicate, 204 A.D.2d 233 (1st Dep't 1994)"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Class Action Requirements",
+    "rows": [
+      {
+        "aspect": "Prerequisites / Numerosity, Commonality, Typicality, Adequacy",
+        "frcp": "Four explicit prerequisites must ALL be satisfied: (1) numerosity – class so numerous joinder is impracticable; (2) commonality – questions of law or fact common to the class; (3) typicality – representative claims/defenses typical of the class; (4) adequacy – representative parties will fairly and adequately protect class interests.",
+        "cplr": "Five prerequisites must be satisfied: (1) class is so numerous that joinder is impracticable; (2) questions of law or fact common to the class predominate over individual questions; (3) the claims or defenses of representative parties are typical of the class; (4) representative parties will fairly and adequately protect class interests; (5) a class action is superior to other methods. Notably, CPLR folds predominance into the threshold requirements rather than treating it as a secondary type-specific inquiry.",
+        "citation_frcp": "FRCP Rule 23(a)",
+        "citation_cplr": "CPLR § 901(a)"
+      },
+      {
+        "aspect": "Types / Categories of Class Actions Permitted",
+        "frcp": "Three distinct types after satisfying Rule 23(a): (b)(1) risk of inconsistent adjudications or dispositive effect on absent members; (b)(2) defendant acted or refused to act on grounds generally applicable to the class making injunctive or declaratory relief appropriate; (b)(3) common questions predominate and class action is superior (damages class). Each type has different notice and opt-out rules.",
+        "cplr": "No separate enumerated types or categories. A single unified standard applies to all class actions regardless of the nature of relief sought (damages, injunctive, declaratory). Courts consider the five § 901(a) factors holistically without categorizing the action into a specific type, giving New York courts broader and more flexible discretion.",
+        "citation_frcp": "FRCP Rule 23(b)(1), 23(b)(2), 23(b)(3)",
+        "citation_cplr": "CPLR § 901(a)"
+      },
+      {
+        "aspect": "Certification Procedure and Timing",
+        "frcp": "Court must determine certification 'at an early practicable time' after a person sues or is sued as class representative. Certification order must define the class, class claims, issues, or defenses, and must appoint class counsel. Order may be altered or amended before final judgment.",
+        "cplr": "Court determines certification on motion; no specific 'early practicable time' mandate. Upon certification, court must specify the class, direct the manner of giving notice, and may impose conditions. Court retains ongoing power to amend or alter the certification order at any time before judgment. No mandatory appointment of class counsel is codified.",
+        "citation_frcp": "FRCP Rule 23(c)(1)",
+        "citation_cplr": "CPLR § 902, § 907"
+      },
+      {
+        "aspect": "Notice Requirements and Opt-Out Rights",
+        "frcp": "For (b)(3) classes, court MUST direct the 'best notice practicable,' including individual notice to identifiable members via mail, electronic means, or other appropriate means. Notice must contain seven specific mandatory elements. Class members have an absolute right to opt out. For (b)(1) and (b)(2) classes, notice is discretionary and there is generally no opt-out right.",
+        "cplr": "Court has broad discretion to direct notice in the manner and form it deems appropriate; no mandatory 'best notice practicable' standard or enumerated mandatory content requirements. Notice must generally describe the action and advise members of their right to appear or opt out, but the specific content and method are left to judicial discretion. Opt-out right exists for all class actions.",
+        "citation_frcp": "FRCP Rule 23(c)(2)(B)",
+        "citation_cplr": "CPLR § 904"
+      },
+      {
+        "aspect": "Settlement Approval Standards",
+        "frcp": "Court may approve a proposed settlement only after a hearing and only upon finding it is fair, reasonable, and adequate, considering four enumerated factors: adequacy of representation, arm's-length negotiation, adequacy of relief (including costs/risks of trial, distribution method, attorney's fees, and side agreements), and equitable treatment of class members relative to each other. Parties must file a statement identifying all side agreements.",
+        "cplr": "Court must approve any settlement, discontinuance, or compromise of a class action. Approval requires a finding that the settlement is fair, reasonable, and adequate. However, no specific statutory factors are enumerated; the court exercises broad equitable discretion. Notice of a proposed settlement must be given to all class members in such manner as the court directs, and members have an opportunity to object.",
+        "citation_frcp": "FRCP Rule 23(e)(2), 23(e)(3)",
+        "citation_cplr": "CPLR § 908, § 909"
+      },
+      {
+        "aspect": "Attorney's Fees and Interlocutory Appeals",
+        "frcp": "Court must appoint class counsel considering specific statutory criteria (investigation work, class action experience, knowledge of applicable law, resources committed). Interlocutory appeal of certification orders is expressly permitted by petition to the court of appeals within 14 days (or 45 days if the United States is a party); appeal does not automatically stay district court proceedings.",
+        "cplr": "No mandatory appointment of class counsel; counsel who instituted the action typically represents the class. Court may award attorney's fees from any fund created for the class or may tax costs as justice requires, but no detailed statutory criteria for fee awards in the class action statute itself. Interlocutory appeal of certification orders is available as of right from an order granting or refusing certification; no specific petition deadline analogous to the federal 14-day rule is codified in Article 9.",
+        "citation_frcp": "FRCP Rule 23(g), 23(f)",
+        "citation_cplr": "CPLR § 909, § 910"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Summary Judgment Standards",
+    "rows": [
+      {
+        "aspect": "Time limit / deadline to file motion",
+        "frcp": "No specific deadline mandated by the rule itself; a party may move at any time, even at the commencement of the action. A presumptive deadline of 30 days after the close of all discovery applies unless altered by court order or local rule. Scheduling orders typically supersede the default timing provisions.",
+        "cplr": "Motion must be made no later than 120 days after the filing of the note of issue, except with leave of court on good cause shown. This is a strict statutory deadline that courts enforce rigorously.",
+        "citation_frcp": "FRCP Rule 56(b); Rule 56(c)(1)",
+        "citation_cplr": "CPLR § 3212(a)"
+      },
+      {
+        "aspect": "Standard for granting the motion",
+        "frcp": "Summary judgment shall be granted if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law. The word 'shall' is used to express a mandatory direction once the standard is met, though courts retain limited discretion to deny when a full trial would be the better course.",
+        "cplr": "Summary judgment shall be granted if, upon all the papers and proof submitted, the cause of action or defense is established sufficiently to warrant the court directing judgment as a matter of law. The motion shall be denied if any party shows facts sufficient to require a trial of any issue of fact.",
+        "citation_frcp": "FRCP Rule 56(a)",
+        "citation_cplr": "CPLR § 3212(b)"
+      },
+      {
+        "aspect": "Burden of proof on the motion",
+        "frcp": "The moving party bears the initial burden of demonstrating the absence of a genuine dispute of material fact. The burden then shifts to the non-moving party to present specific facts showing a genuine dispute. A party need not produce evidence negating the opponent's claim if the opponent bears the burden of proof at trial; pointing to an absence of evidence is sufficient.",
+        "cplr": "The moving party bears the initial burden of tendering sufficient evidence to demonstrate the absence of any material issues of fact, as a matter of law. This is a more demanding prima facie showing requirement than under the FRCP; the movant must affirmatively establish entitlement to judgment rather than merely pointing to gaps in the opponent's proof.",
+        "citation_frcp": "FRCP Rule 56(a); Celotex Corp. v. Catrett, 477 U.S. 317 (1986)",
+        "citation_cplr": "CPLR § 3212(b); Alvarez v. Prospect Hosp., 68 N.Y.2d 320 (1986)"
+      },
+      {
+        "aspect": "Evidentiary materials / supporting papers",
+        "frcp": "A party may support or oppose the motion by citing to particular parts of materials in the record, including depositions, documents, electronically stored information, affidavits or declarations, stipulations, admissions, interrogatory answers, or other materials. The court may consider other materials in the record even if not cited by a party.",
+        "cplr": "The motion must be supported by an affidavit by a person with knowledge of the facts, a copy of the pleadings, and other available proof such as depositions and written admissions. Affidavits must be by persons with direct, firsthand knowledge; attorney affirmations based solely on the record are insufficient to establish facts.",
+        "citation_frcp": "FRCP Rule 56(c)(1)(A); Rule 56(c)(3)",
+        "citation_cplr": "CPLR § 3212(b)"
+      },
+      {
+        "aspect": "Effect of pleadings on the motion",
+        "frcp": "The very mission of summary judgment is to pierce the pleadings and assess the proof to determine whether there is a genuine need for trial. Well-pleaded averments in the pleadings alone are insufficient to defeat summary judgment; the non-moving party must go beyond the pleadings and present competent evidence creating a genuine dispute of material fact.",
+        "cplr": "Mere allegations in the pleadings are insufficient to defeat a motion for summary judgment. The opposing party must assemble and lay bare affirmative proof to demonstrate that the matters claimed are real and capable of being established at trial. Unsubstantiated conclusory assertions in pleadings will not suffice.",
+        "citation_frcp": "FRCP Rule 56 Advisory Committee Notes (1963 Amendment); Rule 56(c)(1)",
+        "citation_cplr": "CPLR § 3212(b); Zuckerman v. City of New York, 49 N.Y.2d 557 (1980)"
+      },
+      {
+        "aspect": "Court's obligation to state reasons / partial summary judgment",
+        "frcp": "The court should state on the record the reasons for granting or denying the motion. Partial summary judgment is expressly recognized; the court may grant summary judgment on a claim, defense, or part of a claim or defense. If summary judgment is not fully granted, the court shall ascertain what material facts are not genuinely in dispute for purposes of trial.",
+        "cplr": "The court may grant summary judgment on one or more causes of action or on part of a cause of action. If the motion is denied, the court is encouraged to indicate the issues of fact that require trial. In a medical malpractice action and certain other cases, the court must state its reasons for denying the motion on the record.",
+        "citation_frcp": "FRCP Rule 56(a); Rule 56(d)(1)",
+        "citation_cplr": "CPLR § 3212(e); CPLR § 3212(b)"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Discovery Scope",
+    "rows": [
+      {
+        "aspect": "General Scope Standard",
+        "frcp": "Discovery may be obtained regarding any nonprivileged matter that is relevant to any party's claim or defense and proportional to the needs of the case, considering factors such as importance of issues, amount in controversy, parties' resources, and importance of discovery in resolving the issues.",
+        "cplr": "Full disclosure of all matter material and necessary in the prosecution or defense of an action is required. 'Material and necessary' is interpreted liberally to require disclosure of any facts bearing on the controversy, even if inadmissible at trial, provided they may lead to admissible evidence.",
+        "citation_frcp": "FRCP Rule 26(b)(1)",
+        "citation_cplr": "CPLR § 3101(a)"
+      },
+      {
+        "aspect": "Proportionality Requirement",
+        "frcp": "Explicit proportionality requirement built into the scope definition. Courts must limit discovery if burden or expense outweighs likely benefit, considering the nature and complexity of the case, importance of issues at stake, financial resources of parties, and whether the discovery is disproportionate to the individual lawsuit.",
+        "cplr": "No explicit proportionality requirement embedded in the scope definition. Courts may issue protective orders to limit disclosure that is unreasonably burdensome or harmful, but proportionality is not a threshold requirement for scope; the liberal 'material and necessary' standard governs without a proportionality overlay.",
+        "citation_frcp": "FRCP Rule 26(b)(1); Rule 26(b)(2)(C)",
+        "citation_cplr": "CPLR § 3103(a)"
+      },
+      {
+        "aspect": "Mandatory / Automatic Disclosures",
+        "frcp": "Parties must make initial disclosures without awaiting a discovery request, including: names of individuals likely to have discoverable information, copies or descriptions of relevant documents, computation of damages, and insurance agreements. Expert disclosures and pretrial disclosures are also mandatory.",
+        "cplr": "No mandatory automatic initial disclosures. Discovery is entirely demand-driven; a party must serve specific notices, demands, or interrogatories to obtain information. There is no CPLR equivalent to the FRCP initial disclosure regime.",
+        "citation_frcp": "FRCP Rule 26(a)(1), 26(a)(2), 26(a)(3)",
+        "citation_cplr": "CPLR §§ 3120, 3130, 3107 (all demand-based)"
+      },
+      {
+        "aspect": "Judicial Involvement and Court Management of Discovery",
+        "frcp": "Significant judicial management is contemplated. Courts are expressly encouraged to be aggressive in identifying and discouraging discovery overuse. Courts may act on their own initiative to limit discovery methods, frequency, or scope. Discovery conferences and scheduling orders with discovery deadlines are standard.",
+        "cplr": "Judicial involvement is more reactive than proactive. Courts may supervise disclosure upon motion of any party and issue protective orders, but there is no systematic framework requiring courts to actively manage or limit discovery scope on their own initiative at the outset of litigation.",
+        "citation_frcp": "FRCP Rule 26(b)(2)(C); Rule 26(f); Rule 16(b)",
+        "citation_cplr": "CPLR § 3103(a); § 3104"
+      },
+      {
+        "aspect": "Attorney Certification and Signing Requirements",
+        "frcp": "Every discovery request, response, and objection must be signed by the attorney, certifying that it is consistent with the rules, warranted by existing law or nonfrivolous argument, not interposed for improper purpose, and not unreasonably burdensome or expensive. Sanctions are explicitly authorized for violations.",
+        "cplr": "No equivalent universal signing and certification requirement for discovery demands and responses. Frivolous conduct in discovery may be sanctioned under the court's general authority and Part 130 of the Rules of the Chief Administrator, but there is no specific discovery-certification rule mirroring FRCP 26(g).",
+        "citation_frcp": "FRCP Rule 26(g)",
+        "citation_cplr": "22 NYCRR § 130-1.1 (general frivolous conduct sanctions)"
+      },
+      {
+        "aspect": "Scope of Work Product Protection",
+        "frcp": "Work product doctrine protects documents and tangible things prepared in anticipation of litigation or trial by or for a party or its representative. Opinion work product (mental impressions, conclusions, legal theories of counsel) receives near-absolute protection. Fact work product is discoverable upon showing of substantial need and undue hardship.",
+        "cplr": "Attorney work product is absolutely protected and not discoverable under any circumstances. Materials prepared in anticipation of litigation (broader 'attorney's work product') are protected but can be disclosed upon a showing that the party seeking disclosure has a substantial need and is unable without undue hardship to obtain the substantial equivalent by other means.",
+        "citation_frcp": "FRCP Rule 26(b)(3)",
+        "citation_cplr": "CPLR § 3101(c) (attorney work product); § 3101(d)(2) (material prepared for litigation)"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Motion to Dismiss Grounds",
+    "rows": [
+      {
+        "aspect": "Enumerated Grounds for Dismissal",
+        "frcp": "Grounds include: (1) lack of subject-matter jurisdiction, (2) lack of personal jurisdiction, (3) improper venue, (4) insufficient process, (5) insufficient service of process, (6) failure to state a claim upon which relief can be granted, and (7) failure to join a required party.",
+        "cplr": "Grounds include: (1) documentary evidence, (2) lack of legal capacity to sue, (3) another action pending, (4) lack of personal jurisdiction, (5) lack of subject-matter jurisdiction, (6) failure to state a cause of action, (7) failure to join a necessary party, (8) proper person not plaintiff, (9) defense founded on documentary evidence barring recovery, and (10) statute of limitations.",
+        "citation_frcp": "FRCP Rule 12(b)(1)-(7)",
+        "citation_cplr": "CPLR § 3211(a)(1)-(11)"
+      },
+      {
+        "aspect": "Time Limit / Deadline to File",
+        "frcp": "A Rule 12(b) motion must be made before or simultaneously with a responsive pleading. A motion asserting defenses (2)-(5) must be raised before or in the first responsive pleading or it is waived. Defenses (1), (6), and (7) may be raised at any time through trial.",
+        "cplr": "A motion to dismiss must generally be made before service of the responsive pleading. Objections to personal jurisdiction (CPLR 3211(a)(8)) are waived if not raised in the answer or by pre-answer motion. The statute of limitations ground must be raised in the answer or by motion or it is waived.",
+        "citation_frcp": "FRCP Rule 12(b), 12(h)",
+        "citation_cplr": "CPLR § 3211(a), § 3211(e)"
+      },
+      {
+        "aspect": "Waiver of Defenses",
+        "frcp": "Defenses of lack of personal jurisdiction, improper venue, insufficient process, and insufficient service of process are waived if omitted from a Rule 12(b) motion or from the first responsive pleading. Subject-matter jurisdiction is never waived and may be raised at any time.",
+        "cplr": "Personal jurisdiction objections are waived if not raised in a pre-answer motion or in the answer. However, the defense of failure to state a cause of action (§ 3211(a)(7)) and subject-matter jurisdiction are never waived and can be raised at any time, including at trial.",
+        "citation_frcp": "FRCP Rule 12(h)(1)-(3)",
+        "citation_cplr": "CPLR § 3211(e)"
+      },
+      {
+        "aspect": "Effect on Responsive Pleading / Automatic Extension",
+        "frcp": "Filing a Rule 12(b) motion before answering automatically extends the time to serve a responsive pleading until 14 days after the court denies the motion or postpones its disposition. If the court grants the motion, the action or claim is dismissed unless leave to amend is granted.",
+        "cplr": "Service of a pre-answer motion to dismiss automatically extends the time to answer or appear. If the motion is denied, the moving party has 10 days after service of the order denying the motion to serve a responsive pleading. The court may also allow amendment of the pleading in lieu of dismissal.",
+        "citation_frcp": "FRCP Rule 12(a)(4)",
+        "citation_cplr": "CPLR § 3211(f)"
+      },
+      {
+        "aspect": "Failure to State a Claim Standard",
+        "frcp": "A complaint must allege sufficient facts to state a claim that is plausible on its face. Conclusory allegations or mere recitation of elements without factual support are insufficient. Courts apply the Twombly/Iqbal plausibility standard when evaluating Rule 12(b)(6) motions.",
+        "cplr": "The court must accept the facts alleged in the complaint as true and determine only whether they fit within any cognizable legal theory. New York applies a more liberal notice-pleading standard than federal courts; the complaint need only give notice of the transactions intended to be proved and the material elements of each cause of action.",
+        "citation_frcp": "FRCP Rule 12(b)(6)",
+        "citation_cplr": "CPLR § 3211(a)(7); § 3013"
+      },
+      {
+        "aspect": "Conversion to Summary Judgment",
+        "frcp": "If matters outside the pleadings are presented and not excluded by the court on a Rule 12(b)(6) or 12(c) motion, the motion must be treated as one for summary judgment under Rule 56, and all parties must be given a reasonable opportunity to present all pertinent material.",
+        "cplr": "On a motion to dismiss for failure to state a cause of action, the court may, in its discretion, treat the motion as a motion for summary judgment after adequate notice to the parties, provided the motion is supported by appropriate evidentiary submissions. Conversion is within the court's discretion, not mandatory.",
+        "citation_frcp": "FRCP Rule 12(d)",
+        "citation_cplr": "CPLR § 3211(c)"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Default Judgment Procedures",
+    "rows": [
+      {
+        "aspect": "Entering a Default (First Step)",
+        "frcp": "When a party fails to plead or otherwise defend, the clerk must enter the party's default upon a showing by affidavit or otherwise. This two-step process (entry of default, then default judgment) is mandatory before seeking a default judgment.",
+        "cplr": "No formal two-step process is required. A party may proceed directly to apply for a default judgment without a prior clerk's entry of default, though proof of the default must be submitted with the application.",
+        "citation_frcp": "FRCP Rule 55(a)",
+        "citation_cplr": "CPLR § 3215(a)"
+      },
+      {
+        "aspect": "Who May Enter Default Judgment",
+        "frcp": "The clerk may enter judgment only when the claim is for a sum certain or a sum that can be made certain by computation, and the defendant has not appeared and is not a minor or incompetent. In all other cases, the party must apply to the court.",
+        "cplr": "The clerk may enter judgment when the claim is for a sum certain and the defendant has not appeared. For all other cases, including unliquidated damages, the plaintiff must apply to the court. The court assesses damages via inquest or other proceedings.",
+        "citation_frcp": "FRCP Rule 55(b)(1), 55(b)(2)",
+        "citation_cplr": "CPLR § 3215(a), § 3215(b)"
+      },
+      {
+        "aspect": "Time Limit to Move for Default Judgment",
+        "frcp": "No explicit deadline in Rule 55 for how long after entry of default a party must move for default judgment, though unreasonable delay can result in dismissal for lack of prosecution under Rule 41.",
+        "cplr": "Plaintiff must seek a default judgment within one year of the defendant's default. Failure to do so requires a motion with a reasonable excuse for the delay, or the court may dismiss the complaint as abandoned.",
+        "citation_frcp": "FRCP Rule 55(b); FRCP Rule 41",
+        "citation_cplr": "CPLR § 3215(c)"
+      },
+      {
+        "aspect": "Notice Requirement to Defaulting Party",
+        "frcp": "If the defaulting party has appeared personally or by a representative, that party or representative must be served with written notice of the application for default judgment at least 7 days before the hearing.",
+        "cplr": "If the defendant has appeared in the action, the defendant must be served with written notice of the motion for default judgment at least 5 days before the time the motion is noticed to be heard.",
+        "citation_frcp": "FRCP Rule 55(b)(2)",
+        "citation_cplr": "CPLR § 3215(g)(1)"
+      },
+      {
+        "aspect": "Setting Aside / Vacating a Default",
+        "frcp": "The court may set aside an entry of default for 'good cause.' A final default judgment may only be set aside under the more demanding standards of Rule 60(b), which includes mistake, excusable neglect, newly discovered evidence, fraud, void judgment, or other reasons.",
+        "cplr": "A defendant may move to vacate a default judgment by showing a reasonable excuse for the default and a potentially meritorious defense. The court has broad discretion. The motion must generally be made within one year of service of the judgment with notice of entry.",
+        "citation_frcp": "FRCP Rule 55(c); FRCP Rule 60(b)",
+        "citation_cplr": "CPLR § 5015(a)(1); CPLR § 317"
+      },
+      {
+        "aspect": "Default Against Government / Protected Parties",
+        "frcp": "A default judgment against the United States, its officers, or agencies may only be entered if the claimant establishes the claim by evidence satisfying the court. A default judgment against a minor or incompetent person requires representation by a guardian or fiduciary who has appeared.",
+        "cplr": "No default judgment may be entered against a person in military service without court order and compliance with the Servicemembers Civil Relief Act. A default against an infant or incompetent requires appointment of a guardian ad litem, and additional notice requirements apply to natural persons not served personally.",
+        "citation_frcp": "FRCP Rule 55(b)(2), 55(d)",
+        "citation_cplr": "CPLR § 3215(e); CPLR § 3215(g)(2), § 3215(g)(3)"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Amended Pleadings",
+    "rows": [
+      {
+        "aspect": "Amendment as of right (time limit)",
+        "frcp": "A party may amend its pleading once as a matter of course within 21 days after serving it, or if the pleading is one to which a responsive pleading is required, 21 days after service of a responsive pleading or a motion under Rule 12(b), (e), or (f), whichever is earlier.",
+        "cplr": "A party may amend a pleading once as of right at any time before the period for responding to it expires, or within 20 days after service of the pleading if no responsive pleading is required and the action has not been placed on the trial calendar.",
+        "citation_frcp": "FRCP Rule 15(a)(1)",
+        "citation_cplr": "CPLR § 3025(a)"
+      },
+      {
+        "aspect": "Amendment by leave of court",
+        "frcp": "In all other cases, a party may amend its pleading only with the opposing party's written consent or the court's leave. The court should freely give leave when justice so requires.",
+        "cplr": "A party may amend a pleading at any time by leave of court or by stipulation of all parties. Leave shall be freely given upon such terms as may be just, including the granting of costs and continuances.",
+        "citation_frcp": "FRCP Rule 15(a)(2)",
+        "citation_cplr": "CPLR § 3025(b)"
+      },
+      {
+        "aspect": "Relation back doctrine",
+        "frcp": "An amendment relates back to the original pleading when the law providing the applicable statute of limitations allows relation back; the amendment asserts a claim or defense arising from the same conduct, transaction, or occurrence; or the amendment changes the party or naming of the party against whom a claim is asserted, and that party received notice within the period provided by Rule 4(m) (90 days) so that it will not be prejudiced, and knew or should have known the action would have been brought against it but for a mistake.",
+        "cplr": "An amendment relates back to the original pleading if the original pleading gave notice of the transactions or occurrences to be proved and the amended pleading is interposed within the applicable limitations period or within 20 days of the original pleading. For new defendants, relation back applies if the original and new defendants are united in interest, the new defendant knew or should have known the action would be brought against them, and the new defendant is not prejudiced.",
+        "citation_frcp": "FRCP Rule 15(c)(1)",
+        "citation_cplr": "CPLR § 203(f); § 203(b)"
+      },
+      {
+        "aspect": "Supplemental pleadings",
+        "frcp": "On motion and reasonable notice, the court may permit a party to serve a supplemental pleading setting out any transaction, occurrence, or event that happened after the date of the pleading to be supplemented. The court may permit supplementation even though the original pleading is defective in stating a claim or defense.",
+        "cplr": "A party may serve a supplemental pleading setting forth transactions or occurrences or events which have happened since the date of the pleading sought to be supplemented. Permission of the court must be obtained by motion upon notice.",
+        "citation_frcp": "FRCP Rule 15(d)",
+        "citation_cplr": "CPLR § 3025(b)"
+      },
+      {
+        "aspect": "Service of amended pleading and response time",
+        "frcp": "Unless the court orders otherwise, any required response to an amended pleading must be made within the time remaining to respond to the original pleading or within 14 days after service of the amended pleading, whichever is later.",
+        "cplr": "A party must respond to an amended or supplemental pleading within 20 days of service of the amended pleading, or within the period allowed for the original response, whichever is longer. The court may alter this period.",
+        "citation_frcp": "FRCP Rule 15(a)(3)",
+        "citation_cplr": "CPLR § 3025(d)"
+      },
+      {
+        "aspect": "Amendments to conform to evidence",
+        "frcp": "When an issue not raised by the pleadings is tried by the parties' express or implied consent, it must be treated as if raised in the pleadings. The court may permit the pleadings to be amended, and such an amendment does not affect the outcome of the trial of that issue.",
+        "cplr": "The court may permit pleadings to be amended before or after judgment to conform them to the evidence, upon such terms as may be just including the granting of costs and continuances. Variance is not grounds for dismissal unless it actually misleads the adverse party to their prejudice.",
+        "citation_frcp": "FRCP Rule 15(b)",
+        "citation_cplr": "CPLR § 3025(c)"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Joinder of Parties",
+    "rows": [
+      {
+        "aspect": "Permissive Joinder of Plaintiffs and Defendants",
+        "frcp": "Persons may join as plaintiffs or be joined as defendants if they assert or face claims arising out of the same transaction or occurrence (or series thereof) AND there is a common question of law or fact. Both requirements must be met.",
+        "cplr": "Persons may be joined as plaintiffs or defendants if there is a common question of law or fact, OR if the right to relief arises out of the same transaction or occurrence. Only one of the two conditions needs to be satisfied, making CPLR joinder broader.",
+        "citation_frcp": "FRCP Rule 20(a)",
+        "citation_cplr": "CPLR § 1002"
+      },
+      {
+        "aspect": "Compulsory (Necessary) Joinder",
+        "frcp": "A party must be joined if: (1) complete relief cannot be accorded among existing parties without the absentee, or (2) the absentee has an interest that would be impaired by the action, or (3) existing parties risk inconsistent obligations. Court must determine whether to proceed or dismiss if joinder is infeasible.",
+        "cplr": "A court may order joinder of a person who ought to be a party if complete relief cannot be accorded or the person's interest might be inequitably affected by the judgment. The standard is somewhat more discretionary and less elaborately structured than the federal framework.",
+        "citation_frcp": "FRCP Rule 19(a), 19(b)",
+        "citation_cplr": "CPLR § 1001(a), § 1001(b)"
+      },
+      {
+        "aspect": "Joinder of Claims with Party Joinder",
+        "frcp": "Once parties are properly joined, a party may join as many independent or alternative claims as it has against an opposing party, regardless of whether those claims involve all parties to the action. Joinder of claims is unrestricted at the pleading stage; separate trials may be ordered later.",
+        "cplr": "A party may set forth one or more causes of action against one or more parties in a complaint, but the claims must affect all parties or the court may sever. CPLR joinder of claims is generally liberal but historically closer to code pleading roots, and courts may sever unrelated claims.",
+        "citation_frcp": "FRCP Rule 18(a), Rule 18(b)",
+        "citation_cplr": "CPLR § 601, § 603"
+      },
+      {
+        "aspect": "Intervention",
+        "frcp": "Intervention of right is available when a federal statute confers an unconditional right, or when the applicant claims an interest in the property or transaction and disposition may impair that interest. Permissive intervention is allowed when a statute grants a conditional right or there is a common question of law or fact. Timeliness required for both.",
+        "cplr": "Intervention of right arises when representation by existing parties is or may be inadequate and the intervenor has or may be bound by the judgment. Permissive intervention is available when the intervenor's claim or defense shares a common question of law or fact with the main action. Leave of court is required for permissive intervention.",
+        "citation_frcp": "FRCP Rule 24(a), Rule 24(b)",
+        "citation_cplr": "CPLR § 1012, § 1013"
+      },
+      {
+        "aspect": "Impleader / Third-Party Practice",
+        "frcp": "A defending party may, as of right within 14 days of serving its original answer, serve a third-party complaint on a nonparty who is or may be liable to the defendant for all or part of the plaintiff's claim. After 14 days, leave of court is required.",
+        "cplr": "A defendant may bring in a third-party defendant who is or may be liable to the defendant for all or part of the plaintiff's claim, or who is directly liable to the plaintiff. No strict time deadline analogous to the 14-day FRCP rule; leave of court is generally required unless done at the time of answer.",
+        "citation_frcp": "FRCP Rule 14(a)(1)",
+        "citation_cplr": "CPLR § 1007, § 1008"
+      },
+      {
+        "aspect": "Severance and Separate Trials",
+        "frcp": "The court may order separate trials of claims or issues for convenience, to avoid prejudice, or to expedite resolution. The court retains broad discretion to manage joined claims and parties after joinder has been permitted at the pleading stage.",
+        "cplr": "The court may order separate trials or sever claims if joinder would cause undue prejudice or confusion, or if claims are not sufficiently related. Severance may also be granted to expedite disposition or simplify issues, and courts apply this power routinely in multi-party litigation.",
+        "citation_frcp": "FRCP Rule 42(b), Rule 20(b)",
+        "citation_cplr": "CPLR § 603"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Post-Trial Motions",
+    "rows": [
+      {
+        "aspect": "Time limit / deadline",
+        "frcp": "Post-trial motion for judgment as a matter of law must be filed no later than 28 days after entry of judgment (amended from original 10-day period). The phrase 'no later than' is used rather than 'within' to include motions filed before actual entry of judgment by the clerk. Saturdays, Sundays, and legal holidays are excluded in measuring the period.",
+        "cplr": "Motion to set aside a verdict or for judgment notwithstanding the verdict must be made within 15 days after the verdict. A motion for a new trial on the ground of newly discovered evidence must be made within one year after final judgment. General post-trial motions are subject to the court's discretion as to timing during the trial term.",
+        "citation_frcp": "FRCP Rule 50(b); FRCP Rule 6(a)",
+        "citation_cplr": "CPLR § 4405; CPLR § 4404(b)"
+      },
+      {
+        "aspect": "Judgment as a matter of law / JNOV standard",
+        "frcp": "A court may grant judgment as a matter of law (JMOL) if a party has been fully heard on an issue during a jury trial and the court finds that a reasonable jury would not have a legally sufficient evidentiary basis to find for the party on that issue. The renewed post-verdict motion (formerly JNOV) can be granted only on grounds advanced in the pre-verdict motion for judgment as a matter of law made during trial.",
+        "cplr": "The court may set aside a jury verdict and grant judgment as a matter of law (formerly judgment notwithstanding the verdict) where the verdict is contrary to law, or where the preponderance of the evidence is so great that the verdict could not have been reached by any fair interpretation of the evidence. No strict requirement exists that a prior directed verdict motion be made as a formal predicate, though it is generally expected.",
+        "citation_frcp": "FRCP Rule 50(a); FRCP Rule 50(b)",
+        "citation_cplr": "CPLR § 4404(a)"
+      },
+      {
+        "aspect": "Pre-verdict motion requirement as predicate",
+        "frcp": "A post-trial renewed motion for JMOL under Rule 50(b) is treated as a renewal of a prior Rule 50(a) pre-verdict motion, and it can be granted only on grounds advanced in that prior motion. This requirement is rooted in Seventh Amendment considerations. Courts have moved away from requiring the motion at the literal close of all evidence, but a preverdict motion remains functionally required to preserve the right.",
+        "cplr": "New York does not impose a strict federal-style requirement that a motion for a directed verdict be made as a formal predicate to a post-trial motion to set aside a verdict. A party may move to set aside the verdict after trial even without having moved for a directed verdict during trial, giving New York courts broader discretion to entertain post-trial challenges.",
+        "citation_frcp": "FRCP Rule 50(a); FRCP Rule 50(b)",
+        "citation_cplr": "CPLR § 4401; CPLR § 4404(a)"
+      },
+      {
+        "aspect": "Motion for new trial — grounds and standard",
+        "frcp": "A court may grant a new trial on all or some issues after a jury trial for any reason for which a new trial has historically been granted in federal court, including verdict against the weight of the evidence, errors of law, misconduct, or newly discovered evidence. The motion must be filed no later than 28 days after entry of judgment.",
+        "cplr": "The court may set aside a verdict and order a new trial upon the motion of any aggrieved party where the verdict is contrary to the weight of the evidence, in the interest of justice, or where damages are excessive or inadequate. The court may also grant a new trial on the ground of newly discovered evidence within one year of final judgment. The court retains broad discretionary power to condition or limit the new trial.",
+        "citation_frcp": "FRCP Rule 59(a); FRCP Rule 59(b)",
+        "citation_cplr": "CPLR § 4404(a); CPLR § 4404(b)"
+      },
+      {
+        "aspect": "Conditional ruling — new trial vs. judgment (remittitur / additur)",
+        "frcp": "If the court grants a renewed motion for JMOL, it must also conditionally rule on any motion for a new trial by determining whether a new trial should be granted if the judgment is later vacated or reversed on appeal. The court may also grant a new trial solely on the issue of damages if the damages award is against the clear weight of the evidence, but federal courts historically disfavor additur as potentially violating the Seventh Amendment (Dimick v. Schiedt).",
+        "cplr": "New York courts explicitly authorize both remittitur and additur. The court may set aside an excessive or inadequate damages verdict and offer the adversely affected party the option of stipulating to a reduced (remittitur) or increased (additur) award in lieu of a new trial on damages. This broader remedial tool reflects New York's rejection of the Seventh Amendment constraints that limit federal practice.",
+        "citation_frcp": "FRCP Rule 50(c); FRCP Rule 59(a)",
+        "citation_cplr": "CPLR § 4404(a); CPLR § 5501(c)"
+      },
+      {
+        "aspect": "Scope of appellate court authority after post-trial motion",
+        "frcp": "The appellate court is expressly authorized under Rule 50(e) to direct the entry of judgment, a power recognized in Weisgram v. Marley Co., 528 U.S. 440 (2000). If the appellate court reverses the grant of a JMOL, it may order a new trial or direct entry of judgment on the jury's verdict depending on whether sufficient evidence supported the verdict.",
+        "cplr": "The Appellate Division has broad power to review the weight of the evidence and to grant a new trial, direct entry of judgment, or modify a damages award. Under CPLR § 5522, an appellate court may reverse, affirm, or modify the judgment appealed from and may make any order that it determines is proper. The Appellate Division may independently weigh facts in a non-jury case and may also order remittitur or additur on appeal.",
+        "citation_frcp": "FRCP Rule 50(d); FRCP Rule 50(e)",
+        "citation_cplr": "CPLR § 5522; CPLR § 5501(c)"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": "Preliminary Injunctions",
+    "rows": [
+      {
+        "aspect": "Governing Standard / Criteria for Issuance",
+        "frcp": "Courts apply a four-factor test requiring the movant to show: (1) likelihood of success on the merits; (2) likelihood of irreparable harm in the absence of preliminary relief; (3) that the balance of equities tips in the movant's favor; and (4) that an injunction is in the public interest. No explicit statutory codification of this test in Rule 65 itself; standard is judge-made (Winter v. NRDC).",
+        "cplr": "The movant must demonstrate: (1) a likelihood of success on the merits; (2) irreparable injury if the injunction is not granted; and (3) a balancing of the equities in the movant's favor. This three-part standard is codified by statute and supplemented by case law. The threat of harm must be imminent and not speculative.",
+        "citation_frcp": "FRCP Rule 65(a)",
+        "citation_cplr": "CPLR § 6301"
+      },
+      {
+        "aspect": "Security / Undertaking Requirement",
+        "frcp": "The court may issue a preliminary injunction or TRO only if the movant gives security in an amount the court considers proper to pay costs and damages if the party is found to have been wrongfully enjoined or restrained. The United States, its officers, and agencies are exempt from the security requirement. The amount is within the court's discretion and may be set at zero.",
+        "cplr": "Before a preliminary injunction is granted, the movant must give an undertaking in an amount to be fixed by the court, conditioned that the movant will pay to the enjoined party all damages and costs sustained by reason of the injunction if it is finally determined that the movant was not entitled to it. The undertaking is mandatory, not discretionary, unless the court directs otherwise.",
+        "citation_frcp": "FRCP Rule 65(c)",
+        "citation_cplr": "CPLR § 6312(b)"
+      },
+      {
+        "aspect": "Procedural Mechanism / Notice and Hearing",
+        "frcp": "A preliminary injunction may only be issued on notice to the adverse party. The court may consolidate the hearing on the preliminary injunction with the trial on the merits. Evidence received at the preliminary injunction hearing that would be admissible at trial becomes part of the trial record and need not be repeated.",
+        "cplr": "A preliminary injunction may be granted only upon notice to the adverse party. The motion is made by order to show cause or notice of motion. The court may require the movant to submit proof by affidavit. A temporary restraining order may be granted without notice (ex parte) pending the hearing on the preliminary injunction, upon a showing that immediate and irreparable injury will result before the adverse party can be heard.",
+        "citation_frcp": "FRCP Rule 65(a)(1), 65(a)(2)",
+        "citation_cplr": "CPLR § 6301; CPLR § 6313(a)"
+      },
+      {
+        "aspect": "Contents and Specificity of the Order",
+        "frcp": "Every injunction order must: (A) state the reasons why it issued; (B) state its terms specifically; and (C) describe in reasonable detail — and not by referring to the complaint or other document — the act or acts restrained or required. Failure to comply with this specificity requirement can render the order unenforceable.",
+        "cplr": "A temporary restraining order or preliminary injunction must specify the acts restrained or required. New York courts require the order to be sufficiently definite so that the restrained party understands what conduct is prohibited. There is no explicit statutory mandate mirroring FRCP's detailed contents requirement, but courts require clarity and specificity as a matter of due process and enforceability.",
+        "citation_frcp": "FRCP Rule 65(d)(1)",
+        "citation_cplr": "CPLR § 6313(b)"
+      },
+      {
+        "aspect": "Persons Bound by the Order",
+        "frcp": "The injunction binds only those who receive actual notice of it by personal service or otherwise: (A) the parties; (B) the parties' officers, agents, servants, employees, and attorneys; and (C) other persons in active concert or participation with the parties or their agents. Binding effect requires actual notice; constructive notice is insufficient.",
+        "cplr": "A preliminary injunction or TRO is binding upon the parties to the action, their officers, agents, employees, and attorneys, and upon those persons in active concert or participation with them who receive actual notice of the order by personal service or otherwise. The scope is similar to the federal rule but is applied through general contempt principles rather than an explicit statutory enumeration identical to FRCP 65(d)(2).",
+        "citation_frcp": "FRCP Rule 65(d)(2)",
+        "citation_cplr": "CPLR § 6301; CPLR § 5104"
+      },
+      {
+        "aspect": "Duration and Dissolution / Modification",
+        "frcp": "A TRO issued without notice expires within 14 days (or extended for good cause up to another 14 days). If the movant does not proceed with a motion for a preliminary injunction, the court must dissolve the TRO. The adverse party may move to dissolve or modify the TRO on 2 days' notice (or shorter notice set by the court). A preliminary injunction remains in effect until final judgment or further order of the court.",
+        "cplr": "A temporary restraining order remains in effect until the hearing and determination of the motion for a preliminary injunction. There is no fixed statutory time limit (unlike FRCP's 14-day cap for TROs). Either party may move to vacate or modify the TRO or preliminary injunction at any time upon a showing of changed circumstances or that the order was improvidently granted. The court retains continuing jurisdiction to modify or dissolve the injunction.",
+        "citation_frcp": "FRCP Rule 65(b)(2), 65(b)(4)",
+        "citation_cplr": "CPLR § 6314"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": "Personal Jurisdiction",
+    "rows": [
+      {
+        "aspect": "General Basis for Personal Jurisdiction",
+        "frcp": "Personal jurisdiction is governed by Rule 4(k), which authorizes service of a summons to establish personal jurisdiction. A federal court may exercise jurisdiction over a defendant who is subject to the jurisdiction of a court of general jurisdiction in the state where the district court is located, or who is served within the state, or who waives service.",
+        "cplr": "Personal jurisdiction is established by the court obtaining jurisdiction over the person through service of process. CPLR Article 3 governs the methods of obtaining jurisdiction. The court must have a statutory basis for jurisdiction and that basis must comport with constitutional due process.",
+        "citation_frcp": "FRCP Rule 4(k)(1)(A)",
+        "citation_cplr": "CPLR § 301; CPLR § 302"
+      },
+      {
+        "aspect": "General (All-Purpose) Jurisdiction over Individuals and Corporations",
+        "frcp": "Under Rule 4(k)(1)(A), federal courts 'borrow' the forum state's long-arm statute and constitutional limits for general jurisdiction. For individuals, this typically means domicile; for corporations, it requires the entity to be 'at home' (place of incorporation or principal place of business) per Daimler AG v. Bauman (2014).",
+        "cplr": "CPLR § 301 provides for general jurisdiction over any person or corporation present, doing business, or domiciled in New York. A corporation is subject to general jurisdiction if it is incorporated in New York, has its principal place of business in New York, or is 'doing business' in New York on a continuous and systematic basis (the 'doing business' test).",
+        "citation_frcp": "FRCP Rule 4(k)(1)(A)",
+        "citation_cplr": "CPLR § 301"
+      },
+      {
+        "aspect": "Long-Arm (Specific) Jurisdiction",
+        "frcp": "Rule 4(k)(1)(A) incorporates the forum state's long-arm statute for specific jurisdiction. Rule 4(k)(1)(C) and (D) also allow jurisdiction if a federal statute authorizes nationwide or worldwide service of process. Jurisdiction must satisfy the constitutional minimum contacts standard under the Fourteenth Amendment (for state-law claims) or the Fifth Amendment (for federal-law claims).",
+        "cplr": "CPLR § 302 is New York's long-arm statute, conferring specific jurisdiction over non-domiciliaries who: (1) transact business or contract to supply goods/services in New York; (2) commit a tortious act within New York; (3) commit a tortious act outside New York causing injury within New York (with certain commercial activity requirements); or (4) own, use, or possess real property in New York.",
+        "citation_frcp": "FRCP Rule 4(k)(1)(A), 4(k)(1)(C), 4(k)(1)(D)",
+        "citation_cplr": "CPLR § 302(a)(1)-(4)"
+      },
+      {
+        "aspect": "Nationwide / Federal-Claim Jurisdiction (No Single-State Contacts)",
+        "frcp": "Rule 4(k)(2) is a unique federal provision allowing personal jurisdiction over a defendant for federal-law claims if the defendant is not subject to jurisdiction in any single state but has sufficient contacts with the United States as a whole to satisfy Fifth Amendment due process. This 'gap-filler' prevents defendants from evading enforcement of federal law by dispersing contacts across multiple states or being a foreign national with no single-state contacts.",
+        "cplr": "No equivalent provision exists under the CPLR. New York courts, as state courts, cannot exercise this type of aggregate national-contacts jurisdiction. Each basis for jurisdiction must independently satisfy CPLR § 301 or § 302 and must meet Fourteenth Amendment due process requirements tied to the defendant's contacts specifically with New York, not the United States as a whole.",
+        "citation_frcp": "FRCP Rule 4(k)(2)",
+        "citation_cplr": "N/A"
+      },
+      {
+        "aspect": "Quasi-In-Rem Jurisdiction",
+        "frcp": "Rule 4(n) provides for in rem and quasi-in-rem jurisdiction. Rule 4(n)(1) incorporates federal statutes such as 28 U.S.C. § 1655 regarding seizures and liens. Rule 4(n)(2) limits quasi-in-rem jurisdiction to exigent circumstances (e.g., defendant is a fugitive or assets are in imminent danger of dissipation), reflecting that the availability of long-arm jurisdiction has made quasi-in-rem jurisdiction nearly obsolete.",
+        "cplr": "CPLR § 314 permits in rem and quasi-in-rem jurisdiction over property or a status within New York. CPLR Article 62 (attachment) and Article 63 (injunction) provide mechanisms for seizing property to establish quasi-in-rem jurisdiction, though post-Shaffer v. Heitner (1977) its practical use is limited. The defendant's contacts with New York must still satisfy minimum contacts requirements.",
+        "citation_frcp": "FRCP Rule 4(n)(1), 4(n)(2)",
+        "citation_cplr": "CPLR § 314; CPLR § 6201"
+      },
+      {
+        "aspect": "Constitutional Standard / Due Process Constraint",
+        "frcp": "For claims arising under state law (or where the court borrows state long-arm), the Fourteenth Amendment minimum contacts standard applies (International Shoe; World-Wide Volkswagen; Burger King). For federal-law claims under Rule 4(k)(2), the Fifth Amendment due process standard governs, requiring the defendant's affiliating contacts with the United States as a whole to be sufficient. The court must also ensure 'fair play and substantial justice,' particularly for foreign defendants.",
+        "cplr": "All exercises of personal jurisdiction under the CPLR must comport with the Fourteenth Amendment Due Process Clause, requiring that the defendant have minimum contacts with New York such that maintenance of the suit does not offend traditional notions of fair play and substantial justice. New York courts apply the International Shoe standard and subsequent Supreme Court precedents. There is no separate Fifth Amendment national-contacts analysis in New York state practice.",
+        "citation_frcp": "FRCP Rule 4(k)(1), 4(k)(2); U.S. Const. amend. V, XIV",
+        "citation_cplr": "CPLR § 301; CPLR § 302; U.S. Const. amend. XIV"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "Counterclaims and Cross-Claims",
+    "rows": [
+      {
+        "aspect": "Nature and permissibility of counterclaims",
+        "frcp": "FRCP distinguishes between compulsory counterclaims (arising out of the same transaction or occurrence as the opposing party's claim, which must be pleaded or are waived) and permissive counterclaims (any claim against an opposing party not arising from the same transaction, which may be pleaded at the party's option).",
+        "cplr": "CPLR uses the term 'counterclaim' broadly and treats all counterclaims as permissive — there is no compulsory counterclaim rule in New York. A defendant may interpose any claim against the plaintiff, whether or not it arises from the same transaction, without risk of waiver if omitted.",
+        "citation_frcp": "FRCP Rule 13(a), 13(b)",
+        "citation_cplr": "CPLR § 3019(a)"
+      },
+      {
+        "aspect": "Waiver for failure to assert counterclaim",
+        "frcp": "A compulsory counterclaim under Rule 13(a) that arises from the same transaction or occurrence as the plaintiff's claim is waived if not asserted in the pending action, subject to limited exceptions (e.g., claim requires adding a party over whom the court lacks jurisdiction, or the claim was the subject of another pending action).",
+        "cplr": "Because New York does not recognize compulsory counterclaims, failure to assert a counterclaim in a pending action does not result in waiver. A defendant who omits a counterclaim may bring it as a separate action at a later time, subject only to the applicable statute of limitations.",
+        "citation_frcp": "FRCP Rule 13(a)(1), 13(a)(2)",
+        "citation_cplr": "CPLR § 3019(a)"
+      },
+      {
+        "aspect": "Cross-claims against co-parties",
+        "frcp": "A party may assert a cross-claim against a co-party if the claim arises out of the transaction or occurrence that is the subject matter of the original action or of a counterclaim, or if the claim relates to property that is the subject matter of the original action. Cross-claims are permissive under FRCP and include claims for indemnification or contribution.",
+        "cplr": "A cross-claim may be asserted against any co-defendant and is not limited to claims arising from the same transaction or occurrence as the main action. Cross-claims expressly include claims for contribution and indemnification. The scope under CPLR is broader because it is not restricted to the same transaction or occurrence.",
+        "citation_frcp": "FRCP Rule 13(g)",
+        "citation_cplr": "CPLR § 3019(b)"
+      },
+      {
+        "aspect": "Timing and pleading of counterclaims and cross-claims",
+        "frcp": "Counterclaims and cross-claims must be asserted in the responsive pleading (e.g., answer). Amendment to add a counterclaim or cross-claim after the responsive pleading requires leave of court or written consent of all parties under the general amendment rules. A party who fails to timely plead a compulsory counterclaim may seek leave to amend, but risks waiver.",
+        "cplr": "Counterclaims and cross-claims must be contained in the answer. A party seeking to add or amend a counterclaim or cross-claim after the answer has been served must obtain leave of court. Because all counterclaims are permissive, late assertion simply requires leave and does not raise waiver concerns, though the statute of limitations on the underlying claim still applies.",
+        "citation_frcp": "FRCP Rule 13(a)-(b), Rule 15(a)",
+        "citation_cplr": "CPLR § 3019, § 3025(b)"
+      },
+      {
+        "aspect": "Maturity and ripeness of claim at time of pleading",
+        "frcp": "Under Rule 13(e), if a counterclaim matures or is acquired by the pleader after serving the pleading, the court may permit the pleader to assert it by supplemental pleading. Compulsory counterclaims must exist at the time of the answer; after-acquired claims may be added by leave.",
+        "cplr": "CPLR does not impose a maturity requirement at the time of pleading for counterclaims. A counterclaim that accrues after the action is commenced may generally be interposed by amendment with leave of court. There is no explicit 'supplemental pleading' mechanism mirroring FRCP Rule 13(e), but leave to amend under CPLR § 3025(b) serves the same function.",
+        "citation_frcp": "FRCP Rule 13(e)",
+        "citation_cplr": "CPLR § 3025(b)"
+      },
+      {
+        "aspect": "Counterclaim exceeding plaintiff's claim / independent judgment",
+        "frcp": "A counterclaim may seek relief exceeding in amount or differing in kind from that sought by the opposing party. If the counterclaim is established, the court may grant affirmative relief to the defendant even if it exceeds the plaintiff's claim, resulting in a net judgment for the defendant.",
+        "cplr": "Similarly, a counterclaim under the CPLR may demand relief exceeding the plaintiff's demand and of a different type. The court may render an affirmative judgment in favor of the defendant on the counterclaim even where it surpasses the plaintiff's claim. However, in limited jurisdiction courts (e.g., Civil Court), the counterclaim amount may be capped by the court's monetary jurisdiction unless the counterclaim is severed.",
+        "citation_frcp": "FRCP Rule 13(c)",
+        "citation_cplr": "CPLR § 3019(a); NYC Civil Court Act § 208"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": "Sanctions and Penalties",
+    "rows": [
+      {
+        "aspect": "Primary Authority / Triggering Provision",
+        "frcp": "Rule 11 governs sanctions for signing pleadings, motions, or other papers without reasonable inquiry into law and fact. Sanctions may be imposed by the court on its own initiative or upon motion by a party. Discovery-related sanctions are separately governed by Rules 26(g) and 37.",
+        "cplr": "Section 8303-a authorizes costs and sanctions for frivolous conduct in civil litigation. Section 130-1.1 (22 NYCRR) broadly authorizes courts to impose financial sanctions and award attorneys' fees for frivolous conduct, defined as conduct that is completely without merit in law, undertaken to harass or maliciously injure, or asserts false material factual statements.",
+        "citation_frcp": "FRCP Rule 11(b), (c); Rule 26(g); Rule 37",
+        "citation_cplr": "CPLR § 8303-a; 22 NYCRR § 130-1.1"
+      },
+      {
+        "aspect": "Safe Harbor / Withdrawal Opportunity",
+        "frcp": "A party seeking sanctions must serve the motion on the opposing party and allow 21 days for the offending party to withdraw or correct the challenged paper before filing the motion with the court. This 'safe harbor' provision is a mandatory procedural prerequisite and does not apply when the court acts on its own initiative.",
+        "cplr": "No formal safe harbor period equivalent to FRCP Rule 11's 21-day safe harbor exists under the CPLR or Part 130 rules. The court may impose sanctions at any point during or at the conclusion of the litigation without a mandatory pre-filing notice-and-cure period, giving the court broader discretion to act immediately.",
+        "citation_frcp": "FRCP Rule 11(c)(2)",
+        "citation_cplr": "22 NYCRR § 130-1.1; CPLR § 8303-a (no equivalent safe harbor)"
+      },
+      {
+        "aspect": "Nature and Form of Sanctions",
+        "frcp": "Sanctions must be limited to what is sufficient to deter repetition of the conduct. They may include nonmonetary directives, monetary penalties payable to the court, or an award of attorneys' fees and reasonable expenses to the opposing party. If imposed on the court's own initiative, monetary sanctions may only be awarded to the court, not to the opposing party.",
+        "cplr": "Sanctions under Part 130 include financial sanctions payable to the Lawyers' Fund for Client Protection and/or an award of costs and reasonable attorneys' fees to the opposing party. The total financial sanctions may not exceed $10,000 for any single occurrence of frivolous conduct. Courts also retain inherent power to impose additional remedies.",
+        "citation_frcp": "FRCP Rule 11(c)(4)",
+        "citation_cplr": "22 NYCRR § 130-1.2; CPLR § 8303-a(a)"
+      },
+      {
+        "aspect": "Scope of Conduct Covered",
+        "frcp": "Applies to any pleading, written motion, or other paper signed and filed with the court. Expressly excludes discovery requests, responses, objections, and motions governed by Rules 26 through 37 (subdivision (d)). Focuses on the certification made at the time of signing that the submission is legally and factually grounded and not filed for improper purpose.",
+        "cplr": "Part 130 applies broadly to the conduct of attorneys or parties in civil litigation, including oral conduct in court proceedings as well as written submissions. Section 8303-a specifically targets frivolous claims or counterclaims in actions to recover damages. The CPLR also addresses frivolous appeals through sanctions provisions applicable in appellate practice.",
+        "citation_frcp": "FRCP Rule 11(b), (d)",
+        "citation_cplr": "22 NYCRR § 130-1.1(a); CPLR § 8303-a; CPLR § 5765"
+      },
+      {
+        "aspect": "Who Bears the Sanction / Allocation",
+        "frcp": "Sanctions may be imposed on the attorney, the law firm, the party, or any combination thereof. The court has discretion to apportion liability. Law firms may be held jointly responsible for violations by their partners, associates, or employees. Monetary sanctions ordinarily should not be awarded against a represented party for violations of Rule 11(b)(2) involving legal contentions.",
+        "cplr": "Sanctions and costs under Part 130 may be imposed on the attorney, the party, or both. The court must set forth the reasons for the sanction in writing. Under CPLR § 8303-a, costs are assessed against the party or attorney who engaged in the frivolous conduct, and the court specifies the allocation. There is no express restriction equivalent to FRCP Rule 11(c)(5)(A) shielding represented parties from sanctions for legal-argument violations.",
+        "citation_frcp": "FRCP Rule 11(c)(1), (c)(5)",
+        "citation_cplr": "22 NYCRR § 130-1.1(d); CPLR § 8303-a(b)"
+      },
+      {
+        "aspect": "Timing of Imposition and Procedural Requirements",
+        "frcp": "Sanctions may be raised during or after litigation; in pleading contexts they are typically resolved at the end of litigation, and for motions at the time the motion is decided. Due process requires notice and an opportunity to respond. Discovery sanctions under Rule 37 may include dismissal, default, or preclusion and are often imposed more immediately upon a discovery violation.",
+        "cplr": "Under Part 130, the court must issue a written decision setting forth the conduct, the reasons why it was frivolous, and the basis for the sanction imposed. Sanctions may be awarded during or at the conclusion of the proceeding. Under CPLR § 3126, discovery sanctions—including preclusion, striking pleadings, or dismissal—may be imposed upon a party's failure to comply with disclosure obligations, and courts may act promptly without waiting for the end of litigation.",
+        "citation_frcp": "FRCP Rule 11(c)(2), (c)(6); Rule 37(b)(2)",
+        "citation_cplr": "22 NYCRR § 130-1.2; CPLR § 3126"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": "Relief from Judgment",
+    "rows": [
+      {
+        "aspect": "Time limit / deadline for motion",
+        "frcp": "Motion must be made within a 'reasonable time,' and for grounds of mistake, newly discovered evidence, and fraud, no more than one year after the judgment or order was entered.",
+        "cplr": "Motion to vacate a judgment must be made within one year after service of a copy of the judgment with written notice of its entry, or within five years of entry for judgments obtained by fraud, misrepresentation, or other misconduct.",
+        "citation_frcp": "FRCP Rule 60(b), 60(c)(1)",
+        "citation_cplr": "CPLR § 5015(a)"
+      },
+      {
+        "aspect": "Grounds for relief",
+        "frcp": "Six enumerated grounds: (1) mistake, inadvertence, surprise, or excusable neglect; (2) newly discovered evidence; (3) fraud, misrepresentation, or misconduct by an opposing party; (4) void judgment; (5) judgment satisfied, released, or discharged; (6) any other reason justifying relief.",
+        "cplr": "Five enumerated grounds: (1) excusable default; (2) newly discovered evidence; (3) fraud, misrepresentation, or other misconduct by an adverse party; (4) lack of jurisdiction; (5) reversal, modification, or vacatur of a prior judgment upon which it is based.",
+        "citation_frcp": "FRCP Rule 60(b)(1)-(6)",
+        "citation_cplr": "CPLR § 5015(a)(1)-(5)"
+      },
+      {
+        "aspect": "Court's inherent power / independent action",
+        "frcp": "Rule expressly preserves the court's power to entertain an independent action to relieve a party from a judgment and to set aside a judgment for fraud upon the court. Independent actions are governed by laches or statutes of limitations rather than the one-year motion deadline.",
+        "cplr": "Court retains inherent power to vacate its own judgment in the interest of justice even outside the enumerated statutory grounds. A separate plenary action to annul or set aside a judgment is also available and is not time-limited by § 5015.",
+        "citation_frcp": "FRCP Rule 60(b), 60(d)(1), 60(d)(3)",
+        "citation_cplr": "CPLR § 5015(a); general inherent power doctrine"
+      },
+      {
+        "aspect": "Effect on finality and appeal",
+        "frcp": "A Rule 60(b) motion does not affect the finality of the judgment or toll the time for appeal. By contrast, a timely Rule 59 motion does toll the appeal clock. The one-year limit under 60(b)(1)-(3) is absolute and cannot be extended under Rule 6(b).",
+        "cplr": "A motion to vacate under § 5015 does not automatically stay enforcement of the judgment; a separate stay must be sought. The time to appeal is not tolled by a § 5015 motion unless the court specifically grants relief affecting the judgment's finality.",
+        "citation_frcp": "FRCP Rule 60(b), 60(c); cf. FRCP Rule 59",
+        "citation_cplr": "CPLR § 5015; CPLR § 5519"
+      },
+      {
+        "aspect": "Fraud upon the court",
+        "frcp": "Rule 60(d)(3) expressly preserves the court's power to set aside a judgment for fraud upon the court, which is not subject to the one-year time limit and may be raised at any time by motion or independent action.",
+        "cplr": "Fraud upon the court may be addressed through the court's inherent power or under § 5015(a)(3) (fraud by an adverse party). No separate codified 'fraud on the court' provision exists, but courts apply the doctrine as a matter of inherent authority without a fixed time bar.",
+        "citation_frcp": "FRCP Rule 60(d)(3)",
+        "citation_cplr": "CPLR § 5015(a)(3); inherent power doctrine"
+      },
+      {
+        "aspect": "Abolition of common law writs",
+        "frcp": "The 1946 amendments to Rule 60(b) abolished the use of bills of review, bills in the nature of a bill of review, writs of coram nobis, coram vobis, and audita querela in civil cases, requiring relief to be sought by motion or independent action under the Rules.",
+        "cplr": "The CPLR does not expressly abolish common law writs but supersedes them by providing a comprehensive statutory framework. Courts have held that coram nobis and audita querela are generally unavailable in civil practice, with § 5015 serving as the primary vehicle for post-judgment relief.",
+        "citation_frcp": "FRCP Rule 60(b) (1946 Advisory Committee Notes); FRCP Rule 60(e) (formerly abolishing writs)",
+        "citation_cplr": "CPLR § 5015; CPLR § 101 (general applicability)"
+      }
+    ]
+  }
+]

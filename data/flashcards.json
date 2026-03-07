@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "front": "Under the revised Rule 4, who bears the responsibility for filling in the summons?",
+    "back": "Under FRCP Rule 4(b), the responsibility for filling in the summons falls on the plaintiff, not the clerk of the court.",
+    "citation": "FRCP Rule 4(b)",
+    "rule_number": "Rule 4(b)"
+  },
+  {
+    "id": 2,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "front": "Under Rule 4(c), who may serve a summons, and what age requirement applies?",
+    "back": "Under FRCP Rule 4(c), any person who is 18 years of age and not a party to the action may serve a summons. The United States, like other civil litigants, may designate any such person to serve its summons.",
+    "citation": "FRCP Rule 4(c)",
+    "rule_number": "Rule 4(c)"
+  },
+  {
+    "id": 3,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "front": "In what two classes of cases is the court obligated to appoint a marshal or other person to effect service of a summons?",
+    "back": "Under FRCP Rule 4(c), the court is obligated to appoint a marshal, deputy, or other person to effect service in actions brought in forma pauperis or by a seaman, as specified by 28 U.S.C. §§1915 and 1916.",
+    "citation": "FRCP Rule 4(c)",
+    "rule_number": "Rule 4(c)"
+  },
+  {
+    "id": 4,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "front": "What is the purpose of the waiver of formal service provision under Rule 4(d), and how does it differ from 'service-by-mail'?",
+    "back": "Under FRCP Rule 4(d), the provision aims to eliminate the costs of service and foster cooperation among adversaries. Unlike 'service-by-mail,' which misled plaintiffs into thinking service could be effected by mail alone, Rule 4(d) requires the affirmative cooperation of the defendant in the form of a waiver of formal service.",
+    "citation": "FRCP Rule 4(d)",
+    "rule_number": "Rule 4(d)"
+  },
+  {
+    "id": 5,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "front": "Under Rule 4(d), which defendants may NOT be sent a request for waiver of service?",
+    "back": "Under FRCP Rule 4(d), the United States, its agencies, corporations, officers, other governments and entities under subdivision (j), and infants or incompetent persons may not be sent a request for waiver of service. Infants and incompetents are excluded because they must generally be served through fiduciaries.",
+    "citation": "FRCP Rule 4(d)",
+    "rule_number": "Rule 4(d)"
+  },
+  {
+    "id": 6,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "front": "What happens when a defendant fails to cooperate and requires expensive service that was not necessary to achieve full notice under Rule 4?",
+    "back": "Under FRCP Rule 4(d), defendants who magnify costs of service by requiring expensive service not necessary to achieve full notice of the action brought against them are required to bear the wasteful costs of that service.",
+    "citation": "FRCP Rule 4(d)",
+    "rule_number": "Rule 4(d)"
+  },
+  {
+    "id": 7,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "front": "Under Rule 4, does effective service of a summons guarantee that personal jurisdiction has been established over the defendant?",
+    "back": "Under FRCP Rule 4, effective service does NOT assure that personal jurisdiction has been established over the defendant served. While service provides appropriate notice, the question of personal jurisdiction is separate from the mechanics of service.",
+    "citation": "FRCP Rule 4",
+    "rule_number": "Rule 4"
+  },
+  {
+    "id": 8,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "front": "Under Rule 4(m), when does the 120-day period for service begin to run, and what happens in multi-party actions involving cross-claims?",
+    "back": "Under FRCP Rule 4(m), the 120-day period begins to run upon the filing of each complaint. In multi-party actions where a defendant files a cross-claim against the plaintiff, the 120-day period begins to run upon the filing of the cross-complaint, not upon the filing of the plaintiff's original complaint.",
+    "citation": "FRCP Rule 4(m)",
+    "rule_number": "Rule 4(m)"
+  },
+  {
+    "id": 9,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "front": "Under the revised Rule 4, what law may be used to effect service of a summons on an individual defendant?",
+    "back": "Under FRCP Rule 4, the revised rule authorizes the use of any means of service provided by the law not only of the forum state, but also of the state in which the defendant is served, unless the defendant is a minor or incompetent person.",
+    "citation": "FRCP Rule 4",
+    "rule_number": "Rule 4"
+  },
+  {
+    "id": 10,
+    "topic": "Service of Process",
+    "source": "FRCP",
+    "front": "Under Rule 4, when a plaintiff proceeds in forma pauperis and a previous attempt to serve by mail has failed, may the Marshals Service attempt service by regular mail again?",
+    "back": "Under FRCP Rule 4(c)(2), it is not appropriate for the Marshals Service to attempt service by regular mail when serving on behalf of a plaintiff proceeding in forma pauperis if that plaintiff previously attempted unsuccessfully to serve the defendant by mail. A different method of service must be used.",
+    "citation": "FRCP Rule 4(c)(2)",
+    "rule_number": "Rule 4(c)(2)"
+  },
+  {
+    "id": 11,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "front": "What is the time limit for serving a summons and complaint after the action is commenced, and what happens if service is not made within that period?",
+    "back": "Under CPLR § 306-b, a summons and complaint must be served within 120 days after commencement of the action. If service is not made within that time, the court may dismiss the action or, upon good cause shown or in the interest of justice, extend the time for service.",
+    "citation": "CPLR § 306-b",
+    "rule_number": "§ 306-b"
+  },
+  {
+    "id": 12,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "front": "What are the authorized methods of serving process on a natural person under the CPLR?",
+    "back": "Under CPLR § 308, service on a natural person may be made by: (1) personal delivery to the person, (2) delivering to a person of suitable age and discretion at the actual dwelling or place of business and mailing (nail and mail), (3) affixing to the door of actual dwelling or business and mailing (nail and mail) when other methods cannot be made with due diligence, (4) court-directed service, or (5) delivering to an agent authorized to receive service.",
+    "citation": "CPLR § 308",
+    "rule_number": "§ 308"
+  },
+  {
+    "id": 13,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "front": "When using the 'nail and mail' method of service under CPLR § 308(2) or § 308(4), when does service become complete?",
+    "back": "Under CPLR § 308, when service is made by delivering to a person of suitable age and discretion and mailing (§ 308(2)), or by affixing to the door and mailing (§ 308(4)), service is complete 10 days after the filing of proof of service with the court.",
+    "citation": "CPLR § 308",
+    "rule_number": "§ 308"
+  },
+  {
+    "id": 14,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "front": "How must process be served on a domestic or foreign corporation under the CPLR?",
+    "back": "Under CPLR § 311, personal service on a corporation shall be made by delivering the summons to an officer, director, managing or general agent, cashier, assistant cashier, or any other agent authorized by appointment or by law to receive service. Service may also be made on the Secretary of State pursuant to the Business Corporation Law.",
+    "citation": "CPLR § 311",
+    "rule_number": "§ 311"
+  },
+  {
+    "id": 15,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "front": "What is 'nail and mail' service under CPLR § 308(4), and what prerequisite must be satisfied before it can be used?",
+    "back": "Under CPLR § 308(4), service may be made by affixing the summons to the door of the defendant's actual dwelling place or usual place of business and mailing the summons to the defendant's last known residence. This method may only be used when personal delivery under § 308(1) and the suitable-age-and-discretion method under § 308(2) cannot be made with due diligence.",
+    "citation": "CPLR § 308(4)",
+    "rule_number": "§ 308(4)"
+  },
+  {
+    "id": 16,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "front": "What is the procedure for obtaining court-ordered service under CPLR § 308(5), and when is it available?",
+    "back": "Under CPLR § 308(5), upon motion without notice, the court may direct a method of service not otherwise specified in § 308 when service under paragraphs one through four is impracticable. The court has broad discretion to fashion an appropriate method, such as service by publication or email, so long as it is reasonably calculated to provide notice.",
+    "citation": "CPLR § 308(5)",
+    "rule_number": "§ 308(5)"
+  },
+  {
+    "id": 17,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "front": "Under CPLR § 312-a, what is 'first class mail service' and how is it completed?",
+    "back": "Under CPLR § 312-a, service may be made by first class mail upon any person or entity subject to personal jurisdiction by mailing the summons and complaint together with two copies of a statement of service by mail and acknowledgment of receipt. Service is complete when the defendant returns the signed acknowledgment. If the defendant fails to return the acknowledgment, the plaintiff may serve by another method and seek costs of such service.",
+    "citation": "CPLR § 312-a",
+    "rule_number": "§ 312-a"
+  },
+  {
+    "id": 18,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "front": "What are the requirements for service by publication under the CPLR, and in what circumstances is it authorized?",
+    "back": "Under CPLR § 316, service by publication may be used when specifically authorized by court order. The court may authorize publication in a designated newspaper when personal service cannot be made with due diligence or when the defendant's identity or location is unknown. Publication must be made at least once a week for a specified period, and service is complete a specified number of days after the last publication.",
+    "citation": "CPLR § 316",
+    "rule_number": "§ 316"
+  },
+  {
+    "id": 19,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "front": "What is the time limit for filing proof of service after process has been served under the CPLR?",
+    "back": "Under CPLR § 306, proof of service must be filed with the clerk of the court within 120 days after commencement of the action. For service made by the sheriff, an affidavit of service must be filed. Failure to file proof of service does not invalidate service that was otherwise properly made, but may have procedural consequences.",
+    "citation": "CPLR § 306",
+    "rule_number": "§ 306"
+  },
+  {
+    "id": 20,
+    "topic": "Service of Process",
+    "source": "CPLR",
+    "front": "How is service of process made upon the State of New York, and which section of the CPLR governs this?",
+    "back": "Under CPLR § 307, personal service on the State of New York shall be made by delivering the summons to an assistant attorney general at an office of the attorney general or to the attorney general. Service on a state agency, board, or commission is made by delivering the summons to the chief executive officer of the agency or to the attorney general.",
+    "citation": "CPLR § 307",
+    "rule_number": "§ 307"
+  },
+  {
+    "id": 21,
+    "topic": "Pleading Standards",
+    "source": "FRCP",
+    "front": "What three elements must a pleading that states a claim for relief contain under the FRCP?",
+    "back": "Under FRCP Rule 8(a), a pleading that states a claim for relief must contain: (1) a short and plain statement of the grounds for the court's jurisdiction; (2) a short and plain statement of the claim showing that the pleader is entitled to relief; and (3) a demand for the relief sought, which may include relief in the alternative or different types of relief.",
+    "citation": "FRCP Rule 8(a)",
+    "rule_number": "Rule 8(a)"
+  },
+  {
+    "id": 22,
+    "topic": "Pleading Standards",
+    "source": "FRCP",
+    "front": "What is the standard for how each allegation in a pleading must be written?",
+    "back": "Under FRCP Rule 8(d)(1), each allegation must be simple, concise, and direct. No technical form is required.",
+    "citation": "FRCP Rule 8(d)(1)",
+    "rule_number": "Rule 8(d)(1)"
+  },
+  {
+    "id": 23,
+    "topic": "Pleading Standards",
+    "source": "FRCP",
+    "front": "Under the FRCP, what are the only pleadings allowed in federal civil litigation?",
+    "back": "Under FRCP Rule 7(a), only these pleadings are allowed: (1) a complaint; (2) an answer to a complaint; (3) an answer to a counterclaim designated as a counterclaim; (4) an answer to a crossclaim; (5) a third-party complaint; (6) an answer to a third-party complaint; and (7) if the court orders one, a reply to an answer.",
+    "citation": "FRCP Rule 7(a)",
+    "rule_number": "Rule 7(a)"
+  },
+  {
+    "id": 24,
+    "topic": "Pleading Standards",
+    "source": "FRCP",
+    "front": "What happens if a party fails to deny an allegation in a responsive pleading under the FRCP?",
+    "back": "Under FRCP Rule 8(b)(6), an allegation—other than one relating to the amount of damages—is admitted if a responsive pleading is required and the allegation is not denied. If a responsive pleading is not required, an allegation is considered denied or avoided.",
+    "citation": "FRCP Rule 8(b)(6)",
+    "rule_number": "Rule 8(b)(6)"
+  },
+  {
+    "id": 25,
+    "topic": "Pleading Standards",
+    "source": "FRCP",
+    "front": "Can a party plead inconsistent or alternative claims or defenses under the FRCP?",
+    "back": "Under FRCP Rule 8(d)(2) and (d)(3), a party may set out two or more statements of a claim or defense alternatively or hypothetically, and a party may state as many separate claims or defenses as it has, regardless of consistency. If alternative statements are made, the pleading is sufficient if any one of them is sufficient.",
+    "citation": "FRCP Rule 8(d)(2)-(3)",
+    "rule_number": "Rule 8(d)"
+  },
+  {
+    "id": 26,
+    "topic": "Pleading Standards",
+    "source": "FRCP",
+    "front": "What must a party do when it lacks knowledge or information sufficient to form a belief about the truth of an allegation?",
+    "back": "Under FRCP Rule 8(b)(5), a party that lacks knowledge or information sufficient to form a belief about the truth of an allegation must so state, and the statement has the effect of a denial.",
+    "citation": "FRCP Rule 8(b)(5)",
+    "rule_number": "Rule 8(b)(5)"
+  },
+  {
+    "id": 27,
+    "topic": "Pleading Standards",
+    "source": "FRCP",
+    "front": "What affirmative defenses must a party affirmatively state when responding to a pleading under the FRCP?",
+    "back": "Under FRCP Rule 8(c)(1), in responding to a pleading, a party must affirmatively state any avoidance or affirmative defense, including: accord and satisfaction, arbitration and award, assumption of risk, contributory negligence, duress, estoppel, failure of consideration, fraud, illegality, injury by fellow servant, laches, license, payment, release, res judicata, statute of frauds, statute of limitations, and waiver.",
+    "citation": "FRCP Rule 8(c)(1)",
+    "rule_number": "Rule 8(c)(1)"
+  },
+  {
+    "id": 28,
+    "topic": "Pleading Standards",
+    "source": "FRCP",
+    "front": "How must pleadings be construed under the FRCP?",
+    "back": "Under FRCP Rule 8(e), pleadings must be construed so as to do justice.",
+    "citation": "FRCP Rule 8(e)",
+    "rule_number": "Rule 8(e)"
+  },
+  {
+    "id": 29,
+    "topic": "Pleading Standards",
+    "source": "FRCP",
+    "front": "What must a motion include regarding the grounds and relief sought under the FRCP?",
+    "back": "Under FRCP Rule 7(b)(1), a motion must: (A) be in writing unless made during a hearing or trial; (B) state with particularity the grounds for seeking the order; and (C) state the relief sought.",
+    "citation": "FRCP Rule 7(b)(1)",
+    "rule_number": "Rule 7(b)(1)"
+  },
+  {
+    "id": 30,
+    "topic": "Pleading Standards",
+    "source": "FRCP",
+    "front": "How must a party handle a denial when it intends to deny only part of an allegation?",
+    "back": "Under FRCP Rule 8(b)(4), a party that intends in good faith to deny only part of an allegation must admit the part that is true and deny the rest. Additionally, under Rule 8(b)(2), a denial must fairly respond to the substance of the allegation.",
+    "citation": "FRCP Rule 8(b)(2), (b)(4)",
+    "rule_number": "Rule 8(b)"
+  },
+  {
+    "id": 31,
+    "topic": "Pleading Standards",
+    "source": "CPLR",
+    "front": "What is the general rule for the form of a pleading under the CPLR, and what must each pleading contain?",
+    "back": "Under CPLR § 3014, every pleading shall consist of plain and concise statements in consecutively numbered paragraphs. Each paragraph shall contain, as far as practicable, a single allegation. References to a prior pleading may be made by specific reference to paragraphs rather than restating them.",
+    "citation": "CPLR § 3014",
+    "rule_number": "§ 3014"
+  },
+  {
+    "id": 32,
+    "topic": "Pleading Standards",
+    "source": "CPLR",
+    "front": "What must a complaint contain as required by CPLR § 3013 regarding the specificity of statements in a pleading?",
+    "back": "Under CPLR § 3013, statements in a pleading shall be sufficiently particular to give the court and parties notice of the transactions, occurrences, or series of transactions or occurrences intended to be proved and the material elements of each cause of action or defense.",
+    "citation": "CPLR § 3013",
+    "rule_number": "§ 3013"
+  },
+  {
+    "id": 33,
+    "topic": "Pleading Standards",
+    "source": "CPLR",
+    "front": "Under CPLR § 3016, what heightened pleading standard applies to causes of action based on fraud?",
+    "back": "Under CPLR § 3016(b), where a cause of action is based upon misrepresentation, fraud, mistake, wilful default, breach of trust, or undue influence, the circumstances constituting the wrong shall be stated in detail. This requires pleading the specific facts of the fraudulent conduct with particularity.",
+    "citation": "CPLR § 3016(b)",
+    "rule_number": "§ 3016"
+  },
+  {
+    "id": 34,
+    "topic": "Pleading Standards",
+    "source": "CPLR",
+    "front": "What does CPLR § 3015 require regarding the pleading of conditions precedent and other specific matters?",
+    "back": "Under CPLR § 3015, the performance or occurrence of a condition precedent in a contract need not be pleaded, but a denial of performance or occurrence shall be made specifically and with particularity. Additionally, capacity to sue, authority of a party to sue in a representative capacity, and the legal existence of a party must be raised by a party who intends to contest them.",
+    "citation": "CPLR § 3015",
+    "rule_number": "§ 3015"
+  },
+  {
+    "id": 35,
+    "topic": "Pleading Standards",
+    "source": "CPLR",
+    "front": "What does CPLR § 3017 require regarding the demand for relief in a pleading, and what is the special rule for personal injury and wrongful death actions?",
+    "back": "Under CPLR § 3017(a), every complaint shall contain a demand for the relief to which the pleader deems itself entitled. Under CPLR § 3017(c), in personal injury and wrongful death actions, the complaint shall not state the amount of damages sought, but the plaintiff shall set forth the total damages sought in a supplemental demand served within 15 days of a defendant's written request.",
+    "citation": "CPLR § 3017",
+    "rule_number": "§ 3017"
+  },
+  {
+    "id": 36,
+    "topic": "Pleading Standards",
+    "source": "CPLR",
+    "front": "Under CPLR § 3018, what is the difference between a general denial and an affirmative defense, and when must affirmative defenses be pleaded?",
+    "back": "Under CPLR § 3018(a), a party may deny all allegations by a general denial, or may deny specific allegations. Under CPLR § 3018(b), a party must affirmatively plead any matter that if not pleaded would be likely to take the adverse party by surprise or raise issues of fact not appearing on the face of a prior pleading, including but not limited to arbitration and award, assumption of risk, contributory negligence, fraud, and statute of limitations.",
+    "citation": "CPLR § 3018",
+    "rule_number": "§ 3018"
+  },
+  {
+    "id": 37,
+    "topic": "Pleading Standards",
+    "source": "CPLR",
+    "front": "What is the standard for a motion to dismiss for failure to state a cause of action under CPLR § 3211(a)(7), and how does the court evaluate the pleading?",
+    "back": "Under CPLR § 3211(a)(7), a party may move to dismiss a cause of action for failure to state a cause of action. The court must accept the facts as alleged in the complaint as true, accord the plaintiff the benefit of every possible favorable inference, and determine only whether the facts as alleged fit within any cognizable legal theory. The complaint will be sustained if any cause of action can be discerned from the four corners of the pleading.",
+    "citation": "CPLR § 3211(a)(7)",
+    "rule_number": "§ 3211"
+  },
+  {
+    "id": 38,
+    "topic": "Pleading Standards",
+    "source": "CPLR",
+    "front": "What does CPLR § 3016(a) require when pleading a cause of action based on a judgment?",
+    "back": "Under CPLR § 3016(a), where a cause of action is based upon a judgment, the pleading shall identify the court in which the judgment was entered, the date of entry, and the judgment roll or docket number. This particularity requirement ensures that the defendant has sufficient notice of the specific judgment being relied upon.",
+    "citation": "CPLR § 3016(a)",
+    "rule_number": "§ 3016"
+  },
+  {
+    "id": 39,
+    "topic": "Pleading Standards",
+    "source": "CPLR",
+    "front": "Under CPLR § 3024, what remedy is available to a party who receives a pleading that is vague or ambiguous, and what is the procedure?",
+    "back": "Under CPLR § 3024(a), a party may move to strike matter from a pleading that is unnecessarily scandalous or prejudicial. Under CPLR § 3024(b), a party may move for a more definite statement if a pleading is so vague or ambiguous that a party cannot reasonably be required to frame a response. Such a motion must be made before service of a responsive pleading, and the court may order a more particular statement.",
+    "citation": "CPLR § 3024",
+    "rule_number": "§ 3024"
+  },
+  {
+    "id": 40,
+    "topic": "Pleading Standards",
+    "source": "CPLR",
+    "front": "What does CPLR § 3020 require regarding the verification of pleadings, and who must verify a pleading?",
+    "back": "Under CPLR § 3020(a), a verification is a statement under oath that the pleading is true to the knowledge of the deponent, except as to matters alleged on information and belief, which the deponent believes to be true. Under CPLR § 3020(d), if the pleading is by a corporation, the verification may be made by an officer with knowledge of the facts. If one party verifies a pleading, all subsequent pleadings must also be verified under CPLR § 3020(a).",
+    "citation": "CPLR § 3020",
+    "rule_number": "§ 3020"
+  },
+  {
+    "id": 41,
+    "topic": "Motion to Dismiss",
+    "source": "FRCP",
+    "front": "Under what circumstances may a plaintiff dismiss an action WITHOUT a court order?",
+    "back": "Under FRCP Rule 41(a)(1)(A), a plaintiff may dismiss an action without a court order by filing: (i) a notice of dismissal before the opposing party serves either an answer or a motion for summary judgment, or (ii) a stipulation of dismissal signed by all parties who have appeared.",
+    "citation": "FRCP Rule 41(a)(1)(A)",
+    "rule_number": "Rule 41(a)(1)(A)"
+  },
+  {
+    "id": 42,
+    "topic": "Motion to Dismiss",
+    "source": "FRCP",
+    "front": "What is the default effect of a voluntary dismissal filed by a plaintiff under Rule 41(a)(1)?",
+    "back": "Under FRCP Rule 41(a)(1)(B), unless the notice or stipulation states otherwise, the dismissal is WITHOUT prejudice.",
+    "citation": "FRCP Rule 41(a)(1)(B)",
+    "rule_number": "Rule 41(a)(1)(B)"
+  },
+  {
+    "id": 43,
+    "topic": "Motion to Dismiss",
+    "source": "FRCP",
+    "front": "What is the 'two-dismissal rule' under Rule 41, and what effect does it have?",
+    "back": "Under FRCP Rule 41(a)(1)(B), if the plaintiff previously dismissed any federal- or state-court action based on or including the same claim, a subsequent notice of dismissal operates as an adjudication ON THE MERITS, effectively barring the claim.",
+    "citation": "FRCP Rule 41(a)(1)(B)",
+    "rule_number": "Rule 41(a)(1)(B)"
+  },
+  {
+    "id": 44,
+    "topic": "Motion to Dismiss",
+    "source": "FRCP",
+    "front": "When must a plaintiff obtain a court order to voluntarily dismiss an action, and on what terms?",
+    "back": "Under FRCP Rule 41(a)(2), except as provided in Rule 41(a)(1), an action may be dismissed at the plaintiff's request only by court order, on terms that the court considers proper.",
+    "citation": "FRCP Rule 41(a)(2)",
+    "rule_number": "Rule 41(a)(2)"
+  },
+  {
+    "id": 45,
+    "topic": "Motion to Dismiss",
+    "source": "FRCP",
+    "front": "Under Rule 41(a)(2), what happens if a defendant has pleaded a counterclaim before being served with the plaintiff's motion to dismiss?",
+    "back": "Under FRCP Rule 41(a)(2), if a defendant has pleaded a counterclaim before being served with the plaintiff's motion to dismiss, the action may be dismissed over the defendant's objection ONLY if the counterclaim can remain pending for independent adjudication.",
+    "citation": "FRCP Rule 41(a)(2)",
+    "rule_number": "Rule 41(a)(2)"
+  },
+  {
+    "id": 46,
+    "topic": "Motion to Dismiss",
+    "source": "FRCP",
+    "front": "What are the grounds upon which a defendant may move for involuntary dismissal under Rule 41(b)?",
+    "back": "Under FRCP Rule 41(b), a defendant may move to dismiss the action or any claim against it if the plaintiff fails to prosecute, fails to comply with the Federal Rules of Civil Procedure, or fails to comply with a court order.",
+    "citation": "FRCP Rule 41(b)",
+    "rule_number": "Rule 41(b)"
+  },
+  {
+    "id": 47,
+    "topic": "Motion to Dismiss",
+    "source": "FRCP",
+    "front": "What is the default effect of an involuntary dismissal under Rule 41(b) on the merits?",
+    "back": "Under FRCP Rule 41(b), unless the dismissal order states otherwise, a dismissal under Rule 41(b) operates as an adjudication ON THE MERITS, meaning it is with prejudice and bars refiling of the same claim.",
+    "citation": "FRCP Rule 41(b)",
+    "rule_number": "Rule 41(b)"
+  },
+  {
+    "id": 48,
+    "topic": "Motion to Dismiss",
+    "source": "FRCP",
+    "front": "Which types of dismissals under Rule 41(b) do NOT operate as an adjudication on the merits?",
+    "back": "Under FRCP Rule 41(b), dismissals for lack of jurisdiction, improper venue, or failure to join a party under Rule 19 do NOT operate as an adjudication on the merits, meaning they are without prejudice and do not bar refiling.",
+    "citation": "FRCP Rule 41(b)",
+    "rule_number": "Rule 41(b)"
+  },
+  {
+    "id": 49,
+    "topic": "Motion to Dismiss",
+    "source": "FRCP",
+    "front": "Does Rule 41 apply to the dismissal of counterclaims, crossclaims, or third-party claims?",
+    "back": "Under FRCP Rule 41(c), Rule 41 applies to the dismissal of any counterclaim, crossclaim, or third-party claim. A claimant's voluntary dismissal under Rule 41(a)(1)(A)(i) must be made before a responsive pleading is served, or if there is no responsive pleading, before evidence is introduced at a hearing or trial.",
+    "citation": "FRCP Rule 41(c)",
+    "rule_number": "Rule 41(c)"
+  },
+  {
+    "id": 50,
+    "topic": "Motion to Dismiss",
+    "source": "FRCP",
+    "front": "What cost consequences may a court impose when a plaintiff who previously dismissed an action refiles the same claim against the same defendant?",
+    "back": "Under FRCP Rule 41(d), if a plaintiff who previously dismissed an action refiles based on or including the same claim against the same defendant, the court may order the plaintiff to pay all or part of the costs of the previous action, and may stay the proceedings until the plaintiff has complied.",
+    "citation": "FRCP Rule 41(d)",
+    "rule_number": "Rule 41(d)"
+  },
+  {
+    "id": 51,
+    "topic": "Motion to Dismiss",
+    "source": "CPLR",
+    "front": "What are the grounds for a motion to dismiss under CPLR § 3211(a)?",
+    "back": "Under CPLR § 3211(a), a party may move to dismiss on grounds including: lack of legal capacity to sue, another action pending, statute of limitations, failure to state a cause of action, lack of subject matter jurisdiction, lack of personal jurisdiction, and other enumerated defenses (total of 11 grounds).",
+    "citation": "CPLR § 3211(a)",
+    "rule_number": "§ 3211(a)"
+  },
+  {
+    "id": 52,
+    "topic": "Motion to Dismiss",
+    "source": "CPLR",
+    "front": "Under CPLR § 3211(b), on what ground may a defendant move to dismiss a defense asserted by the plaintiff?",
+    "back": "Under CPLR § 3211(b), a party may move to dismiss a defense on the ground that it is not stated or has no merit. This allows a plaintiff to attack an affirmative defense raised in the answer as legally insufficient.",
+    "citation": "CPLR § 3211(b)",
+    "rule_number": "§ 3211(b)"
+  },
+  {
+    "id": 53,
+    "topic": "Motion to Dismiss",
+    "source": "CPLR",
+    "front": "Under CPLR § 3211(e), when must a motion to dismiss based on lack of personal jurisdiction be made, and what is the consequence of failing to timely raise it?",
+    "back": "Under CPLR § 3211(e), a motion to dismiss based on lack of personal jurisdiction under § 3211(a)(8) must be raised either by motion before service of the responsive pleading or in the responsive pleading itself. Failure to timely raise this defense results in its waiver.",
+    "citation": "CPLR § 3211(e)",
+    "rule_number": "§ 3211(e)"
+  },
+  {
+    "id": 54,
+    "topic": "Motion to Dismiss",
+    "source": "CPLR",
+    "front": "What standard does a court apply when deciding a motion to dismiss for failure to state a cause of action under CPLR § 3211(a)(7)?",
+    "back": "Under CPLR § 3211(a)(7), the court must accept the facts alleged in the complaint as true, liberally construe the pleading, and determine whether the plaintiff has stated a legally cognizable cause of action. The complaint is deemed to allege whatever can be implied from its statements by fair and reasonable intendment.",
+    "citation": "CPLR § 3211(a)(7)",
+    "rule_number": "§ 3211(a)(7)"
+  },
+  {
+    "id": 55,
+    "topic": "Motion to Dismiss",
+    "source": "CPLR",
+    "front": "Under CPLR § 3211(c), what authority does the court have when deciding a motion to dismiss?",
+    "back": "Under CPLR § 3211(c), upon a motion to dismiss, the court may, after adequate notice to the parties, treat the motion as one for summary judgment and either grant or deny summary judgment on any cause of action, provided the motion has been fully argued or submitted by both sides.",
+    "citation": "CPLR § 3211(c)",
+    "rule_number": "§ 3211(c)"
+  },
+  {
+    "id": 56,
+    "topic": "Motion to Dismiss",
+    "source": "CPLR",
+    "front": "Under CPLR § 3211(a)(5), what statute of limitations grounds can support a motion to dismiss?",
+    "back": "Under CPLR § 3211(a)(5), a motion to dismiss may be made on the ground that the cause of action may not be maintained because it is barred by the applicable statute of limitations, res judicata, collateral estoppel, discharge in bankruptcy, infancy, or other legal disability of the moving party.",
+    "citation": "CPLR § 3211(a)(5)",
+    "rule_number": "§ 3211(a)(5)"
+  },
+  {
+    "id": 57,
+    "topic": "Motion to Dismiss",
+    "source": "CPLR",
+    "front": "Under CPLR § 3211(a)(4), when can a party move to dismiss on the ground that another action is pending?",
+    "back": "Under CPLR § 3211(a)(4), a party may move to dismiss when there is another action pending between the same parties for the same cause of action in a court of any state or the United States. The court has discretion to dismiss or stay the action rather than being required to dismiss.",
+    "citation": "CPLR § 3211(a)(4)",
+    "rule_number": "§ 3211(a)(4)"
+  },
+  {
+    "id": 58,
+    "topic": "Motion to Dismiss",
+    "source": "CPLR",
+    "front": "Under CPLR § 3211(e), which defenses are NOT waived if omitted from a pre-answer motion to dismiss or the answer?",
+    "back": "Under CPLR § 3211(e), the defenses of lack of subject matter jurisdiction under § 3211(a)(2) and failure to state a cause of action under § 3211(a)(7) are never waived and may be raised at any time during the action, including at trial.",
+    "citation": "CPLR § 3211(e)",
+    "rule_number": "§ 3211(e)"
+  },
+  {
+    "id": 59,
+    "topic": "Motion to Dismiss",
+    "source": "CPLR",
+    "front": "Under CPLR § 3211(f), how does a pre-answer motion to dismiss affect the defendant's time to answer?",
+    "back": "Under CPLR § 3211(f), service of a notice of motion to dismiss extends the defendant's time to answer. The defendant's time to answer is extended until 10 days after service of notice of entry of the order deciding the motion. If the motion is denied, the defendant has 10 days after service of the order to serve an answer.",
+    "citation": "CPLR § 3211(f)",
+    "rule_number": "§ 3211(f)"
+  },
+  {
+    "id": 60,
+    "topic": "Motion to Dismiss",
+    "source": "CPLR",
+    "front": "Under CPLR § 3211(a)(1), what is required for documentary evidence to support a motion to dismiss?",
+    "back": "Under CPLR § 3211(a)(1), a motion to dismiss based on documentary evidence requires that the documentary evidence submitted conclusively establishes a defense to the asserted claims as a matter of law. The evidence must be unambiguous, authentic, and undeniable, such as a written contract, deed, or court record, and must utterly refute the plaintiff's factual allegations.",
+    "citation": "CPLR § 3211(a)(1)",
+    "rule_number": "§ 3211(a)(1)"
+  },
+  {
+    "id": 61,
+    "topic": "Summary Judgment",
+    "source": "FRCP",
+    "front": "What is the standard for granting summary judgment under Rule 56(a)?",
+    "back": "Under FRCP Rule 56(a), summary judgment shall be granted when there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law.",
+    "citation": "FRCP Rule 56(a)",
+    "rule_number": "Rule 56(a)"
+  },
+  {
+    "id": 62,
+    "topic": "Summary Judgment",
+    "source": "FRCP",
+    "front": "When may a party move for summary judgment under the 2009 amendment to Rule 56?",
+    "back": "Under FRCP Rule 56, as amended in 2009, a party may move for summary judgment at any time, even as early as the commencement of the action.",
+    "citation": "FRCP Rule 56",
+    "rule_number": "Rule 56"
+  },
+  {
+    "id": 63,
+    "topic": "Summary Judgment",
+    "source": "FRCP",
+    "front": "What is the presumptive deadline for filing a summary judgment motion under the 2009 amendment to Rule 56?",
+    "back": "Under FRCP Rule 56(c)(1), as amended in 2009, the presumptive deadline for filing a summary judgment motion is 30 days after the close of all discovery.",
+    "citation": "FRCP Rule 56(c)(1)",
+    "rule_number": "Rule 56(c)(1)"
+  },
+  {
+    "id": 64,
+    "topic": "Summary Judgment",
+    "source": "FRCP",
+    "front": "Is a partial summary judgment considered a final judgment for purposes of appeal under Rule 56(d)?",
+    "back": "Under FRCP Rule 56(d), a partial summary judgment is not a final judgment and is therefore not appealable unless a specific statute allows an appeal from the interlocutory order involved. It is merely a pretrial adjudication that certain issues shall be deemed established for trial.",
+    "citation": "FRCP Rule 56(d)",
+    "rule_number": "Rule 56(d)"
+  },
+  {
+    "id": 65,
+    "topic": "Summary Judgment",
+    "source": "FRCP",
+    "front": "Under Rule 56, can summary judgment be granted on the issue of damages alone, even if the amount remains in dispute?",
+    "back": "Under FRCP Rule 56(c), as clarified by the 1946 amendment, summary judgment may be granted in a proper case even when recovery depends on the amount of damages. If the case is not fully adjudicated, the right to summary recovery may be determined by a preliminary interlocutory order, with the precise amount of recovery left for trial.",
+    "citation": "FRCP Rule 56(c)",
+    "rule_number": "Rule 56(c)"
+  },
+  {
+    "id": 66,
+    "topic": "Summary Judgment",
+    "source": "FRCP",
+    "front": "What is the purpose of the summary judgment procedure as described in the FRCP Advisory Committee Notes to Rule 56?",
+    "back": "Under FRCP Rule 56, the very mission of the summary judgment procedure is to pierce the pleadings and to assess the proof in order to see whether there is a genuine need for trial, thereby speeding up litigation by eliminating before trial matters wherein there is no genuine issue of fact.",
+    "citation": "FRCP Rule 56",
+    "rule_number": "Rule 56"
+  },
+  {
+    "id": 67,
+    "topic": "Summary Judgment",
+    "source": "FRCP",
+    "front": "Under Rule 56, can a party rely solely on the averments of its pleadings to defeat a well-supported motion for summary judgment?",
+    "back": "Under FRCP Rule 56(e), as amended in 1963, a party may not rest on the averments of its pleadings to defeat a summary judgment motion. The adverse party must produce evidentiary matter sufficient to establish that there is a genuine issue for trial, as pleadings alone are insufficient to stand in the way of an otherwise justified summary judgment.",
+    "citation": "FRCP Rule 56(e)",
+    "rule_number": "Rule 56(e)"
+  },
+  {
+    "id": 68,
+    "topic": "Summary Judgment",
+    "source": "FRCP",
+    "front": "To what types of claims and parties does Rule 56 apply, as clarified by the 2007 amendment?",
+    "back": "Under FRCP Rule 56(a) and (b), as amended in 2007, Rule 56 applies to any party claiming relief and any party against whom relief is sought, including third-party claimants, intervenors, claimants in interpleader, and others. It is not limited to claims, counterclaims, or crossclaims.",
+    "citation": "FRCP Rule 56(a) and (b)",
+    "rule_number": "Rule 56(a)"
+  },
+  {
+    "id": 69,
+    "topic": "Summary Judgment",
+    "source": "FRCP",
+    "front": "Under Rule 56, when is summary judgment inappropriate due to witness credibility issues?",
+    "back": "Under FRCP Rule 56, as noted in the 1963 Advisory Committee Notes, summary judgment is not appropriate where an issue as to a material fact cannot be resolved without observation of the demeanor of witnesses in order to evaluate their credibility.",
+    "citation": "FRCP Rule 56",
+    "rule_number": "Rule 56"
+  },
+  {
+    "id": 70,
+    "topic": "Summary Judgment",
+    "source": "FRCP",
+    "front": "Under the 2009 amendment to Rule 56, when must a party respond to a summary judgment motion filed before a responsive pleading is due?",
+    "back": "Under FRCP Rule 56, as amended in 2009, if a motion for summary judgment is filed before a responsive pleading is due from a party affected by the motion, the time for responding to the motion is 21 days after the responsive pleading is due.",
+    "citation": "FRCP Rule 56",
+    "rule_number": "Rule 56"
+  },
+  {
+    "id": 71,
+    "topic": "Summary Judgment",
+    "source": "CPLR",
+    "front": "When may a party move for summary judgment under the CPLR?",
+    "back": "Under CPLR § 3212(a), a party may move for summary judgment in any action, after issue has been joined. The motion may be made no later than one hundred twenty days after the filing of the note of issue, except with leave of court on good cause shown.",
+    "citation": "CPLR § 3212(a)",
+    "rule_number": "§ 3212(a)"
+  },
+  {
+    "id": 72,
+    "topic": "Summary Judgment",
+    "source": "CPLR",
+    "front": "What must a motion for summary judgment include to establish entitlement to relief under CPLR § 3212(b)?",
+    "back": "Under CPLR § 3212(b), the motion must be supported by an affidavit by a person having knowledge of the facts, and by a copy of the pleadings. The affidavit shall recite all the material facts and show that there is no defense to the cause of action or that the cause of action has no merit.",
+    "citation": "CPLR § 3212(b)",
+    "rule_number": "§ 3212(b)"
+  },
+  {
+    "id": 73,
+    "topic": "Summary Judgment",
+    "source": "CPLR",
+    "front": "What is the standard the court applies when deciding a motion for summary judgment under CPLR § 3212(b)?",
+    "back": "Under CPLR § 3212(b), the court shall grant summary judgment if, upon all the papers and proof submitted, the cause of action or defense shall be established sufficiently to warrant the court as a matter of law in directing judgment in favor of any party. The motion shall be denied if any party shall show facts sufficient to require a trial of any issue of fact.",
+    "citation": "CPLR § 3212(b)",
+    "rule_number": "§ 3212(b)"
+  },
+  {
+    "id": 74,
+    "topic": "Summary Judgment",
+    "source": "CPLR",
+    "front": "Can a court grant summary judgment on less than the entire action under the CPLR, and if so, under what provision?",
+    "back": "Under CPLR § 3212(e), the court may grant summary judgment as to one or more causes of action, or part thereof, in favor of any one or more parties. Judgment may be severed and the action may continue as to the remaining claims or parties.",
+    "citation": "CPLR § 3212(e)",
+    "rule_number": "§ 3212(e)"
+  },
+  {
+    "id": 75,
+    "topic": "Summary Judgment",
+    "source": "CPLR",
+    "front": "What happens if a summary judgment motion is denied as premature because facts essential to justify opposition may exist but are not yet available?",
+    "back": "Under CPLR § 3212(f), if it appears from affidavit submitted in opposition that facts essential to justify opposition may exist but cannot then be stated, the court may deny the motion or may order a continuance to permit affidavits to be obtained, discovery to be conducted, or other proceedings to be had.",
+    "citation": "CPLR § 3212(f)",
+    "rule_number": "§ 3212(f)"
+  },
+  {
+    "id": 76,
+    "topic": "Summary Judgment",
+    "source": "CPLR",
+    "front": "Under CPLR § 3212(g), what is the effect when a summary judgment motion is denied in whole or in part?",
+    "back": "Under CPLR § 3212(g), if a motion for summary judgment is denied or is granted in part, the court shall, if practicable, ascertain what facts are not in dispute or are incontrovertible. It may make an order specifying such facts, which shall be deemed established for all purposes in the action.",
+    "citation": "CPLR § 3212(g)",
+    "rule_number": "§ 3212(g)"
+  },
+  {
+    "id": 77,
+    "topic": "Summary Judgment",
+    "source": "CPLR",
+    "front": "What is the procedure for a motion for summary judgment in lieu of complaint under the CPLR, and when is it available?",
+    "back": "Under CPLR § 3213, when an action is based upon an instrument for the payment of money only or upon any judgment, the plaintiff may serve with the summons a notice of motion for summary judgment instead of a complaint. The motion and supporting papers shall be served with the summons.",
+    "citation": "CPLR § 3213",
+    "rule_number": "§ 3213"
+  },
+  {
+    "id": 78,
+    "topic": "Summary Judgment",
+    "source": "CPLR",
+    "front": "If a defendant successfully opposes a CPLR § 3213 motion for summary judgment in lieu of complaint, what happens to the action?",
+    "back": "Under CPLR § 3213, if the motion is denied, the moving and answering papers shall be deemed the complaint and answer respectively, unless the court orders otherwise. The action then proceeds as a standard action under the CPLR.",
+    "citation": "CPLR § 3213",
+    "rule_number": "§ 3213"
+  },
+  {
+    "id": 79,
+    "topic": "Summary Judgment",
+    "source": "CPLR",
+    "front": "Under the CPLR, may a court search the record and grant summary judgment to a non-moving party?",
+    "back": "Under CPLR § 3212(b), the court may search the record and grant summary judgment to any party without the necessity of a cross-motion. The court has authority to award judgment in favor of a party who did not move for summary judgment if the record establishes that party's entitlement as a matter of law.",
+    "citation": "CPLR § 3212(b)",
+    "rule_number": "§ 3212(b)"
+  },
+  {
+    "id": 80,
+    "topic": "Summary Judgment",
+    "source": "CPLR",
+    "front": "Under CPLR § 3212(c), when may the court order an immediate trial on the issue of damages after granting summary judgment on liability?",
+    "back": "Under CPLR § 3212(c), upon granting summary judgment on the issue of liability, the court, upon motion of either party, may order an immediate trial of the remaining issue or issues of damages. This provision allows for an expedited resolution of the damages question after liability has been conclusively established.",
+    "citation": "CPLR § 3212(c)",
+    "rule_number": "§ 3212(c)"
+  },
+  {
+    "id": 81,
+    "topic": "Discovery",
+    "source": "FRCP",
+    "front": "What is the standard for when a party must supplement or correct a disclosure or discovery response under the amended rule?",
+    "back": "Under FRCP Rule 26(e)(1)(A), a party must supplement or correct a disclosure or discovery response 'in a timely manner.' The amended rule applies this same phrase to both disclosures and discovery responses, replacing the former distinctions between 'at appropriate intervals' for disclosures and 'seasonably amended' for discovery responses.",
+    "citation": "FRCP Rule 26(e)(1)(A)",
+    "rule_number": "Rule 26(e)(1)(A)"
+  },
+  {
+    "id": 82,
+    "topic": "Discovery",
+    "source": "FRCP",
+    "front": "What must a court do if a disclosure or discovery document lacks the required signature and the omission is called to the attorney's or party's attention?",
+    "back": "Under FRCP Rule 26(g)(2), the court must strike the unsigned disclosure or discovery document unless a signature is provided promptly after the omission is called to the attorney's or party's attention. Amended Rule 26(g)(2) expanded this requirement to include disclosures, correcting a prior drafting oversight.",
+    "citation": "FRCP Rule 26(g)(2)",
+    "rule_number": "Rule 26(g)(2)"
+  },
+  {
+    "id": 83,
+    "topic": "Discovery",
+    "source": "FRCP",
+    "front": "What standard replaced 'good faith' argument in the context of discovery under the amended FRCP Rule 26?",
+    "back": "Under FRCP Rule 26(b)(1)(B)(i), the amended rule replaced the 'good faith' argument standard with a 'nonfrivolous' argument standard, achieving consistency with Rule 11(b)(2). This change confirms that arguing for new law is equally legitimate in conducting discovery.",
+    "citation": "FRCP Rule 26(b)(1)(B)(i)",
+    "rule_number": "Rule 26(b)(1)(B)(i)"
+  },
+  {
+    "id": 84,
+    "topic": "Discovery",
+    "source": "FRCP",
+    "front": "What does FRCP Rule 26(a)(2)(B)(ii) require an expert witness to disclose, and how did the 2010 amendment change this requirement?",
+    "back": "Under FRCP Rule 26(a)(2)(B)(ii), an expert must disclose all 'facts or data considered by the witness in forming' the opinions to be offered. The 2010 amendment changed the prior language of 'data or other information' to 'facts or data,' intending to limit disclosure to factual material and exclude attorney theories or mental impressions, while still requiring broad disclosure of any factual material the expert considered.",
+    "citation": "FRCP Rule 26(a)(2)(B)(ii)",
+    "rule_number": "Rule 26(a)(2)(B)(ii)"
+  },
+  {
+    "id": 85,
+    "topic": "Discovery",
+    "source": "FRCP",
+    "front": "What does FRCP Rule 26(a)(2)(C) require for expert witnesses who are not required to provide a full expert report?",
+    "back": "Under FRCP Rule 26(a)(2)(C), parties must provide summary disclosures of the opinions to be offered by expert witnesses not required to provide full reports under Rule 26(a)(2)(B) and the facts supporting those opinions. This disclosure is considerably less extensive than a full report, and courts must guard against requiring undue detail from these witnesses, who have not been specially retained.",
+    "citation": "FRCP Rule 26(a)(2)(C)",
+    "rule_number": "Rule 26(a)(2)(C)"
+  },
+  {
+    "id": 86,
+    "topic": "Discovery",
+    "source": "FRCP",
+    "front": "What work-product protection does FRCP Rule 26(b)(4)(B) provide regarding expert reports or disclosures?",
+    "back": "Under FRCP Rule 26(b)(4)(B), draft expert reports or disclosures are protected as work product under Rule 26(b)(3)(A) and (B). This protection applies to all expert witnesses identified under Rule 26(a)(2)(A), regardless of whether they must provide a full report, and applies to drafts in any form — written, electronic, or otherwise — including drafts of any supplementation under Rule 26(e).",
+    "citation": "FRCP Rule 26(b)(4)(B)",
+    "rule_number": "Rule 26(b)(4)(B)"
+  },
+  {
+    "id": 87,
+    "topic": "Discovery",
+    "source": "FRCP",
+    "front": "What are the three exceptions under FRCP Rule 26(b)(4)(C) that permit discovery of otherwise protected attorney-expert communications?",
+    "back": "Under FRCP Rule 26(b)(4)(C), attorney-expert communications are generally protected as work product, but discovery is permitted in three situations: (i) communications regarding compensation for the expert's study or testimony; (ii) communications identifying facts or data the party's attorney provided to the expert that the expert considered in forming opinions; and (iii) communications identifying assumptions that counsel provided to the expert and that the expert actually relied upon in forming the opinions to be expressed.",
+    "citation": "FRCP Rule 26(b)(4)(C)",
+    "rule_number": "Rule 26(b)(4)(C)"
+  },
+  {
+    "id": 88,
+    "topic": "Discovery",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 26(b)(1), what are the two primary requirements that make information discoverable under the 2015 amendment?",
+    "back": "Under FRCP Rule 26(b)(1), as amended in 2015, information is discoverable if it is (1) relevant to any party's claim or defense, and (2) proportional to the needs of the case. Proportionality considerations were moved from former Rule 26(b)(2)(C)(iii) into Rule 26(b)(1) to make clear that proportionality is an integral part of the scope of discovery, not a separate limitation.",
+    "citation": "FRCP Rule 26(b)(1)",
+    "rule_number": "Rule 26(b)(1)"
+  },
+  {
+    "id": 89,
+    "topic": "Discovery",
+    "source": "FRCP",
+    "front": "Under what circumstances may a court permit discovery of draft expert reports or attorney-expert communications outside the three exceptions in FRCP Rule 26(b)(4)(C)?",
+    "back": "Under FRCP Rule 26(b)(3)(A)(ii) as referenced in Rule 26(b)(4), a party seeking discovery of protected draft expert reports or attorney-expert communications outside the three exceptions must show that it has a substantial need for the discovery and cannot obtain the substantial equivalent without undue hardship. Even then, the court must protect against disclosure of the attorney's mental impressions, conclusions, opinions, or legal theories under Rule 26(b)(3)(B).",
+    "citation": "FRCP Rule 26(b)(3)(A)(ii); Rule 26(b)(4)(C)",
+    "rule_number": "Rule 26(b)(4)(C)"
+  },
+  {
+    "id": 90,
+    "topic": "Discovery",
+    "source": "FRCP",
+    "front": "What information must be included in a discovery signature under the FRCP, and what happens if a signer lacks one of those contact items?",
+    "back": "Under FRCP Rule 26(g), consistent with Rule 11, a signature on a disclosure or discovery document should include a postal address, telephone number, and electronic-mail address. A signer who lacks one or more of those addresses need not supply a nonexistent item; only the items that actually exist must be provided.",
+    "citation": "FRCP Rule 26(g)",
+    "rule_number": "Rule 26(g)"
+  },
+  {
+    "id": 91,
+    "topic": "Discovery",
+    "source": "CPLR",
+    "front": "What is the general scope of disclosure permitted under the CPLR, and what standard governs whether information is discoverable?",
+    "back": "Under CPLR § 3101(a), there shall be full disclosure of all matter material and necessary in the prosecution or defense of an action, regardless of the burden of proof. The test is one of usefulness and reason.",
+    "citation": "CPLR § 3101",
+    "rule_number": "§ 3101"
+  },
+  {
+    "id": 92,
+    "topic": "Discovery",
+    "source": "CPLR",
+    "front": "Under the CPLR, what protection is afforded to materials prepared in anticipation of litigation or for trial?",
+    "back": "Under CPLR § 3101(d)(2), materials prepared in anticipation of litigation or for trial by or for a party or its representative are protected from disclosure unless the party seeking disclosure shows substantial need and undue hardship in obtaining the substantial equivalent by other means.",
+    "citation": "CPLR § 3101(d)(2)",
+    "rule_number": "§ 3101(d)(2)"
+  },
+  {
+    "id": 93,
+    "topic": "Discovery",
+    "source": "CPLR",
+    "front": "What are the requirements for expert disclosure in a trial preparation context under the CPLR?",
+    "back": "Under CPLR § 3101(d)(1), upon request, each party must identify each person whom the party expects to call as an expert witness at trial, disclose the subject matter on which the expert is expected to testify, and provide a summary of the grounds for each expert opinion. This disclosure must be made reasonably in advance of trial.",
+    "citation": "CPLR § 3101(d)(1)",
+    "rule_number": "§ 3101(d)(1)"
+  },
+  {
+    "id": 94,
+    "topic": "Discovery",
+    "source": "CPLR",
+    "front": "What is the time limit for serving interrogatories, and how many interrogatories may a party serve without court permission under the CPLR?",
+    "back": "Under CPLR § 3130, interrogatories may be served after commencement of an action. In a matrimonial action, interrogatories are available as of right. In other civil actions, CPLR § 3130(1) limits a party to serving no more than 25 interrogatories, including subparts, without leave of court or stipulation.",
+    "citation": "CPLR § 3130",
+    "rule_number": "§ 3130"
+  },
+  {
+    "id": 95,
+    "topic": "Discovery",
+    "source": "CPLR",
+    "front": "Within what time period must a party respond to interrogatories served under the CPLR?",
+    "back": "Under CPLR § 3133(a), a party must serve a response to interrogatories within twenty days after service of the interrogatories. The response must be in writing and must either answer each interrogatory or object to it with reasons stated.",
+    "citation": "CPLR § 3133",
+    "rule_number": "§ 3133"
+  },
+  {
+    "id": 96,
+    "topic": "Discovery",
+    "source": "CPLR",
+    "front": "What is a notice to admit under the CPLR, and what happens if a party fails to respond within the required time?",
+    "back": "Under CPLR § 3123, a party may serve a notice to admit requesting the other party to admit the genuineness of documents or the truth of stated facts. If the party upon whom the notice is served fails to respond within twenty days, each matter is deemed admitted for purposes of the action.",
+    "citation": "CPLR § 3123",
+    "rule_number": "§ 3123"
+  },
+  {
+    "id": 97,
+    "topic": "Discovery",
+    "source": "CPLR",
+    "front": "Under the CPLR, what are the procedural requirements for taking a deposition upon oral examination, and who may be deposed?",
+    "back": "Under CPLR § 3106, a party may take the deposition of any person, including a party or witness, by oral examination. A notice of deposition must be served specifying the time and place. A non-party witness must be subpoenaed. Under CPLR § 3107, the notice must be served at least twenty days before the examination.",
+    "citation": "CPLR § 3106; CPLR § 3107",
+    "rule_number": "§ 3106"
+  },
+  {
+    "id": 98,
+    "topic": "Discovery",
+    "source": "CPLR",
+    "front": "What remedies are available under the CPLR when a party fails to comply with a discovery order or obligation?",
+    "back": "Under CPLR § 3126, if a party refuses to obey an order for disclosure or wilfully fails to disclose information, the court may order that the issues to which the information is relevant be deemed resolved against the non-complying party, strike the pleading, or dismiss the action or grant a default judgment.",
+    "citation": "CPLR § 3126",
+    "rule_number": "§ 3126"
+  },
+  {
+    "id": 99,
+    "topic": "Discovery",
+    "source": "CPLR",
+    "front": "How does the CPLR address the discovery of electronically stored information (ESI), and what standard governs cost-shifting?",
+    "back": "Under CPLR § 3101(j), a party need not produce ESI from sources the party identifies as not reasonably accessible because of undue burden or cost. Upon motion, the court may nonetheless order disclosure for good cause shown, and may condition such disclosure on the requesting party paying the costs of production.",
+    "citation": "CPLR § 3101(j)",
+    "rule_number": "§ 3101(j)"
+  },
+  {
+    "id": 100,
+    "topic": "Discovery",
+    "source": "CPLR",
+    "front": "What is a physical or mental examination under the CPLR, and what showing is required to obtain one?",
+    "back": "Under CPLR § 3121, where the physical or mental condition of a party is in controversy, any party may serve a notice requiring that party to submit to an examination. The party's condition must be genuinely in controversy. If not a party, a court order is required. The examined party is entitled to a copy of the report upon request.",
+    "citation": "CPLR § 3121",
+    "rule_number": "§ 3121"
+  },
+  {
+    "id": 101,
+    "topic": "Class Actions",
+    "source": "FRCP",
+    "front": "Under Rule 23(f), who has discretion to permit or deny an interlocutory appeal of a class certification order?",
+    "back": "Under FRCP Rule 23(f), the court of appeals has unfettered discretion whether to permit the appeal of an order granting or denying class certification, akin to the discretion exercised by the Supreme Court in acting on a petition for certiorari.",
+    "citation": "FRCP Rule 23(f)",
+    "rule_number": "Rule 23(f)"
+  },
+  {
+    "id": 102,
+    "topic": "Class Actions",
+    "source": "FRCP",
+    "front": "Under Rule 23(f), what is the time period within which a party must seek permission to appeal a class certification order?",
+    "back": "Under FRCP Rule 23(f), the party must seek permission to appeal within 10 days of the certification order. This period is designed to reduce the risk that attempted appeals will disrupt continuing proceedings.",
+    "citation": "FRCP Rule 23(f)",
+    "rule_number": "Rule 23(f)"
+  },
+  {
+    "id": 103,
+    "topic": "Class Actions",
+    "source": "FRCP",
+    "front": "Under Rule 23(f), does a grant of permission to appeal automatically stay the trial court proceedings?",
+    "back": "Under FRCP Rule 23(f), permission to appeal does not stay trial court proceedings. A stay must be sought first from the trial court, and if refused, the trial court's action and any explanation of its views should weigh heavily with the court of appeals.",
+    "citation": "FRCP Rule 23(f)",
+    "rule_number": "Rule 23(f)"
+  },
+  {
+    "id": 104,
+    "topic": "Class Actions",
+    "source": "FRCP",
+    "front": "Under Rule 23(c)(1)(A), what is the timing requirement for a court to determine whether to certify a class?",
+    "back": "Under FRCP Rule 23(c)(1)(A), the court must determine whether to certify a class 'at an early practicable time' after the commencement of the action, replacing the former 'as soon as practicable' standard to reflect valid reasons that may justify deferring the initial certification decision.",
+    "citation": "FRCP Rule 23(c)(1)(A)",
+    "rule_number": "Rule 23(c)(1)(A)"
+  },
+  {
+    "id": 105,
+    "topic": "Class Actions",
+    "source": "FRCP",
+    "front": "Under Rule 23(c)(1)(C), can a class certification order be altered or amended, and if so, until when?",
+    "back": "Under FRCP Rule 23(c)(1)(C), an order granting or denying class certification may be altered or amended before final judgment. The cut-off point is final judgment rather than 'the decision on the merits,' providing flexibility particularly in protracted litigation.",
+    "citation": "FRCP Rule 23(c)(1)(C)",
+    "rule_number": "Rule 23(c)(1)(C)"
+  },
+  {
+    "id": 106,
+    "topic": "Class Actions",
+    "source": "FRCP",
+    "front": "Under Rule 23(c)(2), is a court required to provide notice of certification to members of a Rule 23(b)(1) or (b)(2) class?",
+    "back": "Under FRCP Rule 23(c)(2), notice to members of a Rule 23(b)(1) or (b)(2) class is not expressly required but is within the court's authority to direct. The court should exercise this authority with care, balancing the risk that notice costs may deter class relief against the benefits of notice.",
+    "citation": "FRCP Rule 23(c)(2)",
+    "rule_number": "Rule 23(c)(2)"
+  },
+  {
+    "id": 107,
+    "topic": "Class Actions",
+    "source": "FRCP",
+    "front": "Under Rule 23(e)(1)(C), what is the standard a court must apply when approving a proposed class-action settlement that would bind class members?",
+    "back": "Under FRCP Rule 23(e)(1)(C), the court must find that the settlement is fair, reasonable, and adequate. The court must make findings set out in sufficient detail to explain to class members and the appellate court the factors that bear on applying this standard.",
+    "citation": "FRCP Rule 23(e)(1)(C)",
+    "rule_number": "Rule 23(e)(1)(C)"
+  },
+  {
+    "id": 108,
+    "topic": "Class Actions",
+    "source": "FRCP",
+    "front": "Under Rule 23(e)(1)(B), when is notice of a proposed class-action settlement required to be given to class members?",
+    "back": "Under FRCP Rule 23(e)(1)(B), notice is required when the settlement binds the class through claim or issue preclusion—either when the settlement follows class certification or when the decisions on certification and settlement proceed simultaneously. Notice is not required when the settlement binds only the individual class representatives.",
+    "citation": "FRCP Rule 23(e)(1)(B)",
+    "rule_number": "Rule 23(e)(1)(B)"
+  },
+  {
+    "id": 109,
+    "topic": "Class Actions",
+    "source": "FRCP",
+    "front": "Under Rule 23(e)(2), what must parties seeking approval of a class-action settlement file with the court?",
+    "back": "Under FRCP Rule 23(e)(2), parties seeking approval of a settlement, voluntary dismissal, or compromise must file a statement identifying any agreement made in connection with the settlement, including related undertakings that may have influenced the settlement terms. Doubts should be resolved in favor of identification.",
+    "citation": "FRCP Rule 23(e)(2)",
+    "rule_number": "Rule 23(e)(2)"
+  },
+  {
+    "id": 110,
+    "topic": "Class Actions",
+    "source": "FRCP",
+    "front": "Under Rule 23(f), when is permission to appeal a class certification order most likely to be granted by the court of appeals?",
+    "back": "Under FRCP Rule 23(f), permission to appeal is most likely to be granted when the certification decision turns on a novel or unsettled question of law, or when, as a practical matter, the decision on certification is likely dispositive of the litigation.",
+    "citation": "FRCP Rule 23(f)",
+    "rule_number": "Rule 23(f)"
+  },
+  {
+    "id": 111,
+    "topic": "Class Actions",
+    "source": "CPLR",
+    "front": "What are the four threshold prerequisites that must be satisfied before a class action may be maintained under the CPLR?",
+    "back": "Under CPLR § 901(a), the four prerequisites are: (1) the class is so numerous that joinder of all members is impracticable; (2) there are questions of law or fact common to the class; (3) the claims or defenses of the representative parties are typical of the class; (4) the representative parties will fairly and adequately protect the interests of the class; and (5) a class action is superior to other available methods for adjudication. Note: § 901(a) actually lists five factors.",
+    "citation": "CPLR § 901(a)",
+    "rule_number": "§ 901(a)"
+  },
+  {
+    "id": 112,
+    "topic": "Class Actions",
+    "source": "CPLR",
+    "front": "Under the CPLR, what additional factor must the court consider in determining whether a class action is the superior method of adjudication?",
+    "back": "Under CPLR § 901(b), the court must also consider whether the plaintiff is seeking penalties or minimum damages prescribed by statute. If so, the court has discretion to deny class certification, as the aggregation of statutory penalties could lead to a disproportionate result, unless the statute specifically authorizes class recovery.",
+    "citation": "CPLR § 901(b)",
+    "rule_number": "§ 901(b)"
+  },
+  {
+    "id": 113,
+    "topic": "Class Actions",
+    "source": "CPLR",
+    "front": "What factors must a court consider when determining whether to certify a class action under CPLR § 902?",
+    "back": "Under CPLR § 902, the court considers: (1) the interest of class members in individually controlling the prosecution or defense of separate actions; (2) the impracticability or inefficiency of prosecuting or defending separate actions; (3) the extent and nature of any litigation already commenced; (4) the desirability of concentrating the litigation in the particular forum; and (5) the difficulties likely to be encountered in managing the class action.",
+    "citation": "CPLR § 902",
+    "rule_number": "§ 902"
+  },
+  {
+    "id": 114,
+    "topic": "Class Actions",
+    "source": "CPLR",
+    "front": "When must a motion for class certification be made under the CPLR, and what is the court's role at that stage?",
+    "back": "Under CPLR § 902, a motion for class certification must be made within 60 days after the time to serve a responsive pleading has expired. The court determines whether the action may proceed as a class action by examining the prerequisites under § 901 and the considerations under § 902, and may allow the action to be so maintained, may deny certification, or may order that it proceed as a class action only as to certain issues or classes.",
+    "citation": "CPLR § 902",
+    "rule_number": "§ 902"
+  },
+  {
+    "id": 115,
+    "topic": "Class Actions",
+    "source": "CPLR",
+    "front": "What notice must be given to class members after a class action is certified under the CPLR, and who bears the cost?",
+    "back": "Under CPLR § 904, the court must direct the best notice practicable under the circumstances, including individual notice to all members who can be identified through reasonable effort. The court may order that notice be given by publication or other means if individual notice is not reasonably practicable. The cost of notice is generally borne by the representative plaintiff, though the court has discretion to allocate costs differently.",
+    "citation": "CPLR § 904",
+    "rule_number": "§ 904"
+  },
+  {
+    "id": 116,
+    "topic": "Class Actions",
+    "source": "CPLR",
+    "front": "Under the CPLR, what must a notice to class members include to inform them of their rights?",
+    "back": "Under CPLR § 904(b), the notice must inform each member: (1) of the pendency of the action and the class claims; (2) of the right to appear through counsel; (3) of the right to opt out of the class within a specified time; (4) that any judgment, whether favorable or not, will bind all members who do not opt out; and (5) that any member who does not opt out may appear in the action and be heard.",
+    "citation": "CPLR § 904(b)",
+    "rule_number": "§ 904(b)"
+  },
+  {
+    "id": 117,
+    "topic": "Class Actions",
+    "source": "CPLR",
+    "front": "Can a certified class action be dismissed or compromised without court approval under the CPLR?",
+    "back": "Under CPLR § 908, a class action shall not be dismissed, discontinued, or compromised without the approval of the court. Notice of the proposed dismissal or compromise must be given to all class members in such manner as the court directs, ensuring that absent class members have an opportunity to object or be heard before the court approves any settlement or discontinuance.",
+    "citation": "CPLR § 908",
+    "rule_number": "§ 908"
+  },
+  {
+    "id": 118,
+    "topic": "Class Actions",
+    "source": "CPLR",
+    "front": "How does a judgment in a class action bind absent class members under the CPLR?",
+    "back": "Under CPLR § 909, a judgment in a class action, whether or not favorable to the class, is binding on all class members, except those who have opted out pursuant to CPLR § 904(b). The judgment must describe the members of the class and the issues adjudicated, ensuring that absent members who did not exclude themselves are bound by the outcome of the litigation.",
+    "citation": "CPLR § 909",
+    "rule_number": "§ 909"
+  },
+  {
+    "id": 119,
+    "topic": "Class Actions",
+    "source": "CPLR",
+    "front": "Under the CPLR, may a court award attorneys' fees to class counsel out of a class recovery, and what standard applies?",
+    "back": "Under CPLR § 909, the court may allow reasonable attorneys' fees and litigation expenses to the representative parties out of any money recovered or fund created for the benefit of the class, or may impose them on the opposing party. The court determines the reasonableness of such fees based on the benefit conferred on the class, the complexity of the litigation, and other relevant equitable factors.",
+    "citation": "CPLR § 909",
+    "rule_number": "§ 909"
+  },
+  {
+    "id": 120,
+    "topic": "Class Actions",
+    "source": "CPLR",
+    "front": "What authority does the court have to alter, modify, or decertify a class action after certification under the CPLR?",
+    "back": "Under CPLR § 906, the court may make appropriate orders altering or amending the certification order before a decision on the merits, including subdividing the class, imposing conditions on the representative parties or intervenors, and amending the pleadings. The court retains continuing authority to decertify the class or modify the class definition if it later appears that the requirements of § 901 are no longer satisfied.",
+    "citation": "CPLR § 906",
+    "rule_number": "§ 906"
+  },
+  {
+    "id": 121,
+    "topic": "Joinder of Parties",
+    "source": "FRCP",
+    "front": "Under what two conditions must a person be joined as a required party under FRCP Rule 19?",
+    "back": "Under FRCP Rule 19(a)(1), a person must be joined if: (A) in that person's absence, the court cannot accord complete relief among existing parties; or (B) that person claims an interest relating to the subject of the action and disposing of the action in their absence may impair their ability to protect that interest or leave an existing party subject to a substantial risk of inconsistent obligations.",
+    "citation": "FRCP Rule 19(a)(1)",
+    "rule_number": "Rule 19"
+  },
+  {
+    "id": 122,
+    "topic": "Joinder of Parties",
+    "source": "FRCP",
+    "front": "What threshold requirements must be met before a person can be considered a required party under FRCP Rule 19(a)?",
+    "back": "Under FRCP Rule 19(a), a person must be subject to service of process and their joinder must not deprive the court of subject-matter jurisdiction before they can be required to be joined as a party.",
+    "citation": "FRCP Rule 19(a)",
+    "rule_number": "Rule 19"
+  },
+  {
+    "id": 123,
+    "topic": "Joinder of Parties",
+    "source": "FRCP",
+    "front": "What action must a court take if a required party under Rule 19 has not been joined?",
+    "back": "Under FRCP Rule 19(a)(2), if a person has not been joined as required, the court must order that the person be made a party. A person who refuses to join as a plaintiff may be made either a defendant or, in a proper case, an involuntary plaintiff.",
+    "citation": "FRCP Rule 19(a)(2)",
+    "rule_number": "Rule 19"
+  },
+  {
+    "id": 124,
+    "topic": "Joinder of Parties",
+    "source": "FRCP",
+    "front": "What happens under FRCP Rule 19 if a joined party objects to venue and the joinder would make venue improper?",
+    "back": "Under FRCP Rule 19(a)(3), if a joined party objects to venue and the joinder would make venue improper, the court must dismiss that party.",
+    "citation": "FRCP Rule 19(a)(3)",
+    "rule_number": "Rule 19"
+  },
+  {
+    "id": 125,
+    "topic": "Joinder of Parties",
+    "source": "FRCP",
+    "front": "What four factors must a court consider when determining whether to proceed or dismiss an action if a required party cannot be feasibly joined under FRCP Rule 19(b)?",
+    "back": "Under FRCP Rule 19(b), the court considers: (1) the extent to which a judgment in the person's absence might prejudice that person or existing parties; (2) the extent to which prejudice could be lessened or avoided through protective provisions, shaping the relief, or other measures; (3) whether a judgment rendered in the person's absence would be adequate; and (4) whether the plaintiff would have an adequate remedy if the action were dismissed for nonjoinder.",
+    "citation": "FRCP Rule 19(b)",
+    "rule_number": "Rule 19"
+  },
+  {
+    "id": 126,
+    "topic": "Joinder of Parties",
+    "source": "FRCP",
+    "front": "What must a party asserting a claim for relief state in their pleading when a required party has not been joined under FRCP Rule 19(c)?",
+    "back": "Under FRCP Rule 19(c), when asserting a claim for relief, a party must state: (1) the name, if known, of any person who is required to be joined if feasible but is not joined; and (2) the reasons for not joining that person.",
+    "citation": "FRCP Rule 19(c)",
+    "rule_number": "Rule 19"
+  },
+  {
+    "id": 127,
+    "topic": "Joinder of Parties",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 19, what two specific conditions under Rule 19(a)(1)(B) may trigger the requirement to join a person who claims an interest in the subject of an action?",
+    "back": "Under FRCP Rule 19(a)(1)(B), a person claiming an interest must be joined if disposing of the action in their absence may: (i) as a practical matter impair or impede the person's ability to protect the interest; or (ii) leave an existing party subject to a substantial risk of incurring double, multiple, or otherwise inconsistent obligations because of the interest.",
+    "citation": "FRCP Rule 19(a)(1)(B)",
+    "rule_number": "Rule 19"
+  },
+  {
+    "id": 128,
+    "topic": "Joinder of Parties",
+    "source": "FRCP",
+    "front": "How does FRCP Rule 19 interact with class action rules?",
+    "back": "Under FRCP Rule 19(d), the required joinder of parties rule is subject to Rule 23, meaning that Rule 23 governing class actions provides an exception to the requirements of Rule 19.",
+    "citation": "FRCP Rule 19(d)",
+    "rule_number": "Rule 19"
+  },
+  {
+    "id": 129,
+    "topic": "Joinder of Parties",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 18(a), how many claims may a party join against an opposing party?",
+    "back": "Under FRCP Rule 18(a), a party asserting a claim, counterclaim, crossclaim, or third-party claim may join, as independent or alternative claims, as many claims as it has against an opposing party.",
+    "citation": "FRCP Rule 18(a)",
+    "rule_number": "Rule 18"
+  },
+  {
+    "id": 130,
+    "topic": "Joinder of Parties",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 19(b), what is the overarching standard a court must apply when deciding whether to proceed or dismiss an action where a required party cannot be joined?",
+    "back": "Under FRCP Rule 19(b), if a required party cannot be feasibly joined, the court must determine whether, in equity and good conscience, the action should proceed among the existing parties or should be dismissed, weighing the four enumerated factors related to prejudice, adequacy of judgment, and availability of remedies.",
+    "citation": "FRCP Rule 19(b)",
+    "rule_number": "Rule 19"
+  },
+  {
+    "id": 131,
+    "topic": "Joinder of Parties",
+    "source": "CPLR",
+    "front": "Under the CPLR, what is the general rule governing permissive joinder of plaintiffs in a single action?",
+    "back": "Under CPLR § 1002(a), two or more persons may join as plaintiffs if they assert any right to relief jointly, severally, or in the alternative arising out of the same transaction, occurrence, or series of transactions or occurrences, and if any common question of law or fact would arise in the action.",
+    "citation": "CPLR § 1002(a)",
+    "rule_number": "§ 1002(a)"
+  },
+  {
+    "id": 132,
+    "topic": "Joinder of Parties",
+    "source": "CPLR",
+    "front": "Under the CPLR, what is the rule governing permissive joinder of defendants in a single action?",
+    "back": "Under CPLR § 1002(b), two or more persons may be joined as defendants if there is asserted against them jointly, severally, or in the alternative, any right to relief arising out of the same transaction, occurrence, or series of transactions or occurrences, and if any common question of law or fact would arise in the action.",
+    "citation": "CPLR § 1002(b)",
+    "rule_number": "§ 1002(b)"
+  },
+  {
+    "id": 133,
+    "topic": "Joinder of Parties",
+    "source": "CPLR",
+    "front": "Under the CPLR, when is joinder of a party deemed necessary (compulsory)?",
+    "back": "Under CPLR § 1001(a), persons who ought to be parties if complete relief is to be accorded between the persons who are parties to the action, or who might be inequitably affected by a judgment in the action, shall be made plaintiffs or defendants.",
+    "citation": "CPLR § 1001(a)",
+    "rule_number": "§ 1001(a)"
+  },
+  {
+    "id": 134,
+    "topic": "Joinder of Parties",
+    "source": "CPLR",
+    "front": "Under CPLR § 1001(b), what factors does a court consider when a necessary party cannot be joined?",
+    "back": "Under CPLR § 1001(b), when a necessary party cannot be made a party, the court considers: whether the plaintiff has another effective remedy; the prejudice to absent parties; whether prejudice can be avoided by protective provisions; whether an existing party can adequately represent the absent party's interest; and whether dismissal will leave the plaintiff without an adequate remedy.",
+    "citation": "CPLR § 1001(b)",
+    "rule_number": "§ 1001(b)"
+  },
+  {
+    "id": 135,
+    "topic": "Joinder of Parties",
+    "source": "CPLR",
+    "front": "What does CPLR § 1003 provide regarding misjoinder and nonjoinder of parties?",
+    "back": "Under CPLR § 1003, nonjoinder of a party who should be joined is not a ground for dismissal of an action. Parties may be added or dropped by the court on motion or on its own initiative at any stage of the action, on such terms as may be just. Misjoinder of parties is also not a ground for dismissal.",
+    "citation": "CPLR § 1003",
+    "rule_number": "§ 1003"
+  },
+  {
+    "id": 136,
+    "topic": "Joinder of Parties",
+    "source": "CPLR",
+    "front": "Under the CPLR, what is interpleader and when may a party seek it?",
+    "back": "Under CPLR § 1006(a), a stakeholder who faces double or multiple liability due to adverse claims to the same debt, duty, or thing may bring an interpleader action against the claimants, or by motion, interplead a claimant in a pending action. The stakeholder need not admit liability to any claimant.",
+    "citation": "CPLR § 1006(a)",
+    "rule_number": "§ 1006(a)"
+  },
+  {
+    "id": 137,
+    "topic": "Joinder of Parties",
+    "source": "CPLR",
+    "front": "Under CPLR § 1007, when may a defendant bring in a third-party defendant (impleader)?",
+    "back": "Under CPLR § 1007, after the action is commenced, a defendant may bring in a third-party defendant who is or may be liable to the defendant for all or part of the plaintiff's claim against the defendant, by filing a third-party summons and complaint. Leave of court is required if the third-party summons is not filed within 120 days after joinder of issue.",
+    "citation": "CPLR § 1007",
+    "rule_number": "§ 1007"
+  },
+  {
+    "id": 138,
+    "topic": "Joinder of Parties",
+    "source": "CPLR",
+    "front": "Under the CPLR, what are the rights of a third-party defendant once impleaded?",
+    "back": "Under CPLR § 1008, a third-party defendant may assert defenses that the defendant has against the plaintiff's claim, as well as defenses against the defendant's third-party claim. The third-party defendant may also assert any claims against the plaintiff arising out of the same transaction or occurrence.",
+    "citation": "CPLR § 1008",
+    "rule_number": "§ 1008"
+  },
+  {
+    "id": 139,
+    "topic": "Joinder of Parties",
+    "source": "CPLR",
+    "front": "What does CPLR § 1012 provide regarding intervention as of right?",
+    "back": "Under CPLR § 1012(a), a person is entitled to intervene as of right when: (1) a statute confers an absolute right to intervene; (2) the representation of the person's interest by the parties is or may be inadequate and the person may be bound by the judgment; or (3) the action involves the disposition of property and the person may be affected adversely by the judgment.",
+    "citation": "CPLR § 1012(a)",
+    "rule_number": "§ 1012(a)"
+  },
+  {
+    "id": 140,
+    "topic": "Joinder of Parties",
+    "source": "CPLR",
+    "front": "Under the CPLR, what is permissive intervention and how does it differ from intervention as of right?",
+    "back": "Under CPLR § 1013, permissive intervention is discretionary with the court. A person may be permitted to intervene when their claim or defense and the main action share a common question of law or fact. Unlike intervention as of right under § 1012, the court has discretion to deny permissive intervention and must consider whether it will unduly delay or prejudice the adjudication of the existing parties' rights.",
+    "citation": "CPLR § 1013",
+    "rule_number": "§ 1013"
+  },
+  {
+    "id": 141,
+    "topic": "Default Judgment",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 55, what must happen before a clerk can enter a party's default?",
+    "back": "Under FRCP Rule 55(a), when a party against whom a judgment for affirmative relief is sought has failed to plead or otherwise defend, and that failure is shown by affidavit or otherwise, the clerk must enter the party's default.",
+    "citation": "FRCP Rule 55(a)",
+    "rule_number": "Rule 55(a)"
+  },
+  {
+    "id": 142,
+    "topic": "Default Judgment",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 55, when may the clerk — rather than the court — enter a default judgment?",
+    "back": "Under FRCP Rule 55(b)(1), the clerk may enter a default judgment when the plaintiff's claim is for a sum certain or a sum that can be made certain by computation, upon the plaintiff's request with an affidavit showing the amount due, against a defendant defaulted for not appearing who is neither a minor nor an incompetent person.",
+    "citation": "FRCP Rule 55(b)(1)",
+    "rule_number": "Rule 55(b)(1)"
+  },
+  {
+    "id": 143,
+    "topic": "Default Judgment",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 55, in cases where the clerk cannot enter a default judgment, who has authority to do so and what is required?",
+    "back": "Under FRCP Rule 55(b)(2), in all cases other than a sum certain, the party must apply to the court for a default judgment. The court has authority to conduct hearings, make referrals, and take other steps necessary to enter or effectuate judgment.",
+    "citation": "FRCP Rule 55(b)(2)",
+    "rule_number": "Rule 55(b)(2)"
+  },
+  {
+    "id": 144,
+    "topic": "Default Judgment",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 55, can a default judgment be entered against a minor or incompetent person, and if so, under what condition?",
+    "back": "Under FRCP Rule 55(b)(2), a default judgment may be entered against a minor or incompetent person only if that person is represented by a general guardian, conservator, or other like fiduciary who has appeared.",
+    "citation": "FRCP Rule 55(b)(2)",
+    "rule_number": "Rule 55(b)(2)"
+  },
+  {
+    "id": 145,
+    "topic": "Default Judgment",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 55, what notice requirement applies when the party against whom a default judgment is sought has already appeared in the action?",
+    "back": "Under FRCP Rule 55(b)(2), if the party against whom a default judgment is sought has appeared personally or by a representative, that party or its representative must be served with written notice of the application at least 7 days before the hearing.",
+    "citation": "FRCP Rule 55(b)(2)",
+    "rule_number": "Rule 55(b)(2)"
+  },
+  {
+    "id": 146,
+    "topic": "Default Judgment",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 55, what four types of matters may the court conduct hearings or make referrals about in order to enter or effectuate a default judgment?",
+    "back": "Under FRCP Rule 55(b)(2), the court may conduct hearings or make referrals to: (A) conduct an accounting; (B) determine the amount of damages; (C) establish the truth of any allegation by evidence; or (D) investigate any other matter.",
+    "citation": "FRCP Rule 55(b)(2)",
+    "rule_number": "Rule 55(b)(2)"
+  },
+  {
+    "id": 147,
+    "topic": "Default Judgment",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 55, what standard applies for setting aside an entry of default, and what rule governs setting aside a final default judgment?",
+    "back": "Under FRCP Rule 55(c), the court may set aside an entry of default for good cause, and it may set aside a final default judgment under Rule 60(b), which imposes more demanding standards.",
+    "citation": "FRCP Rule 55(c)",
+    "rule_number": "Rule 55(c)"
+  },
+  {
+    "id": 148,
+    "topic": "Default Judgment",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 55, what special requirement must be met before a default judgment can be entered against the United States, its officers, or its agencies?",
+    "back": "Under FRCP Rule 55(d), a default judgment may be entered against the United States, its officers, or its agencies only if the claimant establishes a claim or right to relief by evidence that satisfies the court.",
+    "citation": "FRCP Rule 55(d)",
+    "rule_number": "Rule 55(d)"
+  },
+  {
+    "id": 149,
+    "topic": "Default Judgment",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 55, what right must the court preserve when conducting hearings or making referrals in connection with entering a default judgment?",
+    "back": "Under FRCP Rule 55(b)(2), when the court conducts hearings or makes referrals to enter or effectuate a default judgment, it must preserve any federal statutory right to a jury trial.",
+    "citation": "FRCP Rule 55(b)(2)",
+    "rule_number": "Rule 55(b)(2)"
+  },
+  {
+    "id": 150,
+    "topic": "Default Judgment",
+    "source": "FRCP",
+    "front": "Under FRCP Rule 55, how does the 2015 amendment clarify when the demanding Rule 60(b) standard applies to a default judgment?",
+    "back": "Under FRCP Rule 55(c) as clarified by the 2015 amendment, the demanding standards of Rule 60(b) apply only when seeking relief from a final default judgment. A default judgment that does not dispose of all claims among all parties is not final unless the court directs entry of final judgment under Rule 54(b), and until then the court may revise the default judgment at any time.",
+    "citation": "FRCP Rule 55(c)",
+    "rule_number": "Rule 55(c)"
+  },
+  {
+    "id": 151,
+    "topic": "Default Judgment",
+    "source": "CPLR",
+    "front": "What is the primary statute governing entry of a default judgment in New York, and what are the two methods by which it may be entered?",
+    "back": "Under CPLR § 3215, a default judgment may be entered either by the clerk (for sum certain cases) or by the court (for all other cases) when a defendant fails to appear, plead, or proceed to trial.",
+    "citation": "CPLR § 3215",
+    "rule_number": "§ 3215"
+  },
+  {
+    "id": 152,
+    "topic": "Default Judgment",
+    "source": "CPLR",
+    "front": "Under CPLR § 3215, within what time period must a plaintiff move for a default judgment after the defendant's default, and what happens if the plaintiff fails to do so?",
+    "back": "Under CPLR § 3215(c), a plaintiff must take proceedings for entry of judgment within one year after the default. If the plaintiff fails to do so, the court shall dismiss the complaint as abandoned unless sufficient cause is shown why the complaint should not be dismissed.",
+    "citation": "CPLR § 3215(c)",
+    "rule_number": "§ 3215(c)"
+  },
+  {
+    "id": 153,
+    "topic": "Default Judgment",
+    "source": "CPLR",
+    "front": "What proof is required to support an application for a default judgment under CPLR § 3215?",
+    "back": "Under CPLR § 3215(f), the applicant must file proof of service of the summons, proof of the facts constituting the claim (via affidavit of the party or someone with knowledge, or a complaint verified by the party), and proof of the default.",
+    "citation": "CPLR § 3215(f)",
+    "rule_number": "§ 3215(f)"
+  },
+  {
+    "id": 154,
+    "topic": "Default Judgment",
+    "source": "CPLR",
+    "front": "Under what circumstances may a clerk enter a default judgment without court intervention under CPLR § 3215?",
+    "back": "Under CPLR § 3215(a), the clerk may enter a default judgment when the plaintiff's claim is for a sum certain or for a sum that can by computation be made certain, and the default is for failure to appear.",
+    "citation": "CPLR § 3215(a)",
+    "rule_number": "§ 3215(a)"
+  },
+  {
+    "id": 155,
+    "topic": "Default Judgment",
+    "source": "CPLR",
+    "front": "How may a defendant who has defaulted seek relief from a default judgment under the CPLR, and what must the defendant show?",
+    "back": "Under CPLR § 5015(a)(1), a defendant may move to vacate a default judgment within one year of service of the judgment with notice of entry by showing a reasonable excuse for the default and a potentially meritorious defense.",
+    "citation": "CPLR § 5015(a)(1)",
+    "rule_number": "§ 5015(a)(1)"
+  },
+  {
+    "id": 156,
+    "topic": "Default Judgment",
+    "source": "CPLR",
+    "front": "What special notice requirement applies before a default judgment may be entered against a defendant who has appeared in the action?",
+    "back": "Under CPLR § 3215(g)(1), if the defendant has appeared in the action, written notice of the application for a default judgment must be given to the defendant at least five days before entry of the judgment.",
+    "citation": "CPLR § 3215(g)(1)",
+    "rule_number": "§ 3215(g)(1)"
+  },
+  {
+    "id": 157,
+    "topic": "Default Judgment",
+    "source": "CPLR",
+    "front": "What additional notice requirement applies when seeking a default judgment against a defendant who was served by means other than personal delivery under CPLR § 3215(g)(3)?",
+    "back": "Under CPLR § 3215(g)(3)(i), in a consumer credit action where service was made other than by personal delivery, the plaintiff must mail an additional notice of the summons to the defendant at least twenty days before entry of the default judgment.",
+    "citation": "CPLR § 3215(g)(3)",
+    "rule_number": "§ 3215(g)(3)"
+  },
+  {
+    "id": 158,
+    "topic": "Default Judgment",
+    "source": "CPLR",
+    "front": "What limitations does the CPLR place on the relief that may be awarded in a default judgment?",
+    "back": "Under CPLR § 3215(b), a default judgment shall not exceed in amount or differ in type from the relief demanded in the complaint or stated in the notice served with the summons, protecting defendants from judgments beyond the scope of the original pleading.",
+    "citation": "CPLR § 3215(b)",
+    "rule_number": "§ 3215(b)"
+  },
+  {
+    "id": 159,
+    "topic": "Default Judgment",
+    "source": "CPLR",
+    "front": "What protections does the CPLR provide before a default judgment may be entered against a military service member?",
+    "back": "Under CPLR § 3215(e), before a default judgment is entered against a defendant, the plaintiff must file an affidavit stating whether the defendant is in military service, and if so, or if it cannot be determined, the court may require appointment of an attorney to represent the defendant's interests before entering judgment.",
+    "citation": "CPLR § 3215(e)",
+    "rule_number": "§ 3215(e)"
+  },
+  {
+    "id": 160,
+    "topic": "Default Judgment",
+    "source": "CPLR",
+    "front": "Under CPLR § 3215, what happens when a plaintiff seeks a default judgment and damages must be assessed rather than calculated as a sum certain?",
+    "back": "Under CPLR § 3215(a) and (b), when the amount of damages is not a sum certain, the plaintiff must apply to the court rather than the clerk for entry of judgment. The court may conduct a hearing or assess damages by reference to determine the appropriate amount before entering judgment.",
+    "citation": "CPLR § 3215(a)-(b)",
+    "rule_number": "§ 3215(a)-(b)"
+  },
+  {
+    "id": 161,
+    "topic": "Amended Pleadings",
+    "source": "FRCP",
+    "front": "When may a party amend its pleading once as a matter of course if no responsive pleading is required?",
+    "back": "Under FRCP Rule 15(a)(1)(A), a party may amend its pleading once as a matter of course no later than 21 days after serving it.",
+    "citation": "FRCP Rule 15(a)(1)(A)",
+    "rule_number": "Rule 15(a)(1)(A)"
+  },
+  {
+    "id": 162,
+    "topic": "Amended Pleadings",
+    "source": "FRCP",
+    "front": "When may a party amend its pleading once as a matter of course if the pleading requires a responsive pleading?",
+    "back": "Under FRCP Rule 15(a)(1)(B), a party may amend once as a matter of course no later than 21 days after service of a responsive pleading or 21 days after service of a motion under Rule 12(b), (e), or (f), whichever is earlier.",
+    "citation": "FRCP Rule 15(a)(1)(B)",
+    "rule_number": "Rule 15(a)(1)(B)"
+  },
+  {
+    "id": 163,
+    "topic": "Amended Pleadings",
+    "source": "FRCP",
+    "front": "After the period for amending as a matter of course has passed, how may a party amend its pleading?",
+    "back": "Under FRCP Rule 15(a)(2), in all other cases a party may amend its pleading only with the opposing party's written consent or the court's leave. The court should freely give leave when justice so requires.",
+    "citation": "FRCP Rule 15(a)(2)",
+    "rule_number": "Rule 15(a)(2)"
+  },
+  {
+    "id": 164,
+    "topic": "Amended Pleadings",
+    "source": "FRCP",
+    "front": "What is the deadline for responding to an amended pleading under the FRCP?",
+    "back": "Under FRCP Rule 15(a)(3), unless the court orders otherwise, any required response to an amended pleading must be made within the time remaining to respond to the original pleading or within 14 days after service of the amended pleading, whichever is later.",
+    "citation": "FRCP Rule 15(a)(3)",
+    "rule_number": "Rule 15(a)(3)"
+  },
+  {
+    "id": 165,
+    "topic": "Amended Pleadings",
+    "source": "FRCP",
+    "front": "Under what conditions may a court permit amendment of pleadings when a party objects at trial that evidence is outside the issues raised in the pleadings?",
+    "back": "Under FRCP Rule 15(b)(1), the court may permit amendment when doing so will aid in presenting the merits and the objecting party fails to satisfy the court that the evidence would prejudice that party's action or defense on the merits. The court may also grant a continuance to enable the objecting party to meet the evidence.",
+    "citation": "FRCP Rule 15(b)(1)",
+    "rule_number": "Rule 15(b)(1)"
+  },
+  {
+    "id": 166,
+    "topic": "Amended Pleadings",
+    "source": "FRCP",
+    "front": "What is the effect when an issue not raised in the pleadings is tried by the parties' express or implied consent?",
+    "back": "Under FRCP Rule 15(b)(2), when an issue not raised by the pleadings is tried by the parties' express or implied consent, it must be treated in all respects as if raised in the pleadings. A party may move at any time, even after judgment, to amend the pleadings to conform them to the evidence, but failure to amend does not affect the result of the trial of that issue.",
+    "citation": "FRCP Rule 15(b)(2)",
+    "rule_number": "Rule 15(b)(2)"
+  },
+  {
+    "id": 167,
+    "topic": "Amended Pleadings",
+    "source": "FRCP",
+    "front": "Under what three circumstances does an amendment to a pleading relate back to the date of the original pleading?",
+    "back": "Under FRCP Rule 15(c)(1), an amendment relates back when: (A) the applicable statute of limitations law allows relation back; (B) the amendment asserts a claim or defense arising out of the same conduct, transaction, or occurrence set out in the original pleading; or (C) the amendment changes the party or naming of the party and the requirements of Rule 15(c)(1)(B) and notice within the Rule 4(m) period are satisfied.",
+    "citation": "FRCP Rule 15(c)(1)",
+    "rule_number": "Rule 15(c)(1)"
+  },
+  {
+    "id": 168,
+    "topic": "Amended Pleadings",
+    "source": "FRCP",
+    "front": "What two conditions must be met regarding the new party when an amendment changes the party against whom a claim is asserted for relation back to apply?",
+    "back": "Under FRCP Rule 15(c)(1)(C), within the period provided by Rule 4(m), the party to be brought in by amendment must have: (i) received such notice of the action that it will not be prejudiced in defending on the merits; and (ii) knew or should have known that the action would have been brought against it but for a mistake concerning the proper party's identity.",
+    "citation": "FRCP Rule 15(c)(1)(C)",
+    "rule_number": "Rule 15(c)(1)(C)"
+  },
+  {
+    "id": 169,
+    "topic": "Amended Pleadings",
+    "source": "FRCP",
+    "front": "How are the notice requirements for relation back satisfied when the United States or a United States officer or agency is added as a defendant by amendment?",
+    "back": "Under FRCP Rule 15(c)(2), the notice requirements of Rule 15(c)(1)(C)(i) and (ii) are satisfied if, during the stated period, process was delivered or mailed to the United States attorney or the United States attorney's designee, to the Attorney General of the United States, or to the officer or agency.",
+    "citation": "FRCP Rule 15(c)(2)",
+    "rule_number": "Rule 15(c)(2)"
+  },
+  {
+    "id": 170,
+    "topic": "Amended Pleadings",
+    "source": "FRCP",
+    "front": "What is a supplemental pleading under the FRCP and under what circumstances may a court permit one?",
+    "back": "Under FRCP Rule 15(d), on motion and reasonable notice, the court may, on just terms, permit a party to serve a supplemental pleading setting out any transaction, occurrence, or event that happened after the date of the pleading to be supplemented. The court may permit supplementation even though the original pleading is defective in stating a claim or defense, and may order the opposing party to plead to the supplemental pleading within a specified time.",
+    "citation": "FRCP Rule 15(d)",
+    "rule_number": "Rule 15(d)"
+  },
+  {
+    "id": 171,
+    "topic": "Amended Pleadings",
+    "source": "CPLR",
+    "front": "As of right, how many times may a party amend a pleading without leave of court, and when must it be done?",
+    "back": "Under CPLR § 3025(a), a party may amend a pleading once as of right at any time before the period for responding to it expires, or, if no response is required, within 20 days after service of the pleading.",
+    "citation": "CPLR § 3025(a)",
+    "rule_number": "§ 3025(a)"
+  },
+  {
+    "id": 172,
+    "topic": "Amended Pleadings",
+    "source": "CPLR",
+    "front": "What is the standard a court applies when deciding whether to grant leave to amend a pleading under CPLR § 3025(b)?",
+    "back": "Under CPLR § 3025(b), leave to amend a pleading shall be freely given upon such terms as may be just, including the granting of costs and continuances. Courts apply this liberal standard absent prejudice or surprise to the opposing party.",
+    "citation": "CPLR § 3025(b)",
+    "rule_number": "§ 3025(b)"
+  },
+  {
+    "id": 173,
+    "topic": "Amended Pleadings",
+    "source": "CPLR",
+    "front": "Under CPLR § 3025(b), what must accompany a motion for leave to amend a pleading?",
+    "back": "Under CPLR § 3025(b), a motion for leave to amend must be accompanied by the proposed amended or supplemental pleading clearly showing the changes or additions to be made to the original pleading.",
+    "citation": "CPLR § 3025(b)",
+    "rule_number": "§ 3025(b)"
+  },
+  {
+    "id": 174,
+    "topic": "Amended Pleadings",
+    "source": "CPLR",
+    "front": "What is a supplemental pleading under CPLR § 3025(b), and how does it differ from an amended pleading?",
+    "back": "Under CPLR § 3025(b), a supplemental pleading sets forth transactions, occurrences, or events that happened after the date of the original pleading, whereas an amended pleading corrects or modifies allegations existing at the time of the original pleading. Both require leave of court after the as-of-right period expires.",
+    "citation": "CPLR § 3025(b)",
+    "rule_number": "§ 3025(b)"
+  },
+  {
+    "id": 175,
+    "topic": "Amended Pleadings",
+    "source": "CPLR",
+    "front": "Under CPLR § 3025(c), when may a court permit a pleading to be amended to conform to the evidence?",
+    "back": "Under CPLR § 3025(c), the court may permit pleadings to be amended before or after judgment to conform them to the evidence, upon such terms as may be just, including the granting of costs and continuances.",
+    "citation": "CPLR § 3025(c)",
+    "rule_number": "§ 3025(c)"
+  },
+  {
+    "id": 176,
+    "topic": "Amended Pleadings",
+    "source": "CPLR",
+    "front": "How does CPLR § 203(f) allow an amended pleading to relate back to the original pleading for statute of limitations purposes?",
+    "back": "Under CPLR § 203(f), a claim asserted in an amended pleading is deemed interposed at the time of the original pleading, provided the original pleading gave notice of the transactions, occurrences, or series of transactions or occurrences to be proved pursuant to the amended pleading.",
+    "citation": "CPLR § 203(f)",
+    "rule_number": "§ 203(f)"
+  },
+  {
+    "id": 177,
+    "topic": "Amended Pleadings",
+    "source": "CPLR",
+    "front": "Under the relation-back doctrine of CPLR § 203(c), when is a claim in an amended pleading deemed interposed against a new defendant after the statute of limitations has run?",
+    "back": "Under CPLR § 203(c), and as developed by case law applying it, a claim against a new defendant relates back if: (1) the claims arise from the same occurrence; (2) the new party is united in interest with the original defendant; and (3) the new party knew or should have known that but for a mistake in identity, the action would have been brought against them.",
+    "citation": "CPLR § 203(c)",
+    "rule_number": "§ 203(c)"
+  },
+  {
+    "id": 178,
+    "topic": "Amended Pleadings",
+    "source": "CPLR",
+    "front": "Within what time must a party respond to an amended pleading served under CPLR § 3025?",
+    "back": "Under CPLR § 3025(d), a party shall plead in response to an amended or supplemental pleading within the time originally provided for response to the original pleading or within 20 days after service of the amended or supplemental pleading, whichever is longer.",
+    "citation": "CPLR § 3025(d)",
+    "rule_number": "§ 3025(d)"
+  },
+  {
+    "id": 179,
+    "topic": "Amended Pleadings",
+    "source": "CPLR",
+    "front": "How does CPLR § 3024 interact with amended pleadings when a party believes an amended pleading contains vague or scandalous matter?",
+    "back": "Under CPLR § 3024, a party may move to strike scandalous or prejudicial matter unnecessarily inserted in a pleading, or to require a more definite and certain statement of any cause of action or defense, and this motion applies equally to amended pleadings served under CPLR § 3025.",
+    "citation": "CPLR § 3024",
+    "rule_number": "§ 3024"
+  },
+  {
+    "id": 180,
+    "topic": "Amended Pleadings",
+    "source": "CPLR",
+    "front": "Under CPLR § 305(c), when may a court allow amendment of a summons, and what is the effect on the pleading?",
+    "back": "Under CPLR § 305(c), at any time in its discretion and upon such terms as it deems just, the court may allow a summons or proof of service of a summons to be amended if a substantial right of a party against whom the summons issued is not prejudiced, which can be coordinated with an amendment of the complaint under CPLR § 3025 to correct errors such as a misnomer in a party's name.",
+    "citation": "CPLR § 305(c)",
+    "rule_number": "§ 305(c)"
+  },
+  {
+    "id": 181,
+    "topic": "Post-Trial Motions",
+    "source": "FRCP",
+    "front": "When may a motion for judgment as a matter of law be made during a jury trial?",
+    "back": "Under FRCP Rule 50(a)(2), a motion for judgment as a matter of law may be made at any time before the case is submitted to the jury. The motion must specify the judgment sought and the law and facts that entitle the movant to the judgment.",
+    "citation": "FRCP Rule 50(a)(2)",
+    "rule_number": "Rule 50(a)(2)"
+  },
+  {
+    "id": 182,
+    "topic": "Post-Trial Motions",
+    "source": "FRCP",
+    "front": "What is the standard the court applies when deciding whether to grant a motion for judgment as a matter of law under Rule 50(a)?",
+    "back": "Under FRCP Rule 50(a)(1), the court may grant judgment as a matter of law if a party has been fully heard on an issue during a jury trial and the court finds that a reasonable jury would not have a legally sufficient evidentiary basis to find for the party on that issue.",
+    "citation": "FRCP Rule 50(a)(1)",
+    "rule_number": "Rule 50(a)(1)"
+  },
+  {
+    "id": 183,
+    "topic": "Post-Trial Motions",
+    "source": "FRCP",
+    "front": "What is the deadline for filing a renewed motion for judgment as a matter of law after entry of judgment?",
+    "back": "Under FRCP Rule 50(b), the movant may file a renewed motion for judgment as a matter of law no later than 28 days after the entry of judgment, or if the motion addresses a jury issue not decided by a verdict, no later than 28 days after the jury was discharged.",
+    "citation": "FRCP Rule 50(b)",
+    "rule_number": "Rule 50(b)"
+  },
+  {
+    "id": 184,
+    "topic": "Post-Trial Motions",
+    "source": "FRCP",
+    "front": "What three options does the court have when ruling on a renewed motion for judgment as a matter of law under Rule 50(b)?",
+    "back": "Under FRCP Rule 50(b), when ruling on a renewed motion for judgment as a matter of law, the court may: (1) allow judgment on the verdict, if the jury returned a verdict; (2) order a new trial; or (3) direct the entry of judgment as a matter of law.",
+    "citation": "FRCP Rule 50(b)",
+    "rule_number": "Rule 50(b)"
+  },
+  {
+    "id": 185,
+    "topic": "Post-Trial Motions",
+    "source": "FRCP",
+    "front": "May a movant combine a renewed motion for judgment as a matter of law with a request for a new trial?",
+    "back": "Under FRCP Rule 50(b), a movant filing a renewed motion for judgment as a matter of law may include an alternative or joint request for a new trial under Rule 59.",
+    "citation": "FRCP Rule 50(b)",
+    "rule_number": "Rule 50(b)"
+  },
+  {
+    "id": 186,
+    "topic": "Post-Trial Motions",
+    "source": "FRCP",
+    "front": "What must the court do regarding a motion for a new trial when it grants a renewed motion for judgment as a matter of law?",
+    "back": "Under FRCP Rule 50(c)(1), if the court grants a renewed motion for judgment as a matter of law, it must also conditionally rule on any motion for a new trial by determining whether a new trial should be granted if the judgment is later vacated or reversed, and must state the grounds for conditionally granting or denying the motion for a new trial.",
+    "citation": "FRCP Rule 50(c)(1)",
+    "rule_number": "Rule 50(c)(1)"
+  },
+  {
+    "id": 187,
+    "topic": "Post-Trial Motions",
+    "source": "FRCP",
+    "front": "What is the effect on finality of judgment when a court conditionally grants a motion for a new trial alongside a renewed judgment as a matter of law?",
+    "back": "Under FRCP Rule 50(c)(2), conditionally granting the motion for a new trial does not affect the judgment's finality. If the judgment is reversed, the new trial must proceed unless the appellate court orders otherwise.",
+    "citation": "FRCP Rule 50(c)(2)",
+    "rule_number": "Rule 50(c)(2)"
+  },
+  {
+    "id": 188,
+    "topic": "Post-Trial Motions",
+    "source": "FRCP",
+    "front": "What rights does the appellee have when a motion for a new trial is conditionally denied and the judgment is later reversed on appeal?",
+    "back": "Under FRCP Rule 50(c)(2), if the motion for a new trial is conditionally denied, the appellee may assert error in that denial. If the judgment is reversed, the case must proceed as the appellate court orders.",
+    "citation": "FRCP Rule 50(c)(2)",
+    "rule_number": "Rule 50(c)(2)"
+  },
+  {
+    "id": 189,
+    "topic": "Post-Trial Motions",
+    "source": "FRCP",
+    "front": "What is the deadline for a losing party to file a motion for a new trial under Rule 59 after judgment as a matter of law has been rendered against them?",
+    "back": "Under FRCP Rule 50(d), any motion for a new trial under Rule 59 by a party against whom judgment as a matter of law is rendered must be filed no later than 28 days after the entry of the judgment.",
+    "citation": "FRCP Rule 50(d)",
+    "rule_number": "Rule 50(d)"
+  },
+  {
+    "id": 190,
+    "topic": "Post-Trial Motions",
+    "source": "FRCP",
+    "front": "What options does an appellate court have if it reverses the trial court's denial of a motion for judgment as a matter of law under Rule 50(e)?",
+    "back": "Under FRCP Rule 50(e), if the appellate court reverses the judgment after the trial court denied the motion for judgment as a matter of law, it may order a new trial, direct the trial court to determine whether a new trial should be granted, or direct the entry of judgment.",
+    "citation": "FRCP Rule 50(e)",
+    "rule_number": "Rule 50(e)"
+  },
+  {
+    "id": 191,
+    "topic": "Post-Trial Motions",
+    "source": "CPLR",
+    "front": "What is the time limit for making a motion to set aside a verdict or for judgment as a matter of law (JNOV) after trial?",
+    "back": "Under CPLR § 4404, a party may move to set aside a verdict or for judgment as a matter of law within 15 days after the verdict, or if the court reserved decision on a motion made at trial, within 15 days after the decision on such reserved motion.",
+    "citation": "CPLR § 4404",
+    "rule_number": "§ 4404"
+  },
+  {
+    "id": 192,
+    "topic": "Post-Trial Motions",
+    "source": "CPLR",
+    "front": "On what grounds may a court grant a motion to set aside a jury verdict under CPLR § 4404(a)?",
+    "back": "Under CPLR § 4404(a), the court may set aside a jury verdict or any judgment entered thereon and direct that judgment be entered in favor of a party entitled to judgment as a matter of law, or order a new trial where the verdict is contrary to the weight of the evidence, in the interest of justice, or where the jury cannot agree after being kept together for as long as is deemed reasonable.",
+    "citation": "CPLR § 4404(a)",
+    "rule_number": "§ 4404(a)"
+  },
+  {
+    "id": 193,
+    "topic": "Post-Trial Motions",
+    "source": "CPLR",
+    "front": "What post-trial motion is available after a non-jury trial, and what relief may be granted?",
+    "back": "Under CPLR § 4404(b), after a non-jury trial, the court may on its own initiative or upon motion of any party set aside its decision and issue a new decision, or it may order a new trial of a cause of action or separable issue. The motion must be made within 15 days after the decision.",
+    "citation": "CPLR § 4404(b)",
+    "rule_number": "§ 4404(b)"
+  },
+  {
+    "id": 194,
+    "topic": "Post-Trial Motions",
+    "source": "CPLR",
+    "front": "What is the procedure for a motion for judgment as a matter of law made at the close of evidence during trial under the CPLR?",
+    "back": "Under CPLR § 4401, any party may move for judgment as a matter of law at the close of the evidence presented by an opposing party or at the close of all the evidence. The motion is granted when the court determines that, upon the evidence presented, there is no rational process by which the trier of fact could find in favor of the non-moving party.",
+    "citation": "CPLR § 4401",
+    "rule_number": "§ 4401"
+  },
+  {
+    "id": 195,
+    "topic": "Post-Trial Motions",
+    "source": "CPLR",
+    "front": "Under what circumstances may a court order a new trial solely on the issue of damages under the CPLR?",
+    "back": "Under CPLR § 4404(a), the court may order a new trial limited to the issue of damages where it finds that the verdict on liability is supported by the evidence but the damages award is excessive or inadequate, or contrary to the weight of the evidence, provided that the issues of liability and damages are sufficiently distinct and separable.",
+    "citation": "CPLR § 4404(a)",
+    "rule_number": "§ 4404(a)"
+  },
+  {
+    "id": 196,
+    "topic": "Post-Trial Motions",
+    "source": "CPLR",
+    "front": "What is the procedure and standard for a court to reduce an excessive jury verdict through remittitur under the CPLR?",
+    "back": "Under CPLR § 4404(a) and as interpreted by New York courts, a court may grant remittitur by directing a new trial unless the plaintiff stipulates to a reduced damages amount, where the verdict is excessive and deviates materially from what would be reasonable compensation. The 'materially deviates' standard is codified in CPLR § 5501(c) for appellate review, but trial courts apply the same standard.",
+    "citation": "CPLR § 4404(a); CPLR § 5501(c)",
+    "rule_number": "§ 4404(a)"
+  },
+  {
+    "id": 197,
+    "topic": "Post-Trial Motions",
+    "source": "CPLR",
+    "front": "What is additur, and how does the CPLR authorize a court to address an inadequate jury verdict?",
+    "back": "Under CPLR § 4404(a), when a jury verdict on damages is inadequate and deviates materially from reasonable compensation, the court may order a new trial on damages unless the defendant stipulates to an increased award set by the court. This procedure, known as additur, allows the court to condition denial of a new trial on the defendant's acceptance of a higher damages figure.",
+    "citation": "CPLR § 4404(a)",
+    "rule_number": "§ 4404(a)"
+  },
+  {
+    "id": 198,
+    "topic": "Post-Trial Motions",
+    "source": "CPLR",
+    "front": "What standard of appellate review applies to a jury's award of damages, and what is the governing CPLR provision?",
+    "back": "Under CPLR § 5501(c), in reviewing a money judgment in an action in which an itemized verdict is required, the appellate division shall determine that an award is excessive or inadequate if it deviates materially from what would be reasonable compensation. This 'deviates materially' standard replaced the older 'shocks the conscience' standard for appellate review of damages.",
+    "citation": "CPLR § 5501(c)",
+    "rule_number": "§ 5501(c)"
+  },
+  {
+    "id": 199,
+    "topic": "Post-Trial Motions",
+    "source": "CPLR",
+    "front": "What is required of a party who fails to object to a jury charge at trial, and how does this affect post-trial motions?",
+    "back": "Under CPLR § 4110-b, a party must object to the court's charge to the jury before the jury retires to deliberate, specifying the matter to which the party objects and the grounds for the objection. Failure to object generally results in waiver of the right to raise the error on a post-trial motion or on appeal, unless the error is fundamental.",
+    "citation": "CPLR § 4110-b",
+    "rule_number": "§ 4110-b"
+  },
+  {
+    "id": 200,
+    "topic": "Post-Trial Motions",
+    "source": "CPLR",
+    "front": "What motion can be made to correct a judgment or order based on a mistake, inadvertence, or excusable neglect, and what is the time limitation?",
+    "back": "Under CPLR § 5019(a), a judgment or order may be amended by the court at any time to correct a mistake, defect, or irregularity in the record. Additionally, under CPLR § 5015(a), a court may relieve a party from a final judgment or order for reasons including excusable neglect (within one year), newly discovered evidence (within one year), fraud or misrepresentation (within one year), lack of jurisdiction, or reversal of a prior order upon which the judgment was based.",
+    "citation": "CPLR § 5015(a); CPLR § 5019(a)",
+    "rule_number": "§ 5015(a)"
+  }
+]

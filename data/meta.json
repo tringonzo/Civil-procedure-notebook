@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-03-07T04:41:10.309Z",
+  "generated_date": "March 6, 2026",
+  "duration_seconds": 1937,
+  "sources": {
+    "frcp": {
+      "name": "FRCP",
+      "full_name": "Federal Rules of Civil Procedure",
+      "provider": "Cornell LII",
+      "url": "https://www.law.cornell.edu/rules/frcp",
+      "pages_scraped": 37
+    },
+    "cplr": {
+      "name": "CPLR",
+      "full_name": "New York Civil Practice Law and Rules",
+      "provider": "NY Senate",
+      "url": "https://www.nysenate.gov/legislation/laws/CVP",
+      "pages_scraped": 36
+    }
+  },
+  "files": [
+    "flashcards.json",
+    "quiz.json",
+    "factsheets.json",
+    "summaries.json",
+    "comparisons.json",
+    "search-index.json"
+  ]
+}
