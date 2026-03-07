@@ -13,9 +13,19 @@ const TABS = [
 export default function Nav({ onApiKey }) {
   return (
     <nav className="app-nav">
-      <div className="nav-inner">
+      {/* Row 1: Brand + controls */}
+      <div className="nav-top">
         <span className="nav-brand">CIVIL PROCEDURE NOTEBOOK</span>
+        <div className="nav-right">
+          <SourceStatus />
+          <button className="nav-api-btn" onClick={onApiKey}>
+            API Key
+          </button>
+        </div>
+      </div>
 
+      {/* Row 2: Module tabs — scrollable */}
+      <div className="nav-tabs-row">
         <div className="nav-tabs">
           {TABS.map(tab => (
             <NavLink
@@ -26,13 +36,6 @@ export default function Nav({ onApiKey }) {
               {tab.label}
             </NavLink>
           ))}
-        </div>
-
-        <div className="nav-right">
-          <SourceStatus />
-          <button className="nav-api-btn" onClick={onApiKey}>
-            API Key
-          </button>
         </div>
       </div>
     </nav>
