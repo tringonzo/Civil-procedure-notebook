@@ -1,5 +1,5 @@
-import React, { useState, useCallback } from 'react'
-import { useApp } from '../../App'
+import React, { useState, useCallback, useMemo } from 'react'
+import { useData } from '../../lib/useData'
 import { search, highlightText, getExcerpt } from '../../lib/search'
 import CitationBadge from '../../components/CitationBadge'
 
@@ -12,25 +12,28 @@ const SOURCE_FILTERS = [
 function ResultCard({ chunk, terms }) {
   const excerpt = getExcerpt(chunk.text, terms, 400)
   const highlighted = highlightText(excerpt, terms)
+  const provider = chunk.source === 'FRCP' ? 'Cornell LII' : 'Justia'
 
   return (
     <div className="search-result-card">
       <div className="result-source-tag">
-        {chunk.source} — {chunk.provider}
+        {chunk.source} — {chunk.section_title || chunk.rule_number || ''} — {provider}
       </div>
       <p
         className="result-text"
         dangerouslySetInnerHTML={{ __html: highlighted }}
       />
       <div style={{ marginTop: '0.75rem' }}>
-        <CitationBadge source={chunk.source} provider={chunk.provider} />
+        <CitationBadge source={chunk.source} provider={provider} />
       </div>
     </div>
   )
 }
 
 export default function Search() {
-  const { chunks, sourceStatus } = useApp()
+  const { data: indexData, loading, error } = useData('search-index.json')
+  const chunks = useMemo(() => indexData?.chunks || [], [indexData])
+
   const [query, setQuery] = useState('')
   const [sourceFilter, setSourceFilter] = useState('both')
   const [results, setResults] = useState([])
@@ -43,7 +46,7 @@ export default function Search() {
     .filter(t => t.length >= 2)
 
   const doSearch = useCallback(() => {
-    if (!query.trim()) return
+    if (!query.trim() || chunks.length === 0) return
     const found = search(query, chunks, { source: sourceFilter, limit: 15 })
     setResults(found)
     setSearched(true)
@@ -52,9 +55,6 @@ export default function Search() {
   function handleKeyDown(e) {
     if (e.key === 'Enter') doSearch()
   }
-
-  const sourcesLoaded = sourceStatus.frcp.loaded || sourceStatus.cplr.loaded
-  const sourcesLoading = sourceStatus.frcp.loading || sourceStatus.cplr.loading
 
   return (
     <div>
@@ -76,12 +76,12 @@ export default function Search() {
           value={query}
           onChange={e => setQuery(e.target.value)}
           onKeyDown={handleKeyDown}
-          disabled={sourcesLoading}
+          disabled={loading}
         />
         <button
           className="btn-primary"
           onClick={doSearch}
-          disabled={!query.trim() || !sourcesLoaded}
+          disabled={!query.trim() || loading || chunks.length === 0}
         >
           Search →
         </button>
@@ -102,20 +102,20 @@ export default function Search() {
         ))}
       </div>
 
-      {sourcesLoading && (
+      {loading && (
         <div className="loading-spinner">
-          <span>Loading sources</span>
+          <span>Loading search index</span>
           <span className="loading-dots" />
         </div>
       )}
 
-      {!sourcesLoading && !sourcesLoaded && (
+      {error && (
         <div className="error-msg">
-          Sources could not be loaded. Check your internet connection and refresh.
+          Could not load search index. Run <code>npm run generate</code> first.
         </div>
       )}
 
-      {searched && !sourcesLoading && (
+      {searched && !loading && (
         <div className="search-results">
           {results.length === 0 ? (
             <div className="no-results">
@@ -136,7 +136,7 @@ export default function Search() {
         </div>
       )}
 
-      {!searched && !sourcesLoading && sourcesLoaded && (
+      {!searched && !loading && !error && chunks.length > 0 && (
         <div className="empty-state">
           <div className="empty-state-icon">⚖️</div>
           <div className="empty-state-title">Ready to search</div>

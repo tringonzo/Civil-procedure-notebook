@@ -1,7 +1,6 @@
-import React, { useState, useRef } from 'react'
-import { useApp } from '../../App'
-import { getRelevantChunks } from '../../lib/search'
-import { askQuestion } from '../../lib/claude'
+import React, { useState, useMemo, useCallback } from 'react'
+import { useData } from '../../lib/useData'
+import { search, highlightText, getExcerpt } from '../../lib/search'
 import CitationBadge from '../../components/CitationBadge'
 
 const EXAMPLE_QUESTIONS = [
@@ -11,100 +10,126 @@ const EXAMPLE_QUESTIONS = [
   'What is the difference between FRCP and CPLR service deadlines?',
 ]
 
+const SOURCE_FILTERS = [
+  { value: 'both', label: 'Both' },
+  { value: 'FRCP',  label: 'FRCP only' },
+  { value: 'CPLR',  label: 'CPLR only' },
+]
+
+function ResultCard({ chunk, terms }) {
+  const excerpt = getExcerpt(chunk.text, terms, 500)
+  const highlighted = highlightText(excerpt, terms)
+  const provider = chunk.source === 'FRCP' ? 'Cornell LII' : 'Justia'
+
+  return (
+    <div className="search-result-card">
+      <div className="result-source-tag">
+        {chunk.source}
+        {chunk.section_title ? ` — ${chunk.section_title}` : ''}
+        {` — ${provider}`}
+      </div>
+      <p
+        className="result-text"
+        dangerouslySetInnerHTML={{ __html: highlighted }}
+      />
+      <div style={{ marginTop: '0.75rem' }}>
+        <CitationBadge
+          rule={chunk.rule_number}
+          source={chunk.source}
+          provider={provider}
+        />
+      </div>
+    </div>
+  )
+}
+
 export default function QandA() {
-  const { chunks, apiKey } = useApp()
-  const [question, setQuestion] = useState('')
-  const [answer, setAnswer] = useState('')
-  const [streaming, setStreaming] = useState(false)
-  const [error, setError] = useState(null)
-  const [done, setDone] = useState(false)
-  const abortRef = useRef(false)
+  const { data: indexData, loading, error } = useData('search-index.json')
+  const chunks = useMemo(() => indexData?.chunks || [], [indexData])
 
-  async function handleAsk() {
-    if (!question.trim() || streaming) return
+  const [query, setQuery] = useState('')
+  const [sourceFilter, setSourceFilter] = useState('both')
+  const [results, setResults] = useState([])
+  const [searched, setSearched] = useState(false)
 
-    setAnswer('')
-    setError(null)
-    setDone(false)
-    setStreaming(true)
-    abortRef.current = false
+  const terms = useMemo(() => query
+    .toLowerCase()
+    .split(/\s+/)
+    .map(t => t.replace(/[^a-z0-9§]/g, ''))
+    .filter(t => t.length >= 2),
+    [query]
+  )
 
-    try {
-      const relevantChunks = getRelevantChunks(question, chunks, { limit: 8 })
-      await askQuestion(question, relevantChunks, apiKey, (chunk, full) => {
-        if (abortRef.current) return
-        setAnswer(full)
-      })
-    } catch (e) {
-      setError(e.message)
-    } finally {
-      setStreaming(false)
-      setDone(true)
-    }
-  }
+  const doSearch = useCallback(() => {
+    if (!query.trim() || chunks.length === 0) return
+    const found = search(query, chunks, { source: sourceFilter, limit: 8 })
+    setResults(found)
+    setSearched(true)
+  }, [query, chunks, sourceFilter])
 
   function handleKeyDown(e) {
-    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) handleAsk()
-  }
-
-  function handleStop() {
-    abortRef.current = true
-    setStreaming(false)
-    setDone(true)
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) doSearch()
   }
 
   function handleExample(q) {
-    setQuestion(q)
-    setAnswer('')
-    setDone(false)
-    setError(null)
+    setQuery(q)
+    setResults([])
+    setSearched(false)
   }
 
   return (
     <div>
       <div className="page-header">
         <div className="section-label">MODULE 2</div>
-        <h1 className="page-title display-title">Ask a Question</h1>
+        <h1 className="page-title display-title">Search the Sources</h1>
         <p className="page-desc">
-          Ask anything about civil procedure. Claude answers using only the loaded
-          FRCP and CPLR sources — never outside knowledge.
+          Find relevant passages directly from the FRCP and CPLR source text.
+          Results show the exact rule or section, ranked by relevance.
         </p>
         <div className="brand-divider" />
       </div>
 
       <div className="qa-form">
         <div className="form-group">
-          <label className="form-label">Your Question</label>
+          <label className="form-label">Your Question or Topic</label>
           <textarea
             className="textarea-text"
-            rows={4}
+            rows={3}
             placeholder="e.g. What is the time limit for service of process under FRCP Rule 4(m)?"
-            value={question}
-            onChange={e => setQuestion(e.target.value)}
+            value={query}
+            onChange={e => setQuery(e.target.value)}
             onKeyDown={handleKeyDown}
+            disabled={loading}
           />
           <p className="footer-body" style={{ marginTop: '0.4rem', fontSize: '0.78rem' }}>
-            Ctrl+Enter to submit
+            Ctrl+Enter to search
           </p>
+        </div>
+
+        <div className="search-filters" style={{ margin: '0.75rem 0' }}>
+          <span className="section-label" style={{ alignSelf: 'center', marginBottom: 0 }}>Filter:</span>
+          {SOURCE_FILTERS.map(f => (
+            <button
+              key={f.value}
+              className={`filter-btn${sourceFilter === f.value ? ' active' : ''}`}
+              onClick={() => setSourceFilter(f.value)}
+            >
+              {f.label}
+            </button>
+          ))}
         </div>
 
         <div className="qa-actions">
           <button
             className="btn-primary"
-            onClick={handleAsk}
-            disabled={!question.trim() || streaming}
+            onClick={doSearch}
+            disabled={!query.trim() || loading || chunks.length === 0}
           >
-            {streaming ? 'Searching sources…' : 'Ask →'}
+            Search Sources →
           </button>
-          {streaming && (
-            <button className="btn-ghost" onClick={handleStop}>
-              Stop
-            </button>
-          )}
         </div>
 
-        {/* Example questions */}
-        {!answer && !streaming && (
+        {!searched && !loading && (
           <div style={{ marginTop: '1.5rem' }}>
             <div className="section-label">TRY AN EXAMPLE</div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
@@ -123,30 +148,37 @@ export default function QandA() {
         )}
       </div>
 
-      {error && (
-        <div className="error-msg">{error}</div>
+      {loading && (
+        <div className="loading-spinner">
+          <span>Loading sources</span>
+          <span className="loading-dots" />
+        </div>
       )}
 
-      {(answer || streaming) && (
-        <div className="qa-answer-card">
-          <div className="section-label" style={{ color: 'var(--apoyo)', marginBottom: '1rem' }}>
-            ANSWER
-          </div>
-          <div className="qa-answer-text">
-            {answer}
-            {streaming && <span className="qa-cursor" />}
-          </div>
+      {error && (
+        <div className="error-msg">
+          Could not load source index. Run <code>npm run generate</code> first.
+        </div>
+      )}
 
-          {done && answer && (
+      {searched && !loading && (
+        <div className="qa-answer-card" style={{ padding: 0, background: 'none', border: 'none' }}>
+          {results.length === 0 ? (
+            <div className="no-results">
+              No matching passages found for "{query}"
+              {sourceFilter !== 'both' ? ` in ${sourceFilter}` : ''}.
+              Try broader terms.
+            </div>
+          ) : (
             <>
-              <div className="qa-citation-row">
-                <CitationBadge
-                  source="FRCP &amp; CPLR"
-                  provider="Cornell LII &amp; Justia"
-                />
-              </div>
-              <div className="qa-warning">
-                ⚠ This answer is based solely on loaded sources — FRCP (Cornell LII) and CPLR (Justia).
+              <p className="footer-body" style={{ marginBottom: '1rem' }}>
+                {results.length} passage{results.length !== 1 ? 's' : ''} found — "{query}"
+              </p>
+              {results.map((chunk, i) => (
+                <ResultCard key={chunk.id || i} chunk={chunk} terms={terms} />
+              ))}
+              <div className="qa-warning" style={{ marginTop: '1rem' }}>
+                ⚠ Results are raw source text from FRCP (Cornell LII) and CPLR (Justia).
               </div>
             </>
           )}

@@ -1,19 +1,6 @@
-import React, { useState } from 'react'
-import { useApp } from '../../App'
-import { getRelevantChunks } from '../../lib/search'
-import { generateQuiz } from '../../lib/claude'
+import React, { useState, useMemo } from 'react'
+import { useData } from '../../lib/useData'
 import CitationBadge from '../../components/CitationBadge'
-
-const TOPICS = [
-  'Service of Process',
-  'Pleadings & Complaints',
-  'Discovery Rules',
-  'Summary Judgment',
-  'Motions Practice',
-  'Jurisdiction & Venue',
-  'Default Judgment',
-  'Appeals',
-]
 
 const LETTERS = ['A', 'B', 'C', 'D']
 
@@ -22,7 +9,7 @@ function QuizQuestion({ question, index, total, onAnswer }) {
   const [submitted, setSubmitted] = useState(false)
 
   const isCorrect = submitted && selected === question.correct
-  const isWrong = submitted && selected !== null && selected !== question.correct
+  const choices = question.choices
 
   function handleSubmit() {
     if (selected === null || submitted) return
@@ -45,26 +32,30 @@ function QuizQuestion({ question, index, total, onAnswer }) {
       </div>
 
       <div className="quiz-question-card">
-        <div className="section-label">QUESTION {index + 1}</div>
+        <div className="section-label">
+          QUESTION {index + 1} · {question.source}
+        </div>
         <div className="quiz-q-text">{question.question}</div>
 
         <div className="quiz-options">
-          {question.options.map((opt, i) => {
+          {LETTERS.map(letter => {
+            const opt = choices?.[letter]
+            if (!opt) return null
             let cls = 'quiz-option'
             if (submitted) {
-              if (i === question.correct) cls += ' correct'
-              else if (i === selected) cls += ' wrong'
-            } else if (i === selected) {
+              if (letter === question.correct) cls += ' correct'
+              else if (letter === selected) cls += ' wrong'
+            } else if (letter === selected) {
               cls += ' selected'
             }
             return (
               <button
-                key={i}
+                key={letter}
                 className={cls}
-                onClick={() => !submitted && setSelected(i)}
+                onClick={() => !submitted && setSelected(letter)}
                 disabled={submitted}
               >
-                <span className="quiz-option-letter">{LETTERS[i]}.</span>
+                <span className="quiz-option-letter">{letter}.</span>
                 <span className="quiz-option-text">{opt}</span>
               </button>
             )
@@ -79,13 +70,15 @@ function QuizQuestion({ question, index, total, onAnswer }) {
               {isCorrect ? '✓ CORRECT' : '✗ INCORRECT'}
             </div>
             <div className="quiz-feedback-text">{question.explanation}</div>
-            <div style={{ marginTop: '0.75rem' }}>
-              <CitationBadge
-                rule={question.rule}
-                source={question.source}
-                provider={question.provider || (question.source === 'FRCP' ? 'Cornell LII' : 'Justia')}
-              />
-            </div>
+            {question.citation && (
+              <div style={{ marginTop: '0.75rem' }}>
+                <CitationBadge
+                  rule={question.citation}
+                  source={question.source}
+                  provider={question.source === 'FRCP' ? 'Cornell LII' : 'Justia'}
+                />
+              </div>
+            )}
           </div>
           <button className="btn-primary" onClick={handleNext}>
             {index + 1 < total ? 'Next Question →' : 'See Results →'}
@@ -138,39 +131,38 @@ function ScoreScreen({ score, total, onRestart, onNewQuiz }) {
 }
 
 export default function Quiz() {
-  const { chunks, apiKey } = useApp()
+  const { data: allQuestions, loading, error } = useData('quiz.json')
+
+  const topics = useMemo(() => {
+    if (!allQuestions) return []
+    return [...new Set(allQuestions.map(q => q.topic))].sort()
+  }, [allQuestions])
+
   const [topic, setTopic] = useState('')
-  const [customTopic, setCustomTopic] = useState('')
   const [sourceFilter, setSourceFilter] = useState('both')
   const [count, setCount] = useState(5)
   const [questions, setQuestions] = useState([])
   const [current, setCurrent] = useState(0)
   const [score, setScore] = useState(0)
   const [showScore, setShowScore] = useState(false)
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState(null)
+  const [started, setStarted] = useState(false)
 
-  const activeTopic = customTopic.trim() || topic
+  function handleStart() {
+    if (!allQuestions) return
+    let pool = allQuestions
+    if (topic) pool = pool.filter(q => q.topic === topic)
+    if (sourceFilter !== 'both') pool = pool.filter(q => q.source === sourceFilter)
 
-  async function handleGenerate() {
-    if (!activeTopic) return
-    setLoading(true)
-    setError(null)
-    setQuestions([])
+    const shuffled = [...pool].sort(() => Math.random() - 0.5)
+    const selected = shuffled.slice(0, count)
+
+    if (selected.length === 0) return
+
+    setQuestions(selected)
+    setCurrent(0)
+    setScore(0)
     setShowScore(false)
-
-    try {
-      const relevantChunks = getRelevantChunks(activeTopic, chunks, { source: sourceFilter, limit: 8 })
-      const result = await generateQuiz(activeTopic, sourceFilter, count, relevantChunks, apiKey)
-      if (!Array.isArray(result) || result.length === 0) throw new Error('No questions returned')
-      setQuestions(result)
-      setCurrent(0)
-      setScore(0)
-    } catch (e) {
-      setError(e.message)
-    } finally {
-      setLoading(false)
-    }
+    setStarted(true)
   }
 
   function handleAnswer(correct) {
@@ -189,6 +181,7 @@ export default function Quiz() {
   }
 
   function handleNewQuiz() {
+    setStarted(false)
     setQuestions([])
     setShowScore(false)
     setCurrent(0)
@@ -201,54 +194,54 @@ export default function Quiz() {
         <div className="section-label">MODULE 4</div>
         <h1 className="page-title display-title">Quiz</h1>
         <p className="page-desc">
-          Multiple-choice questions generated from the loaded sources. Every correct
-          answer includes the exact rule or section.
+          Multiple-choice questions from FRCP and CPLR. Every correct answer
+          includes the exact rule or section citation.
         </p>
         <div className="brand-divider" />
       </div>
 
-      {!questions.length && !loading && !showScore && (
+      {loading && (
+        <div className="loading-spinner">
+          <span>Loading quiz</span>
+          <span className="loading-dots" />
+        </div>
+      )}
+
+      {error && (
+        <div className="error-msg">
+          Could not load quiz. Run <code>npm run generate</code> first.
+        </div>
+      )}
+
+      {!loading && !error && !started && allQuestions && (
         <div className="controls-row">
           <div className="form-group" style={{ margin: 0, minWidth: '180px' }}>
             <label className="form-label">Topic</label>
             <select className="select-box" value={topic} onChange={e => setTopic(e.target.value)}>
-              <option value="">Select a topic…</option>
-              {TOPICS.map(t => <option key={t} value={t}>{t}</option>)}
+              <option value="">All topics</option>
+              {topics.map(t => <option key={t} value={t}>{t}</option>)}
             </select>
-          </div>
-
-          <div className="form-group" style={{ margin: 0, flex: 1, minWidth: '180px' }}>
-            <label className="form-label">Or custom topic</label>
-            <input
-              type="text"
-              className="input-text"
-              placeholder="e.g. Venue transfer under FRCP"
-              value={customTopic}
-              onChange={e => setCustomTopic(e.target.value)}
-              onKeyDown={e => e.key === 'Enter' && handleGenerate()}
-            />
           </div>
 
           <div className="form-group" style={{ margin: 0 }}>
             <label className="form-label">Source</label>
             <select className="select-box" value={sourceFilter} onChange={e => setSourceFilter(e.target.value)}>
               <option value="both">Both</option>
-              <option value="frcp">FRCP</option>
-              <option value="cplr">CPLR</option>
+              <option value="FRCP">FRCP</option>
+              <option value="CPLR">CPLR</option>
             </select>
           </div>
 
           <div className="form-group" style={{ margin: 0 }}>
             <label className="form-label">Questions</label>
             <select className="select-box" value={count} onChange={e => setCount(Number(e.target.value))}>
-              {[3, 5, 8, 10].map(n => <option key={n} value={n}>{n}</option>)}
+              {[3, 5, 10, 15].map(n => <option key={n} value={n}>{n}</option>)}
             </select>
           </div>
 
           <button
             className="btn-primary"
-            onClick={handleGenerate}
-            disabled={!activeTopic || loading}
+            onClick={handleStart}
             style={{ alignSelf: 'flex-end' }}
           >
             Start Quiz →
@@ -256,18 +249,7 @@ export default function Quiz() {
         </div>
       )}
 
-      {error && <div className="error-msg">{error}</div>}
-
-      {loading && (
-        <div className="empty-state">
-          <div className="loading-spinner">
-            <span>Generating quiz questions</span>
-            <span className="loading-dots" />
-          </div>
-        </div>
-      )}
-
-      {questions.length > 0 && !showScore && (
+      {started && !showScore && questions.length > 0 && (
         <QuizQuestion
           key={current}
           question={questions[current]}
@@ -286,13 +268,11 @@ export default function Quiz() {
         />
       )}
 
-      {!questions.length && !loading && !showScore && !error && (
+      {!loading && !error && !started && allQuestions && allQuestions.length === 0 && (
         <div className="empty-state" style={{ paddingTop: '2rem' }}>
           <div className="empty-state-icon">📝</div>
-          <div className="empty-state-title">Ready to quiz</div>
-          <p className="empty-state-desc">
-            Choose a topic, set your options, and click Start Quiz.
-          </p>
+          <div className="empty-state-title">No questions yet</div>
+          <p className="empty-state-desc">Run <code>npm run generate</code> to generate content.</p>
         </div>
       )}
     </div>

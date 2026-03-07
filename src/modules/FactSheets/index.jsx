@@ -1,52 +1,66 @@
-import React, { useState } from 'react'
-import { useApp } from '../../App'
-import { getRelevantChunks } from '../../lib/search'
-import { generateFactSheet } from '../../lib/claude'
+import React, { useState, useMemo } from 'react'
+import { useData } from '../../lib/useData'
 
-const TOPICS = [
-  'Service of Process',
-  'Summary Judgment',
-  'Discovery Deadlines',
-  'Pleading Standards',
-  'Default Judgment',
-  'Motions to Dismiss',
-  'Appeals Process',
-  'Venue & Jurisdiction',
-  'Statute of Limitations',
-  'Preliminary Injunctions',
-]
-
-function FactPoint({ point }) {
+function KeyPointList({ points }) {
+  if (!points || points.length === 0) return null
   return (
-    <div className="fact-row">
-      <div className="fact-row-label">{point.label}</div>
-      <div className="fact-row-value">{point.value}</div>
-      {point.rule && <div className="fact-row-rule">{point.rule}</div>}
-    </div>
+    <ul style={{ paddingLeft: '1.25rem', margin: '0.5rem 0 0' }}>
+      {points.map((pt, i) => (
+        <li key={i} style={{ marginBottom: '0.4rem', fontSize: '0.9rem' }}>{pt}</li>
+      ))}
+    </ul>
   )
 }
 
 function FactSheetDisplay({ sheet }) {
+  const frcp = sheet.frcp || {}
+  const cplr = sheet.cplr || {}
+
   return (
     <div>
       <div className="fact-sheet-header">
         <div className="section-label" style={{ color: 'rgba(240,201,122,0.8)' }}>FACT SHEET</div>
-        <div className="fact-sheet-title">{sheet.title}</div>
+        <div className="fact-sheet-title">{sheet.topic}</div>
       </div>
 
       <div className="fact-sheet-body">
         <div className="fact-sheet-cols">
           <div>
             <div className="fact-col-header">FEDERAL (FRCP)</div>
-            {(sheet.frcp_points || []).map((p, i) => (
-              <FactPoint key={i} point={p} />
-            ))}
+            {frcp.summary && (
+              <p style={{ fontSize: '0.9rem', marginBottom: '0.75rem', opacity: 0.9 }}>{frcp.summary}</p>
+            )}
+            {frcp.rules && frcp.rules.length > 0 && (
+              <div className="fact-row">
+                <div className="fact-row-label">Rules</div>
+                <div className="fact-row-value">{frcp.rules.join(' · ')}</div>
+              </div>
+            )}
+            <div className="fact-row">
+              <div className="fact-row-label">Key Points</div>
+              <div className="fact-row-value">
+                <KeyPointList points={frcp.key_points} />
+              </div>
+            </div>
           </div>
+
           <div>
             <div className="fact-col-header">NEW YORK (CPLR)</div>
-            {(sheet.cplr_points || []).map((p, i) => (
-              <FactPoint key={i} point={p} />
-            ))}
+            {cplr.summary && (
+              <p style={{ fontSize: '0.9rem', marginBottom: '0.75rem', opacity: 0.9 }}>{cplr.summary}</p>
+            )}
+            {cplr.sections && cplr.sections.length > 0 && (
+              <div className="fact-row">
+                <div className="fact-row-label">Sections</div>
+                <div className="fact-row-value">{cplr.sections.join(' · ')}</div>
+              </div>
+            )}
+            <div className="fact-row">
+              <div className="fact-row-label">Key Points</div>
+              <div className="fact-row-value">
+                <KeyPointList points={cplr.key_points} />
+              </div>
+            </div>
           </div>
         </div>
 
@@ -57,17 +71,15 @@ function FactSheetDisplay({ sheet }) {
           </div>
         )}
 
+        {sheet.practitioner_tip && (
+          <div className="key-diff-block" style={{ marginTop: '0.75rem', borderColor: 'rgba(240,201,122,0.3)' }}>
+            <div className="key-diff-label">Practitioner Tip</div>
+            <div className="key-diff-text">{sheet.practitioner_tip}</div>
+          </div>
+        )}
+
         <div className="fact-sources-row">
-          {sheet.frcp_sources?.length > 0 && (
-            <span>FRCP: {sheet.frcp_sources.join(' · ')}</span>
-          )}
-          {sheet.frcp_sources?.length > 0 && sheet.cplr_sources?.length > 0 && (
-            <span> &nbsp;|&nbsp; </span>
-          )}
-          {sheet.cplr_sources?.length > 0 && (
-            <span>CPLR: {sheet.cplr_sources.join(' · ')}</span>
-          )}
-          <span style={{ marginLeft: '1rem' }}>✓ All facts from loaded sources</span>
+          <span>✓ All facts sourced from FRCP (Cornell LII) and CPLR (Justia)</span>
         </div>
       </div>
     </div>
@@ -75,31 +87,21 @@ function FactSheetDisplay({ sheet }) {
 }
 
 export default function FactSheets() {
-  const { chunks, apiKey } = useApp()
-  const [topic, setTopic] = useState('')
-  const [customTopic, setCustomTopic] = useState('')
+  const { data: allSheets, loading, error } = useData('factsheets.json')
+
+  const topics = useMemo(() => {
+    if (!allSheets) return []
+    return allSheets.map(s => s.topic)
+  }, [allSheets])
+
+  const [selectedTopic, setSelectedTopic] = useState('')
   const [sheet, setSheet] = useState(null)
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState(null)
 
-  const activeTopic = customTopic.trim() || topic
-
-  async function handleGenerate() {
-    if (!activeTopic) return
-    setLoading(true)
-    setError(null)
-    setSheet(null)
-
-    try {
-      const relevantChunks = getRelevantChunks(activeTopic, chunks, { source: 'both', limit: 10 })
-      const result = await generateFactSheet(activeTopic, relevantChunks, apiKey)
-      if (!result || !result.title) throw new Error('Invalid fact sheet returned')
-      setSheet(result)
-    } catch (e) {
-      setError(e.message)
-    } finally {
-      setLoading(false)
-    }
+  function handleSelect(topicName) {
+    setSelectedTopic(topicName)
+    if (!allSheets || !topicName) { setSheet(null); return }
+    const found = allSheets.find(s => s.topic === topicName)
+    setSheet(found || null)
   }
 
   function handlePrint() {
@@ -112,77 +114,62 @@ export default function FactSheets() {
         <div className="section-label">MODULE 5</div>
         <h1 className="page-title display-title">Fact Sheets</h1>
         <p className="page-desc">
-          Side-by-side FRCP vs. CPLR comparison generated from the loaded sources.
-          Print-ready format included.
+          Side-by-side FRCP vs. CPLR comparisons. Print-ready format included.
         </p>
         <div className="brand-divider" />
       </div>
 
-      <div className="controls-row">
-        <div className="form-group" style={{ margin: 0, minWidth: '200px' }}>
-          <label className="form-label">Topic</label>
-          <select className="select-box" value={topic} onChange={e => setTopic(e.target.value)}>
-            <option value="">Select a topic…</option>
-            {TOPICS.map(t => <option key={t} value={t}>{t}</option>)}
-          </select>
-        </div>
-
-        <div className="form-group" style={{ margin: 0, flex: 1, minWidth: '200px' }}>
-          <label className="form-label">Or type a custom topic</label>
-          <input
-            type="text"
-            className="input-text"
-            placeholder="e.g. Class action requirements"
-            value={customTopic}
-            onChange={e => setCustomTopic(e.target.value)}
-            onKeyDown={e => e.key === 'Enter' && handleGenerate()}
-          />
-        </div>
-
-        <button
-          className="btn-primary"
-          onClick={handleGenerate}
-          disabled={!activeTopic || loading}
-          style={{ alignSelf: 'flex-end' }}
-        >
-          {loading ? 'Generating…' : 'Generate →'}
-        </button>
-      </div>
-
-      {error && <div className="error-msg">{error}</div>}
-
       {loading && (
-        <div className="empty-state">
-          <div className="loading-spinner">
-            <span>Generating fact sheet</span>
-            <span className="loading-dots" />
-          </div>
+        <div className="loading-spinner">
+          <span>Loading fact sheets</span>
+          <span className="loading-dots" />
         </div>
       )}
 
-      {sheet && (
-        <>
-          <FactSheetDisplay sheet={sheet} />
-          <div className="fact-actions">
-            <button className="btn-primary" onClick={handlePrint}>
+      {error && (
+        <div className="error-msg">
+          Could not load fact sheets. Run <code>npm run generate</code> first.
+        </div>
+      )}
+
+      {!loading && !error && allSheets && (
+        <div className="controls-row">
+          <div className="form-group" style={{ margin: 0, flex: 1, minWidth: '220px' }}>
+            <label className="form-label">Select Topic</label>
+            <select
+              className="select-box"
+              value={selectedTopic}
+              onChange={e => handleSelect(e.target.value)}
+            >
+              <option value="">Choose a topic…</option>
+              {topics.map(t => <option key={t} value={t}>{t}</option>)}
+            </select>
+          </div>
+
+          {sheet && (
+            <button
+              className="btn-primary"
+              onClick={handlePrint}
+              style={{ alignSelf: 'flex-end' }}
+            >
               Print / Save PDF
             </button>
-            <button className="btn-ghost" onClick={handleGenerate}>
-              Regenerate
-            </button>
-            <button className="btn-ghost" onClick={() => { setSheet(null); setCustomTopic(''); setTopic('') }}>
-              New Topic
-            </button>
-          </div>
-        </>
+          )}
+        </div>
       )}
 
-      {!loading && !sheet && !error && (
+      {sheet && <FactSheetDisplay sheet={sheet} />}
+
+      {!loading && !error && !sheet && allSheets && (
         <div className="empty-state">
           <div className="empty-state-icon">📄</div>
-          <div className="empty-state-title">No fact sheet yet</div>
+          <div className="empty-state-title">
+            {topics.length === 0 ? 'No fact sheets yet' : 'Select a topic above'}
+          </div>
           <p className="empty-state-desc">
-            Choose a topic to generate a printable FRCP vs. CPLR comparison sheet.
+            {topics.length === 0
+              ? 'Run npm run generate to generate content.'
+              : `${topics.length} topics available — choose one to view the comparison.`}
           </p>
         </div>
       )}

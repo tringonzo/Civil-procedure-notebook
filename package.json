@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "generate": "node scripts/generate-content.js",
+    "generate:scrape": "node scripts/generate-content.js --scrape",
+    "generate:content": "node scripts/generate-content.js --content"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -15,7 +18,11 @@
     "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
     "@vitejs/plugin-react": "^4.2.1",
+    "axios": "^1.13.6",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.3.1",
     "gh-pages": "^6.1.1",
     "vite": "^5.1.6"
   }

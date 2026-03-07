@@ -10,21 +10,18 @@ const TABS = [
   { to: '/fact-sheets', label: 'Fact Sheets' },
 ]
 
-export default function Nav({ onApiKey }) {
+export default function Nav() {
   return (
     <nav className="app-nav">
-      {/* Row 1: Brand + controls */}
+      {/* Row 1: Brand + source status */}
       <div className="nav-top">
         <span className="nav-brand">CIVIL PROCEDURE NOTEBOOK</span>
         <div className="nav-right">
           <SourceStatus />
-          <button className="nav-api-btn" onClick={onApiKey}>
-            API Key
-          </button>
         </div>
       </div>
 
-      {/* Row 2: Module tabs — scrollable */}
+      {/* Row 2: Module tabs */}
       <div className="nav-tabs-row">
         <div className="nav-tabs">
           {TABS.map(tab => (

@@ -1,24 +1,31 @@
 import React from 'react'
 import { useApp } from '../App'
 
-function StatusDot({ status }) {
-  const cls = status.loading ? 'loading' : status.loaded ? 'loaded' : 'error'
-  return <span className={`source-dot ${cls}`} />
-}
-
 export default function SourceStatus() {
-  const { sourceStatus } = useApp()
-  const { frcp, cplr } = sourceStatus
+  const { meta, metaError } = useApp()
+
+  if (metaError) {
+    return (
+      <div className="source-badges">
+        <span className="source-badge error">Content not loaded</span>
+      </div>
+    )
+  }
+
+  if (!meta) return null
 
   return (
     <div className="source-badges">
       <span className="source-badge">
-        <StatusDot status={frcp} />
-        FRCP{frcp.loaded ? ' ✓' : frcp.loading ? '…' : ' ✗'}
+        <span className="source-dot loaded" />
+        FRCP ✓
       </span>
       <span className="source-badge">
-        <StatusDot status={cplr} />
-        CPLR{cplr.loaded ? ' ✓' : cplr.loading ? '…' : ' ✗'}
+        <span className="source-dot loaded" />
+        CPLR ✓
+      </span>
+      <span className="source-badge source-date">
+        {meta.generated_date}
       </span>
     </div>
   )
