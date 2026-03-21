@@ -9,9 +9,9 @@ const SOURCE_FILTERS = [
   { value: 'CPLR',  label: 'CPLR' },
 ]
 
-function ResultCard({ chunk, terms }) {
-  const excerpt = getExcerpt(chunk.text, terms, 400)
-  const highlighted = highlightText(excerpt, terms)
+function ResultCard({ chunk, terms, phrase }) {
+  const excerpt = getExcerpt(chunk.text, terms, 400, phrase)
+  const highlighted = highlightText(excerpt, terms, phrase)
   const provider = chunk.source === 'FRCP' ? 'Cornell LII' : 'NY Senate'
 
   return (
@@ -39,8 +39,9 @@ export default function Search() {
   const [results, setResults] = useState([])
   const [searched, setSearched] = useState(false)
 
-  const terms = query
-    .toLowerCase()
+  const phrase = query.toLowerCase().trim()
+
+  const terms = phrase
     .split(/\s+/)
     .map(t => t.replace(/[^a-z0-9§]/g, ''))
     .filter(t => t.length >= 2)
@@ -129,7 +130,7 @@ export default function Search() {
                 {results.length} result{results.length !== 1 ? 's' : ''} for "{query}"
               </p>
               {results.map((chunk, i) => (
-                <ResultCard key={chunk.id || i} chunk={chunk} terms={terms} />
+                <ResultCard key={chunk.id || i} chunk={chunk} terms={terms} phrase={phrase} />
               ))}
             </>
           )}
